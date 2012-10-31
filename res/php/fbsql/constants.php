@@ -1,0 +1,21 @@
+<?php
+
+define('FBSQL_ASSOC', 0);
+define('FBSQL_NUM', 0);
+define('FBSQL_BOTH', 0);
+define('FBSQL_LOCK_DEFERRED', 0);
+define('FBSQL_LOCK_OPTIMISTIC', 0);
+define('FBSQL_LOCK_PESSIMISTIC', 0);
+define('FBSQL_ISO_READ_UNCOMMITTED', 0);
+define('FBSQL_ISO_READ_COMMITTED', 0);
+define('FBSQL_ISO_REPEATABLE_READ', 0);
+define('FBSQL_ISO_SERIALIZABLE', 0);
+define('FBSQL_ISO_VERSIONED', 0);
+define('FBSQL_UNKNOWN', 0);
+define('FBSQL_STOPPED', 0);
+define('FBSQL_STARTING', 0);
+define('FBSQL_RUNNING', 0);
+define('FBSQL_STOPPING', 0);
+define('FBSQL_NOEXEC', 0);
+define('FBSQL_LOB_DIRECT', 0);
+define('FBSQL_LOB_HANDLE', 0);

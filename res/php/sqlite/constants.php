@@ -1,0 +1,33 @@
+<?php
+
+define('SQLITE_ASSOC', 0);
+define('SQLITE_BOTH', 0);
+define('SQLITE_NUM', 0);
+define('SQLITE_OK', 0);
+define('SQLITE_ERROR', 0);
+define('SQLITE_INTERNAL', 0);
+define('SQLITE_PERM', 0);
+define('SQLITE_ABORT', 0);
+define('SQLITE_BUSY', 0);
+define('SQLITE_LOCKED', 0);
+define('SQLITE_NOMEM', 0);
+define('SQLITE_READONLY', 0);
+define('SQLITE_INTERRUPT', 0);
+define('SQLITE_IOERR', 0);
+define('SQLITE_NOTADB', 0);
+define('SQLITE_CORRUPT', 0);
+define('SQLITE_FORMAT', 0);
+define('SQLITE_NOTFOUND', 0);
+define('SQLITE_FULL', 0);
+define('SQLITE_CANTOPEN', 0);
+define('SQLITE_PROTOCOL', 0);
+define('SQLITE_EMPTY', 0);
+define('SQLITE_SCHEMA', 0);
+define('SQLITE_TOOBIG', 0);
+define('SQLITE_CONSTRAINT', 0);
+define('SQLITE_MISMATCH', 0);
+define('SQLITE_MISUSE', 0);
+define('SQLITE_NOLFS', 0);
+define('SQLITE_AUTH', 0);
+define('SQLITE_ROW', 0);
+define('SQLITE_DONE', 0);

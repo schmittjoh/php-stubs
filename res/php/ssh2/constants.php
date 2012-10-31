@@ -1,0 +1,14 @@
+<?php
+
+define('SSH2_FINGERPRINT_MD5', 0);
+define('SSH2_FINGERPRINT_SHA1', 0);
+define('SSH2_FINGERPRINT_HEX', 0);
+define('SSH2_FINGERPRINT_RAW', 0);
+define('SSH2_TERM_UNIT_CHARS', 0);
+define('SSH2_TERM_UNIT_PIXELS', 0);
+define('SSH2_DEFAULT_TERM_WIDTH', 0);
+define('SSH2_DEFAULT_TERM_HEIGHT', 0);
+define('SSH2_DEFAULT_TERM_UNIT', 0);
+define('SSH2_STREAM_STDIO', 0);
+define('SSH2_STREAM_STDERR', 0);
+define('SSH2_DEFAULT_TERMINAL', 'dummy');

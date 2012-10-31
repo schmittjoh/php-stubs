@@ -1,0 +1,37 @@
+<?php
+
+define('ALC_FREQUENCY', 0);
+define('ALC_REFRESH', 0);
+define('ALC_SYNC', 0);
+define('AL_FREQUENCY', 0);
+define('AL_BITS', 0);
+define('AL_CHANNELS', 0);
+define('AL_SIZE', 0);
+define('AL_BUFFER', 0);
+define('AL_SOURCE_RELATIVE', 0);
+define('AL_SOURCE_STATE', 0);
+define('AL_PITCH', 0);
+define('AL_GAIN', 0);
+define('AL_MIN_GAIN', 0);
+define('AL_MAX_GAIN', 0);
+define('AL_MAX_DISTANCE', 0);
+define('AL_ROLLOFF_FACTOR', 0);
+define('AL_CONE_OUTER_GAIN', 0);
+define('AL_CONE_INNER_ANGLE', 0);
+define('AL_CONE_OUTER_ANGLE', 0);
+define('AL_REFERENCE_DISTANCE', 0);
+define('AL_POSITION', 0);
+define('AL_VELOCITY', 0);
+define('AL_DIRECTION', 0);
+define('AL_ORIENTATION', 0);
+define('AL_FORMAT_MONO8', 0);
+define('AL_FORMAT_MONO16', 0);
+define('AL_FORMAT_STEREO8', 0);
+define('AL_FORMAT_STEREO16', 0);
+define('AL_INITIAL', 0);
+define('AL_PLAYING', 0);
+define('AL_PAUSED', 0);
+define('AL_STOPPED', 0);
+define('AL_LOOPING', 0);
+define('AL_TRUE', 0);
+define('AL_FALSE', 0);

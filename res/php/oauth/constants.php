@@ -1,0 +1,29 @@
+<?php
+
+define('OAUTH_SIG_METHOD_RSASHA1', 'dummy');
+define('OAUTH_SIG_METHOD_HMACSHA1', 'dummy');
+define('OAUTH_SIG_METHOD_HMACSHA256', 'dummy');
+define('OAUTH_AUTH_TYPE_AUTHORIZATION', 'dummy');
+define('OAUTH_AUTH_TYPE_NONE', 'dummy');
+define('OAUTH_AUTH_TYPE_URI', 'dummy');
+define('OAUTH_AUTH_TYPE_FORM', 'dummy');
+define('OAUTH_HTTP_METHOD_GET', 'dummy');
+define('OAUTH_HTTP_METHOD_POST', 'dummy');
+define('OAUTH_HTTP_METHOD_PUT', 'dummy');
+define('OAUTH_HTTP_METHOD_HEAD', 'dummy');
+define('OAUTH_HTTP_METHOD_DELETE', 'dummy');
+define('OAUTH_REQENGINE_STREAMS', 0);
+define('OAUTH_REQENGINE_CURL', 0);
+define('OAUTH_OK', 0);
+define('OAUTH_BAD_NONCE', 0);
+define('OAUTH_BAD_TIMESTAMP', 0);
+define('OAUTH_CONSUMER_KEY_UNKNOWN', 0);
+define('OAUTH_CONSUMER_KEY_REFUSED', 0);
+define('OAUTH_INVALID_SIGNATURE', 0);
+define('OAUTH_TOKEN_USED', 0);
+define('OAUTH_TOKEN_EXPIRED', 0);
+define('OAUTH_TOKEN_REVOKED', 0);
+define('OAUTH_TOKEN_REJECTED', 0);
+define('OAUTH_VERIFIER_INVALID', 0);
+define('OAUTH_PARAMETER_ABSENT', 0);
+define('OAUTH_SIGNATURE_METHOD_REJECTED', 0);

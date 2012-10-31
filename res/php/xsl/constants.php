@@ -1,0 +1,14 @@
+<?php
+
+define('XSL_CLONE_AUTO', 0);
+define('XSL_CLONE_NEVER', 0);
+define('XSL_CLONE_ALWAYS', 0);
+define('LIBXSLT_VERSION', 0);
+define('LIBXSLT_DOTTED_VERSION', 'dummy');
+define('LIBEXSLT_VERSION', 0);
+define('LIBEXSLT_DOTTED_VERSION', 'dummy');
+define('XSL_SECPREF_READ_FILE', 0);
+define('XSL_SECPREF_WRITE_FILE', 0);
+define('XSL_SECPREF_CREATE_DIRECTORY', 0);
+define('XSL_SECPREF_READ_NETWORK', 0);
+define('XSL_SECPREF_WRITE_NETWORK', 0);

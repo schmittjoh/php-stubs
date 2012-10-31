@@ -1,0 +1,8 @@
+Stub Licenses
+=============
+
+All stubs that are generated from the PHP Documentation automatically inherit
+the PHP documentation license (see the PHP Website).
+
+User-contributed stubs are subject to the Apache2 License (same as the rest of
+the code base).

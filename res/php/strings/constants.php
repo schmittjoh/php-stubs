@@ -1,0 +1,30 @@
+<?php
+
+define('CRYPT_SALT_LENGTH', 0);
+define('CRYPT_STD_DES', 0);
+define('CRYPT_EXT_DES', 0);
+define('CRYPT_MD5', 0);
+define('CRYPT_BLOWFISH', 0);
+define('HTML_SPECIALCHARS', 0);
+define('HTML_ENTITIES', 0);
+define('ENT_COMPAT', 0);
+define('ENT_QUOTES', 0);
+define('ENT_NOQUOTES', 0);
+define('ENT_IGNORE', 0);
+define('ENT_SUBSTITUTE', 0);
+define('ENT_DISALLOWED', 0);
+define('ENT_HTML401', 0);
+define('ENT_XML1', 0);
+define('ENT_XHTML', 0);
+define('ENT_HTML5', 0);
+define('CHAR_MAX', 0);
+define('LC_CTYPE', 0);
+define('LC_NUMERIC', 0);
+define('LC_TIME', 0);
+define('LC_COLLATE', 0);
+define('LC_MONETARY', 0);
+define('LC_ALL', 0);
+define('LC_MESSAGES', 0);
+define('STR_PAD_LEFT', 0);
+define('STR_PAD_RIGHT', 0);
+define('STR_PAD_BOTH', 0);

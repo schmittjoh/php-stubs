@@ -1,0 +1,37 @@
+{
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "php/docs",
+                "version": "dev-master",
+                "source": {
+                    "url": "https://svn.php.net/repository/phpdoc/en/",
+                    "type": "svn",
+                    "reference": "trunk/reference"
+                }
+            }
+        }
+    ],
+    "name": "phpstubs/phpstubs",
+    "description": "Contains PHP Stubs which can be used by IDEs, or static analysis tools",
+    "author": [
+        {"name": "Johannes M. Schmitt"}
+    ],
+
+    "license": "Apache2",
+
+    "autoload": {
+        "psr-0": {
+            "PHPStubs": "src/"
+        }
+    },
+
+    "require-dev": {
+        "jms/cg": "dev-master",
+        "php/docs": "dev-master",
+        "symfony/finder": "2.1.*",
+        "symfony/console": "2.1.*",
+        "monolog/monolog": "1.2.*"
+    }
+}

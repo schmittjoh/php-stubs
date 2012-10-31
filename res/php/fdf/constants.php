@@ -1,0 +1,29 @@
+<?php
+
+define('FDFValue', 0);
+define('FDFStatus', 0);
+define('FDFFile', 0);
+define('FDFID', 0);
+define('FDFFf', 0);
+define('FDFSetFf', 0);
+define('FDFClearFf', 0);
+define('FDFFlags', 0);
+define('FDFSetF', 0);
+define('FDFClrF', 0);
+define('FDFAP', 0);
+define('FDFAS', 0);
+define('FDFAction', 0);
+define('FDFAA', 0);
+define('FDFAPRef', 0);
+define('FDFIF', 0);
+define('FDFEnter', 0);
+define('FDFExit', 0);
+define('FDFDown', 0);
+define('FDFUp', 0);
+define('FDFFormat', 0);
+define('FDFValidate', 0);
+define('FDFKeystroke', 0);
+define('FDFCalculate', 0);
+define('FDFNormalAP', 0);
+define('FDFRolloverAP', 0);
+define('FDFDownAP', 0);

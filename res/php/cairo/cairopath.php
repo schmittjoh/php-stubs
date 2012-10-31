@@ -1,0 +1,6 @@
+<?php
+
+/** @phpstub */
+class CairoPath
+{
+}

@@ -1,0 +1,23 @@
+<?php
+
+define('LDAP_DEREF_NEVER', 0);
+define('LDAP_DEREF_SEARCHING', 0);
+define('LDAP_DEREF_FINDING', 0);
+define('LDAP_DEREF_ALWAYS', 0);
+define('LDAP_OPT_DEREF', 0);
+define('LDAP_OPT_SIZELIMIT', 0);
+define('LDAP_OPT_TIMELIMIT', 0);
+define('LDAP_OPT_NETWORK_TIMEOUT', 0);
+define('LDAP_OPT_PROTOCOL_VERSION', 0);
+define('LDAP_OPT_ERROR_NUMBER', 0);
+define('LDAP_OPT_REFERRALS', 0);
+define('LDAP_OPT_RESTART', 0);
+define('LDAP_OPT_HOST_NAME', 0);
+define('LDAP_OPT_ERROR_STRING', 0);
+define('LDAP_OPT_MATCHED_DN', 0);
+define('LDAP_OPT_SERVER_CONTROLS', 0);
+define('LDAP_OPT_CLIENT_CONTROLS', 0);
+define('LDAP_OPT_DEBUG_LEVEL', 0);
+define('GSLC_SSL_NO_AUTH', 0);
+define('GSLC_SSL_ONEWAY_AUTH', 0);
+define('GSLC_SSL_TWOWAY_AUTH', 0);

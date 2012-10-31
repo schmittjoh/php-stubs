@@ -1,0 +1,12 @@
+<?php
+
+define('IDNA_STRINGPREP_ERROR', 0);
+define('IDNA_PUNYCODE_ERROR', 0);
+define('IDNA_CONTAINS_NON_LDH', 0);
+define('IDNA_CONTAINS_MINUS', 0);
+define('IDNA_INVALID_LENGTH', 0);
+define('IDNA_NO_ACE_PREFIX', 0);
+define('IDNA_ROUNDTRIP_VERIFY_ERROR', 0);
+define('IDNA_CONTAINS_ACE_PREFIX', 0);
+define('IDNA_ICONV_ERROR', 0);
+define('IDNA_MALLOC_ERROR', 0);
