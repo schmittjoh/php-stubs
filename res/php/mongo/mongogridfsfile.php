@@ -1,7 +1,7 @@
 <?php
 
 /** @phpstub */
-class MongoGridFSFile
+class MongoGridfsFile
 {
     /** @var array */
     public $file;

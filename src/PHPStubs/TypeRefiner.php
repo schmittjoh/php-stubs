@@ -104,6 +104,9 @@ class TypeRefiner
         'ReflectionProperty::setValue' => array(
             'param' => array(array('type' => 'object')),
         ),
+        'ReflectionProperty::getValue' => array(
+            'param' => array(array('type' => 'object|null')),
+        ),
         'ReflectionProperty::__construct' => array(
             'param' => array(array('type' => 'string|object')),
         ),

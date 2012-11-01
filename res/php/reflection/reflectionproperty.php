@@ -91,7 +91,7 @@ class ReflectionProperty implements \Reflector
     /**
      * Gets value
      *
-     * @param object $object
+     * @param object|null $object
      *
      * @return mixed The current value of the property.
      */
