@@ -163,6 +163,15 @@ class TypeRefiner
 
         // The first argument to is_callable can be of any type, not only a callable.
         'is_callable' => array('param' => array(array('type' => 'mixed'))),
+
+        'str_replace' => array(
+            'return' => 'string|string[]',
+            'param' => array(
+                array('type' => 'string|string[]'),
+                array('type' => 'string|string[]'),
+                array('type' => 'string|string[]'),
+            )
+        ),
     );
 
     private static $typesEligibleForRefinement = array(null, 'mixed', 'array');

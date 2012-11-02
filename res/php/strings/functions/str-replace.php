@@ -5,12 +5,12 @@
  *
  * @phpstub
  *
- * @param mixed $search
- * @param mixed $replace
- * @param mixed $subject
+ * @param string|string[] $search
+ * @param string|string[] $replace
+ * @param string|string[] $subject
  * @param int $count
  *
- * @return mixed This function returns a string or an array with the replaced values.
+ * @return string|string[] This function returns a string or an array with the replaced values.
  */
 function str_replace($search, $replace, $subject, $count = NULL)
 {

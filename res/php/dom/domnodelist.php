@@ -1,7 +1,7 @@
 <?php
 
 /** @phpstub */
-class DOMNodelist implements \Traversable
+class DOMNodeList implements \Traversable
 {
     /** @var int */
     public $length;
