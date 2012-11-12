@@ -28,3 +28,32 @@ function maxdb_stmt_send_long_data($stmt, $param_nr, $data)
 function maxdb_stmt_send_long_data($param_nr, $data)
 {
 }
+
+/**
+ * Send data in blocks
+ *
+ * @phpstub
+ *
+ * @param resource $stmt
+ * @param int $param_nr
+ * @param string $data
+ *
+ * @return bool
+ */
+function maxdb_send_long_data($stmt, $param_nr, $data)
+{
+}
+
+/**
+ * Send data in blocks
+ *
+ * @phpstub
+ *
+ * @param int $param_nr
+ * @param string $data
+ *
+ * @return bool
+ */
+function maxdb_send_long_data($param_nr, $data)
+{
+}

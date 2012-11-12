@@ -50,6 +50,7 @@ class DocumentationParser
 
     private $classes;
     private $functions;
+    private $aliasedFunctions;
     private $constants;
     private $file;
 
@@ -75,7 +76,7 @@ class DocumentationParser
             throw new \InvalidArgumentException(sprintf('The directory "%s" does not exist.', $docPath));
         }
 
-        $this->classes = $this->functions = $this->constants = array();
+        $this->classes = $this->functions = $this->constants = $this->aliasedFunctions = array();
         foreach (Finder::create()->in($docPath)->name('*.xml') as $file) {
             assert($file instanceof \SplFileInfo);
             $this->file = $file;
@@ -107,13 +108,29 @@ class DocumentationParser
             $this->tryParsingClass($doc);
             $this->tryParsingConstant($doc);
         }
-
+        
+        if ( ! empty($this->aliasedFunctions)) {
+            foreach ($this->functions as $function) {
+                $aliasedNames = array_keys($this->aliasedFunctions, $function->getName(), true);
+                
+                if (empty($aliasedNames)) {
+                    continue;
+                }
+                
+                foreach ($aliasedNames as $name) {
+                    $newFunction = clone $function;
+                    $newFunction->setName($name);
+                    $this->functions[] = $newFunction;
+                }
+            }
+        }
+        
         foreach ($this->classes as $class) {
             $this->typeRefiner->refineClass($class);
         }
 
         $rs = array('classes' => $this->classes, 'functions' => $this->functions, 'constants' => $this->constants);
-        $this->classes = $this->functions = $this->constants = null;
+        $this->classes = $this->functions = $this->constants = $this->aliasedFunctions = null;
 
         return $rs;
     }
@@ -314,8 +331,15 @@ class DocumentationParser
         $function = new PhpFunction((string) $doc->refnamediv->refname);
         $function->setName((string) $doc->refnamediv->refname);
         $function->setAttribute('relative_path', $this->file->getRelativePathname());
-        $function->setAttribute('purpose', trim((string) $doc->refnamediv->refpurpose));
+        $function->setAttribute('purpose', $purpose = trim((string) $doc->refnamediv->refpurpose));
 
+        if (0 === strpos($purpose, 'Alias')) {
+            $aliasedFunction = (string) $doc->refsect1->simpara->function;
+            $this->aliasedFunctions[$function->getName()] = $aliasedFunction;
+            
+            return;
+        }
+        
         $functions = array();
         foreach ($doc->refsect1->methodsynopsis as $functionElem) {
             $cFunction = clone $function;

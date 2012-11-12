@@ -70,6 +70,19 @@ class DocumentationParserTest extends \PHPUnit_Framework_TestCase
         $this->assertFalse($params[1]->isPassedByReference());
         $this->assertTrue($params[1]->hasDefaultValue());
     }
+    
+    /**
+     * @group functions
+     */
+    public function testParseAliasedFunction()
+    {
+        $rs = $this->parser->parse(__DIR__.'/Fixture/aliased-function');
+        
+        $this->assertCount(2, $rs['functions']);
+        
+        $this->assertEquals('strstr', $rs['functions'][0]->getName());
+        $this->assertEquals('strchr', $rs['functions'][1]->getName());
+    }
 
     /**
      * @group classes
