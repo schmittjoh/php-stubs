@@ -11,6 +11,6 @@
  *
  * @return bool 
  */
-function yaz_ccl_parse($id, $query, $result)
+function yaz_ccl_parse($id, $query, &$result)
 {
 }

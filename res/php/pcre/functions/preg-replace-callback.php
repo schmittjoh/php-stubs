@@ -15,6 +15,6 @@
  *                         parameter is an array, or a string
  *                         otherwise. On errors the return value is null
  */
-function preg_replace_callback($pattern, $callback, $subject, $limit = -1, $count = NULL)
+function preg_replace_callback($pattern, $callback, $subject, $limit = -1, &$count = NULL)
 {
 }

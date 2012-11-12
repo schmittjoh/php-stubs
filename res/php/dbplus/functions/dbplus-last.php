@@ -11,6 +11,6 @@
  * @return int Returns  on success or a db++ error
  *             code on failure.
  */
-function dbplus_last($relation, $tuple)
+function dbplus_last($relation, &$tuple)
 {
 }

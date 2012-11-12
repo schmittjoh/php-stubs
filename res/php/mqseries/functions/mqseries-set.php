@@ -18,6 +18,6 @@
  *
  * @return void 
  */
-function mqseries_set($hconn, $hobj, $selectorcount, $selectors, $intattrcount, $intattrs, $charattrlength, $charattrs, $compCode, $reason)
+function mqseries_set($hconn, $hobj, $selectorcount, $selectors, $intattrcount, $intattrs, $charattrlength, $charattrs, &$compCode, &$reason)
 {
 }

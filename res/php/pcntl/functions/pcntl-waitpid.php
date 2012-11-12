@@ -13,6 +13,6 @@
  *             child which exited, -1 on error or zero if  was used and no
  *             child was available
  */
-function pcntl_waitpid($pid, $status, $options = 0)
+function pcntl_waitpid($pid, &$status, $options = 0)
 {
 }

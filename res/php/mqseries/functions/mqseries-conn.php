@@ -12,6 +12,6 @@
  *
  * @return void 
  */
-function mqseries_conn($qManagerName, $hconn, $compCode, $reason)
+function mqseries_conn($qManagerName, &$hconn, &$compCode, &$reason)
 {
 }

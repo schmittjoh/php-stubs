@@ -12,6 +12,6 @@
  *
  * @return string Returns the new URL as string on success.
  */
-function http_build_url($url = NULL, $parts = NULL, $flags = 0, $new_url = array())
+function http_build_url($url = NULL, $parts = NULL, $flags = 0, &$new_url = array())
 {
 }

@@ -15,6 +15,6 @@
  *
  * @return void 
  */
-function mqseries_put($hConn, $hObj, $md, $pmo, $message, $compCode, $reason)
+function mqseries_put($hConn, $hObj, &$md, &$pmo, $message, &$compCode, &$reason)
 {
 }

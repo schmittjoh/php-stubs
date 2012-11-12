@@ -27,7 +27,7 @@ class Yaf_Route_Regex extends \Yaf_Route_Interface implements \Yaf_Route_Interfa
      *
      * @return bool If the pattern given by the first parameter of
      *              matche the request
-     *              uri, return TRUE, otherwise return FALSE.
+     *              uri, return true, otherwise return false.
      */
     public function route($request)
     {

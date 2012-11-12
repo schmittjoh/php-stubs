@@ -11,6 +11,6 @@
  *
  * @return string 
  */
-function http_get($url, $options = array(), $info = array())
+function http_get($url, $options = array(), &$info = array())
 {
 }

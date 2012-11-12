@@ -11,6 +11,6 @@
  *               the internal array pointer, or false if there are no more
  *               elements.
  */
-function prev($array)
+function prev(&$array)
 {
 }

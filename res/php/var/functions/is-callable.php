@@ -12,6 +12,6 @@
  * @return bool Returns true if  is callable, false
  *              otherwise.
  */
-function is_callable($name, $syntax_only = 'false', $callable_name = NULL)
+function is_callable($name, $syntax_only = 'false', &$callable_name = NULL)
 {
 }

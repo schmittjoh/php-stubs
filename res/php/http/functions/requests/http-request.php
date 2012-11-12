@@ -13,6 +13,6 @@
  *
  * @return string 
  */
-function http_request($method, $url, $body = NULL, $options = array(), $info = array())
+function http_request($method, $url, $body = NULL, $options = array(), &$info = array())
 {
 }

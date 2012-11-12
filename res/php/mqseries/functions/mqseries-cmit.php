@@ -11,6 +11,6 @@
  *
  * @return void 
  */
-function mqseries_cmit($hconn, $compCode, $reason)
+function mqseries_cmit($hconn, &$compCode, &$reason)
 {
 }

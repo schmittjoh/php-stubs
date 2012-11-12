@@ -158,7 +158,7 @@ class IntlDateFormatter
      *
      * @return array Localtime compatible array of integers  : contains 24 hour clock value in tm_hour field
      */
-    public function localtime($value, $position = NULL, $fmt, $value, $position = NULL)
+    public function localtime($value, &$position = NULL, $fmt, $value, &$position = NULL)
     {
     }
 
@@ -173,7 +173,7 @@ class IntlDateFormatter
      *
      * @return int timestamp  parsed value
      */
-    public function parse($value, $position = NULL, $fmt, $value, $position = NULL)
+    public function parse($value, &$position = NULL, $fmt, $value, &$position = NULL)
     {
     }
 

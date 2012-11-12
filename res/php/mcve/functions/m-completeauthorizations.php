@@ -11,6 +11,6 @@
  * @return int What the function returns, first on success, then on failure. See
  *             also the ampreturn.success; entity
  */
-function m_completeauthorizations($conn, $array)
+function m_completeauthorizations($conn, &$array)
 {
 }

@@ -12,6 +12,6 @@
  * @return DomDocument Returns a ``DomDocument`` instance of the given XML
  *                     contents.
  */
-function domxml_open_mem($str, $mode = NULL, $error = array())
+function domxml_open_mem($str, $mode = NULL, &$error = array())
 {
 }

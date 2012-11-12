@@ -13,6 +13,6 @@
  *             was found in ,
  *             or false if no matches were found or an error occurred.
  */
-function ereg($pattern, $string, $regs = array())
+function ereg($pattern, $string, &$regs = array())
 {
 }

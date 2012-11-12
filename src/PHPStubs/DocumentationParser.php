@@ -371,6 +371,11 @@ class DocumentationParser
 
         $param = PhpParameter::create($name);
         $param->setAttribute('type', $type = (string) $paramElem->type);
+        
+        $role = (string) $paramElem->parameter->attributes()->role;
+        if ($role === 'reference') {
+            $param->setPassedByReference(true);
+        }
 
         if (isset($paramElem->initializer)) {
             $value = (string) $paramElem->initializer;

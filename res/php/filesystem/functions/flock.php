@@ -11,6 +11,6 @@
  *
  * @return bool 
  */
-function flock($handle, $operation, $wouldblock = NULL)
+function flock($handle, $operation, &$wouldblock = NULL)
 {
 }

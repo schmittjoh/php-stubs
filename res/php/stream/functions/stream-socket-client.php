@@ -18,6 +18,6 @@
  *                  , , and
  *                  ), false on failure.
  */
-function stream_socket_client($remote_socket, $errno = NULL, $errstr = NULL, $timeout = 0, $flags = 0, $context = NULL)
+function stream_socket_client($remote_socket, &$errno = NULL, &$errstr = NULL, $timeout = 0, $flags = 0, $context = NULL)
 {
 }

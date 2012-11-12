@@ -1,7 +1,7 @@
 <?php
 
 /** @phpstub */
-class DOMDocument extends \DOMNode
+class DomDocument extends \DOMNode
 {
     /** @var string */
     public $xmlVersion;
@@ -636,12 +636,15 @@ class DOMDocument extends \DOMNode
 
     /**
      * 
-         Substitutes XIncludes in a DomDocument Object
-        
+       Substitutes XIncludes in a DOMDocument Object
+      
      *
-     * @return int
+     * @param int $options
+     *
+     * @return int Returns the number of XIncludes in the document, -1 if some processing failed,
+     *             or false if there were no substitutions.
      */
-    public function xinclude()
+    public function xinclude($options = NULL)
     {
     }
 }

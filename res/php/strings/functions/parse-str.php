@@ -10,6 +10,6 @@
  *
  * @return void 
  */
-function parse_str($str, $arr = array())
+function parse_str($str, &$arr = array())
 {
 }

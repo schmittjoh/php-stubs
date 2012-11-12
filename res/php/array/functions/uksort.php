@@ -10,6 +10,6 @@
  *
  * @return bool 
  */
-function uksort($array, $cmp_function)
+function uksort(&$array, $cmp_function)
 {
 }

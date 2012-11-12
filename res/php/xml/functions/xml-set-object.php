@@ -10,6 +10,6 @@
  *
  * @return bool 
  */
-function xml_set_object($parser, $object)
+function xml_set_object($parser, &$object)
 {
 }

@@ -10,6 +10,6 @@
  *
  * @return bool 
  */
-function usort($array, $cmp_function)
+function usort(&$array, $cmp_function)
 {
 }

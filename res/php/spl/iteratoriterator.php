@@ -33,7 +33,7 @@ class IteratorIterator implements \Iterator, \Traversable, \OuterIterator
     /**
      * Get the key of the current element
      *
-     * @return void The key of the current element.
+     * @return scalar The key of the current element.
      */
     public function key()
     {

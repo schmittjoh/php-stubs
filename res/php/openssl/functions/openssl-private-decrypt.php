@@ -12,6 +12,6 @@
  *
  * @return bool 
  */
-function openssl_private_decrypt($data, $decrypted, $key, $padding = 0)
+function openssl_private_decrypt($data, &$decrypted, $key, $padding = 0)
 {
 }

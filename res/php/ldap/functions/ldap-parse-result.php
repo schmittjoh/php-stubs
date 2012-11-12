@@ -14,6 +14,6 @@
  *
  * @return bool
  */
-function ldap_parse_result($link, $result, $errcode, $matcheddn = NULL, $errmsg = NULL, $referrals = array())
+function ldap_parse_result($link, $result, &$errcode, &$matcheddn = NULL, &$errmsg = NULL, &$referrals = array())
 {
 }

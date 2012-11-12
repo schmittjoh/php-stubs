@@ -13,7 +13,7 @@ class SQLite3Stmt
      * @return bool Returns true if the parameter is bound to the statement variable, false
      *              on failure.
      */
-    public function bindParam($sql_param, $param, $type = NULL)
+    public function bindParam($sql_param, &$param, $type = NULL)
     {
     }
 

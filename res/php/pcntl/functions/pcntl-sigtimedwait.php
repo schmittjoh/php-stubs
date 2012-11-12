@@ -12,6 +12,6 @@
  *
  * @return int On success,  returns a signal number.
  */
-function pcntl_sigtimedwait($set, $siginfo = array(), $seconds = 0, $nanoseconds = 0)
+function pcntl_sigtimedwait($set, &$siginfo = array(), $seconds = 0, $nanoseconds = 0)
 {
 }

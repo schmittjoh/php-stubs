@@ -57,9 +57,11 @@ class Mongo
     /**
      * Closes this connection
      *
+     * @param boolean|string $connection
+     *
      * @return bool Returns if the connection was successfully closed.
      */
-    public function close()
+    public function close($connection = NULL)
     {
     }
 

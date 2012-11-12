@@ -12,6 +12,6 @@
  *
  * @return void 
  */
-function mqseries_begin($hconn, $beginOptions, $compCode, $reason)
+function mqseries_begin($hconn, $beginOptions, &$compCode, &$reason)
 {
 }

@@ -11,6 +11,6 @@
  *
  * @return bool
  */
-function ncurses_mouse_trafo($y, $x, $toscreen)
+function ncurses_mouse_trafo(&$y, &$x, $toscreen)
 {
 }

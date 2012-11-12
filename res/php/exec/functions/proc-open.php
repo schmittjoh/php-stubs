@@ -16,6 +16,6 @@
  *                  when you are finished with it. On failure
  *                  returns false.
  */
-function proc_open($cmd, $descriptorspec, $pipes, $cwd = NULL, $env = array(), $other_options = array())
+function proc_open($cmd, $descriptorspec, &$pipes, $cwd = NULL, $env = array(), $other_options = array())
 {
 }

@@ -11,7 +11,7 @@
  *
  * @return bool
  */
-function sqlite_exec($dbhandle, $query, $error_msg = NULL)
+function sqlite_exec($dbhandle, $query, &$error_msg = NULL)
 {
 }
 
@@ -39,6 +39,6 @@ function sqlite_exec($query, $dbhandle)
  *
  * @return bool
  */
-function sqlite_exec($query, $error_msg = NULL)
+function sqlite_exec($query, &$error_msg = NULL)
 {
 }

@@ -12,6 +12,6 @@
  * @return bool Returns true if any records are found; returns false if no records
  *              were found or if an error occurred.
  */
-function getmxrr($hostname, $mxhosts, $weight = array())
+function getmxrr($hostname, &$mxhosts, &$weight = array())
 {
 }

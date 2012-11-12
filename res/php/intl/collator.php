@@ -43,7 +43,7 @@ class Collator
      *
      * @return bool 
      */
-    public function asort($arr, $sort_flag = NULL, $coll, $arr, $sort_flag = NULL)
+    public function asort(&$arr, $sort_flag = NULL, $coll, &$arr, $sort_flag = NULL)
     {
     }
 
@@ -188,7 +188,7 @@ class Collator
      *
      * @return bool 
      */
-    public function sort($arr, $sort_flag = NULL, $coll, $arr, $sort_flag = NULL)
+    public function sort(&$arr, $sort_flag = NULL, $coll, &$arr, $sort_flag = NULL)
     {
     }
 
@@ -201,7 +201,7 @@ class Collator
      *
      * @return bool 
      */
-    public function sortWithSortKeys($arr, $coll, $arr)
+    public function sortWithSortKeys(&$arr, $coll, &$arr)
     {
     }
 }

@@ -12,6 +12,6 @@
  *
  * @return bool
  */
-function ncurses_wmouse_trafo($window, $y, $x, $toscreen)
+function ncurses_wmouse_trafo($window, &$y, &$x, $toscreen)
 {
 }

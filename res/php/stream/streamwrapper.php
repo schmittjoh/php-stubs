@@ -172,7 +172,7 @@ class streamWrapper
      *
      * @return bool 
      */
-    public function stream_open($path, $mode, $options, $opened_path)
+    public function stream_open($path, $mode, $options, &$opened_path)
     {
     }
 

@@ -11,6 +11,6 @@
  *
  * @return bool 
  */
-function array_walk($array, $funcname, $userdata = 'null')
+function array_walk(&$array, $funcname, $userdata = 'null')
 {
 }

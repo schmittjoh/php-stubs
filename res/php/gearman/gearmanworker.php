@@ -20,7 +20,7 @@ class GearmanWorker
      *
      * @return bool 
      */
-    public function addFunction($function_name, $function, $context = NULL, $timeout = NULL)
+    public function addFunction($function_name, $function, &$context = NULL, $timeout = NULL)
     {
     }
 

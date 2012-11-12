@@ -13,6 +13,6 @@
  *               internal pointer points beyond the end of the elements list or the array is
  *               empty,  returns null.
  */
-function key($array)
+function key(&$array)
 {
 }

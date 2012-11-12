@@ -12,6 +12,6 @@
  *
  * @return bool 
  */
-function ldap_control_paged_result_response($link, $result, $cookie = NULL, $estimated = NULL)
+function ldap_control_paged_result_response($link, $result, &$cookie = NULL, &$estimated = NULL)
 {
 }

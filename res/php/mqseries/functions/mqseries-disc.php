@@ -11,6 +11,6 @@
  *
  * @return void 
  */
-function mqseries_disc($hconn, $compCode, $reason)
+function mqseries_disc($hconn, &$compCode, &$reason)
 {
 }

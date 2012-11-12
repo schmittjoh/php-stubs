@@ -264,7 +264,7 @@ class Memcached
      *               The  will return
      *               if the key does not exist.
      */
-    public function get($key, $cache_cb = NULL, $cas_token = NULL)
+    public function get($key, $cache_cb = NULL, &$cas_token = NULL)
     {
     }
 
@@ -280,7 +280,7 @@ class Memcached
      *               The  will return
      *               if the key does not exist.
      */
-    public function getByKey($server_key, $key, $cache_cb = NULL, $cas_token = NULL)
+    public function getByKey($server_key, $key, $cache_cb = NULL, &$cas_token = NULL)
     {
     }
 
@@ -320,7 +320,7 @@ class Memcached
      *
      * @return mixed Returns the array of found items.
      */
-    public function getMulti($keys, $cas_tokens = array(), $flags = NULL)
+    public function getMulti($keys, &$cas_tokens = array(), $flags = NULL)
     {
     }
 
@@ -334,7 +334,7 @@ class Memcached
      *
      * @return array Returns the array of found items.
      */
-    public function getMultiByKey($server_key, $keys, $cas_tokens = NULL, $flags = NULL)
+    public function getMultiByKey($server_key, $keys, &$cas_tokens = NULL, $flags = NULL)
     {
     }
 

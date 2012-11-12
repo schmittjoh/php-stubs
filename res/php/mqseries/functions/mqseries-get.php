@@ -17,6 +17,6 @@
  *
  * @return void 
  */
-function mqseries_get($hConn, $hObj, $md, $gmo, $bufferLength, $msg, $data_length, $compCode, $reason)
+function mqseries_get($hConn, $hObj, &$md, &$gmo, &$bufferLength, &$msg, &$data_length, &$compCode, &$reason)
 {
 }

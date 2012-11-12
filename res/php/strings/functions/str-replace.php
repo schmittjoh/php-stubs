@@ -12,6 +12,6 @@
  *
  * @return string|string[] This function returns a string or an array with the replaced values.
  */
-function str_replace($search, $replace, $subject, $count = NULL)
+function str_replace($search, $replace, $subject, &$count = NULL)
 {
 }

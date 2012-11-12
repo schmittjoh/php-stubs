@@ -14,6 +14,6 @@
  *               . Each associative array contains
  *               the following keys:
  */
-function dns_get_record($hostname, $type = 0, $authns = array(), $addtl = array())
+function dns_get_record($hostname, $type = 0, &$authns = array(), &$addtl = array())
 {
 }

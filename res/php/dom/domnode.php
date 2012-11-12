@@ -1,7 +1,7 @@
 <?php
 
 /** @phpstub */
-class DOMNode
+class DomNode
 {
     /** @var string */
     public $textContent;

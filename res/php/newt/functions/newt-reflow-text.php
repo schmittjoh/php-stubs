@@ -14,6 +14,6 @@
  *
  * @return string 
  */
-function newt_reflow_text($text, $width, $flex_down, $flex_up, $actual_width, $actual_height)
+function newt_reflow_text($text, $width, $flex_down, $flex_up, &$actual_width, &$actual_height)
 {
 }

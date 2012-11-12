@@ -18,6 +18,6 @@
  *             passed to  to get a textual explanation
  *             of the error.
  */
-function socket_recvfrom($socket, $buf, $len, $flags, $name, $port = NULL)
+function socket_recvfrom($socket, &$buf, $len, $flags, &$name, &$port = NULL)
 {
 }

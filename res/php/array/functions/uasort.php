@@ -10,6 +10,6 @@
  *
  * @return bool 
  */
-function uasort($array, $cmp_function)
+function uasort(&$array, $cmp_function)
 {
 }

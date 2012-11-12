@@ -11,6 +11,6 @@
  *
  * @return void 
  */
-function ncurses_getmaxyx($window, $y, $x)
+function ncurses_getmaxyx($window, &$y, &$x)
 {
 }

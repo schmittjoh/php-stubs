@@ -48,6 +48,28 @@ class DocumentationParserTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals('apc_add', $rs['functions'][2]->getName());
         $this->assertEquals('array', $rs['functions'][2]->getParameter(0)->getAttribute('type'));
     }
+    
+    /**
+     * @group functions
+     */
+    public function testParseFunctionParams()
+    {
+        $rs = $this->parser->parse(__DIR__.'/Fixture/parameter-as-ref');
+        
+        $this->assertCount(1, $rs['functions']);
+        $this->assertEquals('pcntl_wait', $rs['functions'][0]->getName());
+        
+        $params = $rs['functions'][0]->getParameters();
+        $this->assertCount(2, $params);
+        
+        $this->assertEquals('int', $params[0]->getAttribute('type'));
+        $this->assertTrue($params[0]->isPassedByReference());
+        $this->assertFalse($params[0]->hasDefaultValue());
+        
+        $this->assertEquals('int', $params[1]->getAttribute('type'));
+        $this->assertFalse($params[1]->isPassedByReference());
+        $this->assertTrue($params[1]->hasDefaultValue());
+    }
 
     /**
      * @group classes

@@ -11,6 +11,6 @@
  *
  * @return bool 
  */
-function pcntl_sigprocmask($how, $set, $oldset = array())
+function pcntl_sigprocmask($how, $set, &$oldset = array())
 {
 }

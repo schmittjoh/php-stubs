@@ -10,6 +10,6 @@
  * @return bool Returns true on success.
  *              Otherwise, returns false
  */
-function mysqlnd_uh_set_statement_proxy($statement_proxy)
+function mysqlnd_uh_set_statement_proxy(&$statement_proxy)
 {
 }

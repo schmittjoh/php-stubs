@@ -19,7 +19,7 @@ class Yaf_Route_Static implements \Yaf_Router
      *
      * @param Yaf_Request_Abstract $request
      *
-     * @return bool always be TRUE
+     * @return bool always be true
      */
     public function route($request)
     {

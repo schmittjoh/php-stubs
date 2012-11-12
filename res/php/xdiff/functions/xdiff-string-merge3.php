@@ -13,6 +13,6 @@
  * @return mixed Returns the merged string, false if an internal error happened, or true
  *               if merged string is empty.
  */
-function xdiff_string_merge3($old_data, $new_data1, $new_data2, $error = NULL)
+function xdiff_string_merge3($old_data, $new_data1, $new_data2, &$error = NULL)
 {
 }

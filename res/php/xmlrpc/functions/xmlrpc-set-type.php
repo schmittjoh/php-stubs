@@ -10,6 +10,6 @@
  *
  * @return bool If successful,  is converted to an object.
  */
-function xmlrpc_set_type($value, $type)
+function xmlrpc_set_type(&$value, $type)
 {
 }

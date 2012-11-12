@@ -11,6 +11,6 @@
  *
  * @return bool
  */
-function ldap_parse_reference($link, $entry, $referrals)
+function ldap_parse_reference($link, $entry, &$referrals)
 {
 }

@@ -11,6 +11,6 @@
  *
  * @return void 
  */
-function mqseries_back($hconn, $compCode, $reason)
+function mqseries_back($hconn, &$compCode, &$reason)
 {
 }

@@ -12,6 +12,6 @@
  * @return bool Return TRUE if the transformation is done. Always return TRUE if the taint
  *              extension is not enabled.
  */
-function taint($string, $_ = NULL)
+function taint(&$string, $_ = NULL)
 {
 }

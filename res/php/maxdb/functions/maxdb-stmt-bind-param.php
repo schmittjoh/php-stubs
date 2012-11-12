@@ -13,7 +13,7 @@
  *
  * @return bool
  */
-function maxdb_stmt_bind_param($stmt, $types, $var1, $_ = NULL)
+function maxdb_stmt_bind_param($stmt, $types, &$var1, &$_ = NULL)
 {
 }
 
@@ -29,7 +29,7 @@ function maxdb_stmt_bind_param($stmt, $types, $var1, $_ = NULL)
  *
  * @return bool
  */
-function maxdb_stmt_bind_param($types, $var1, $_ = NULL)
+function maxdb_stmt_bind_param($types, &$var1, &$_ = NULL)
 {
 }
 
@@ -44,7 +44,7 @@ function maxdb_stmt_bind_param($types, $var1, $_ = NULL)
  *
  * @return bool
  */
-function maxdb_stmt_bind_param($stmt, $types, $var)
+function maxdb_stmt_bind_param($stmt, $types, &$var)
 {
 }
 
@@ -58,6 +58,6 @@ function maxdb_stmt_bind_param($stmt, $types, $var)
  *
  * @return bool
  */
-function maxdb_stmt_bind_param($types, $var)
+function maxdb_stmt_bind_param($types, &$var)
 {
 }

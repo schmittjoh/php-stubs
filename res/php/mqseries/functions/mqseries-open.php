@@ -14,6 +14,6 @@
  *
  * @return void 
  */
-function mqseries_open($hconn, $objDesc, $option, $hobj, $compCode, $reason)
+function mqseries_open($hconn, &$objDesc, $option, &$hobj, &$compCode, &$reason)
 {
 }

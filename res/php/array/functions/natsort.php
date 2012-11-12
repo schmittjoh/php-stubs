@@ -9,6 +9,6 @@
  *
  * @return bool 
  */
-function natsort($array)
+function natsort(&$array)
 {
 }

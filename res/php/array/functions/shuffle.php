@@ -9,6 +9,6 @@
  *
  * @return bool 
  */
-function shuffle($array)
+function shuffle(&$array)
 {
 }

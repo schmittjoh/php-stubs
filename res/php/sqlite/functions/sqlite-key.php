@@ -5,20 +5,8 @@
  *
  * @phpstub
  *
- * @param resource $result
- *
- * @return int
- */
-function sqlite_key($result)
-{
-}
-
-/**
- * Returns the current row index
- *
- * @phpstub
- *
- * @return int
+ * @return int Returns the current row index of the buffered result set
+ *             .
  */
 function sqlite_key()
 {

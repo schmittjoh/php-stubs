@@ -13,6 +13,6 @@
  *               fills the  parameter with the decrypted text.
  *               On failure, this function returns false.
  */
-function gnupg_decryptverify($identifier, $text, $plaintext)
+function gnupg_decryptverify($identifier, $text, &$plaintext)
 {
 }

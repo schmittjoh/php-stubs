@@ -18,6 +18,6 @@
  *
  * @return int 
  */
-function newt_win_entries($title, $text, $suggested_width, $flex_down, $flex_up, $data_width, $items, $button1, $_ = NULL)
+function newt_win_entries($title, $text, $suggested_width, $flex_down, $flex_up, $data_width, &$items, $button1, $_ = NULL)
 {
 }

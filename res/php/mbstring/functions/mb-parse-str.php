@@ -10,6 +10,6 @@
  *
  * @return bool 
  */
-function mb_parse_str($encoded_string, $result = array())
+function mb_parse_str($encoded_string, &$result = array())
 {
 }

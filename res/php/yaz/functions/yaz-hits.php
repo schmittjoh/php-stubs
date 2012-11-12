@@ -11,6 +11,6 @@
  * @return int Returns the number of hits for the last search or 0 if no search was
  *             performed.
  */
-function yaz_hits($id, $searchresult = array())
+function yaz_hits($id, &$searchresult = array())
 {
 }

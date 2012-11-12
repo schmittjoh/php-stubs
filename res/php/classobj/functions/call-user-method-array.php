@@ -11,6 +11,6 @@
  *
  * @return mixed
  */
-function call_user_method_array($method_name, $obj, $params)
+function call_user_method_array($method_name, &$obj, $params)
 {
 }

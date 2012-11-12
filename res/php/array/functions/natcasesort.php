@@ -9,6 +9,6 @@
  *
  * @return bool 
  */
-function natcasesort($array)
+function natcasesort(&$array)
 {
 }

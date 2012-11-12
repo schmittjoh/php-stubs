@@ -13,6 +13,6 @@
  *
  * @return bool 
  */
-function openssl_pkcs12_export($x509, $out, $priv_key, $pass, $args = array())
+function openssl_pkcs12_export($x509, &$out, $priv_key, $pass, $args = array())
 {
 }

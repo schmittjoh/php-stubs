@@ -14,6 +14,6 @@
  * @return string The character encoding before conversion for success,
  *                or false for failure.
  */
-function mb_convert_variables($to_encoding, $from_encoding, $vars, $_ = NULL)
+function mb_convert_variables($to_encoding, $from_encoding, &$vars, &$_ = NULL)
 {
 }

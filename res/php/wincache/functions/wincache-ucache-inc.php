@@ -11,6 +11,6 @@
  *
  * @return mixed
  */
-function wincache_ucache_inc($key, $inc_by = 1, $success = NULL)
+function wincache_ucache_inc($key, $inc_by = 1, &$success = NULL)
 {
 }

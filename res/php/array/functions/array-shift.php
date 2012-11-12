@@ -10,6 +10,6 @@
  * @return mixed Returns the shifted value, or null if  is
  *               empty or is not an array.
  */
-function array_shift($array)
+function array_shift(&$array)
 {
 }

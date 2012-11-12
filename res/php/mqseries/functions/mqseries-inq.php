@@ -18,6 +18,6 @@
  *
  * @return void 
  */
-function mqseries_inq($hconn, $hobj, $selectorCount, $selectors, $intAttrCount, $intAttr, $charAttrLength, $charAttr, $compCode, $reason)
+function mqseries_inq($hconn, $hobj, $selectorCount, $selectors, $intAttrCount, &$intAttr, $charAttrLength, &$charAttr, &$compCode, &$reason)
 {
 }

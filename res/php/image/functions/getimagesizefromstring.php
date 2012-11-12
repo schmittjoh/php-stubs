@@ -10,6 +10,6 @@
  *
  * @return array See .
  */
-function getimagesizefromstring($imagedata, $imageinfo = array())
+function getimagesizefromstring($imagedata, &$imageinfo = array())
 {
 }

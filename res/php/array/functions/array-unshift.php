@@ -12,6 +12,6 @@
  *
  * @return int Returns the new number of elements in the .
  */
-function array_unshift($array, $var, $_ = NULL)
+function array_unshift(&$array, $var, $_ = NULL)
 {
 }

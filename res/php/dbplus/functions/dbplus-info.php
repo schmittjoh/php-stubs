@@ -11,6 +11,6 @@
  *
  * @return int
  */
-function dbplus_info($relation, $key, $result)
+function dbplus_info($relation, $key, &$result)
 {
 }

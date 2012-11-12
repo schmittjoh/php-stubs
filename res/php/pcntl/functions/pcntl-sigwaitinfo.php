@@ -10,6 +10,6 @@
  *
  * @return int On success,  returns a signal number.
  */
-function pcntl_sigwaitinfo($set, $siginfo = array())
+function pcntl_sigwaitinfo($set, &$siginfo = array())
 {
 }

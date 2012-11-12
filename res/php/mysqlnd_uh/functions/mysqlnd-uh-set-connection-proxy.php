@@ -11,6 +11,6 @@
  * @return bool Returns true on success.
  *              Otherwise, returns false
  */
-function mysqlnd_uh_set_connection_proxy($connection_proxy, $mysqli_connection = NULL)
+function mysqlnd_uh_set_connection_proxy(&$connection_proxy, &$mysqli_connection = NULL)
 {
 }

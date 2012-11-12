@@ -9,6 +9,6 @@
  *
  * @return int Returns the number of characters.
  */
-function ncurses_instr($buffer)
+function ncurses_instr(&$buffer)
 {
 }

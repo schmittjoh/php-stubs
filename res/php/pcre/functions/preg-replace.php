@@ -15,6 +15,6 @@
  *                         parameter is an array, or a string
  *                         otherwise.
  */
-function preg_replace($pattern, $replacement, $subject, $limit = -1, $count = NULL)
+function preg_replace($pattern, $replacement, $subject, $limit = -1, &$count = NULL)
 {
 }

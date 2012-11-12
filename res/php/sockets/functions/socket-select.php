@@ -17,6 +17,6 @@
  *             is returned. The error code can be retrieved with
  *             .
  */
-function socket_select($read, $write, $except, $tv_sec, $tv_usec = 0)
+function socket_select(&$read, &$write, &$except, $tv_sec, $tv_usec = 0)
 {
 }

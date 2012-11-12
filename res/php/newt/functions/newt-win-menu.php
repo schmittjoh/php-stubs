@@ -19,6 +19,6 @@
  *
  * @return int 
  */
-function newt_win_menu($title, $text, $suggestedWidth, $flexDown, $flexUp, $maxListHeight, $items, $listItem, $button1 = NULL, $_ = NULL)
+function newt_win_menu($title, $text, $suggestedWidth, $flexDown, $flexUp, $maxListHeight, $items, &$listItem, $button1 = NULL, $_ = NULL)
 {
 }

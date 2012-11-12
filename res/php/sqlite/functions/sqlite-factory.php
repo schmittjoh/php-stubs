@@ -11,6 +11,6 @@
  *
  * @return SQLiteDatabase Returns an SQLiteDatabase object on success, null on error.
  */
-function sqlite_factory($filename, $mode = 666, $error_message = NULL)
+function sqlite_factory($filename, $mode = 666, &$error_message = NULL)
 {
 }

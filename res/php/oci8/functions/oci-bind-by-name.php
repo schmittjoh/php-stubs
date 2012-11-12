@@ -13,6 +13,6 @@
  *
  * @return bool 
  */
-function oci_bind_by_name($statement, $bv_name, $variable, $maxlength = -1, $type = 0)
+function oci_bind_by_name($statement, $bv_name, &$variable, $maxlength = -1, $type = 0)
 {
 }

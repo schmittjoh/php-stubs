@@ -11,6 +11,6 @@
  *
  * @return int Returns the number of matching chars in both strings.
  */
-function similar_text($first, $second, $percent = NULL)
+function similar_text($first, $second, &$percent = NULL)
 {
 }

@@ -11,6 +11,6 @@
  *
  * @return void 
  */
-function newt_grid_get_size($grid, $width, $height)
+function newt_grid_get_size($grid, &$width, &$height)
 {
 }

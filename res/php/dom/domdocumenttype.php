@@ -1,7 +1,7 @@
 <?php
 
 /** @phpstub */
-class DOMDocumentType extends \DOMNode
+class DomDocumentType extends \DOMNode
 {
     /** @var string */
     public $systemId;

@@ -10,6 +10,6 @@
  *
  * @return void 
  */
-function newt_form_run($form, $exit_struct)
+function newt_form_run($form, &$exit_struct)
 {
 }

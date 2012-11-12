@@ -1,7 +1,7 @@
 <?php
 
 /** @phpstub */
-class imagick implements \Iterator, \Traversable
+class Imagick implements \Iterator, \Traversable
 {
     const ALIGN_CENTER = NULL;
     const ALIGN_LEFT = NULL;

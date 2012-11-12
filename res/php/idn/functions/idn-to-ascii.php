@@ -10,6 +10,6 @@
  *
  * @return string The ACE encoded version of the domain name .
  */
-function idn_to_ascii($utf8_domain, $errorcode = NULL)
+function idn_to_ascii($utf8_domain, &$errorcode = NULL)
 {
 }

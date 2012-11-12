@@ -11,6 +11,6 @@
  *
  * @return void 
  */
-function newt_get_screen_size($cols, $rows)
+function newt_get_screen_size(&$cols, &$rows)
 {
 }

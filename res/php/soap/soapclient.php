@@ -154,7 +154,7 @@ class SoapClient
      *               returned,  will return
      *               an associative array of named output parameters.
      */
-    public function __soapCall($function_name, $arguments, $options = array(), $input_headers = NULL, $output_headers = array())
+    public function __soapCall($function_name, $arguments, $options = array(), $input_headers = NULL, &$output_headers = array())
     {
     }
 }

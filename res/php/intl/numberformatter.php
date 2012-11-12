@@ -221,7 +221,7 @@ class NumberFormatter
      *
      * @return mixed The value of the parsed number or false on error.
      */
-    public function parse($value, $type = NULL, $position = NULL, $fmt, $value, $type = NULL, $position = NULL)
+    public function parse($value, $type = NULL, &$position = NULL, $fmt, $value, $type = NULL, &$position = NULL)
     {
     }
 
@@ -238,7 +238,7 @@ class NumberFormatter
      *
      * @return float The parsed numeric value or false on error.
      */
-    public function parseCurrency($value, $currency, $position = NULL, $fmt, $value, $currency, $position = NULL)
+    public function parseCurrency($value, &$currency, &$position = NULL, $fmt, $value, &$currency, &$position = NULL)
     {
     }
 

@@ -10,6 +10,6 @@
  *
  * @return bool 
  */
-function settype($var, $type)
+function settype(&$var, $type)
 {
 }

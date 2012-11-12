@@ -12,6 +12,6 @@
  * @return int Returns the number of variables successfully imported into the symbol
  *             table.
  */
-function extract($var_array, $extract_type = 0, $prefix = 'null')
+function extract(&$var_array, $extract_type = 0, $prefix = 'null')
 {
 }

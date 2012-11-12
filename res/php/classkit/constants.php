@@ -1,0 +1,5 @@
+<?php
+
+define('CLASSKIT_ACC_PUBLIC', 0);
+define('CLASSKIT_ACC_PROTECTED', 0);
+define('CLASSKIT_ACC_PRIVATE', 0);

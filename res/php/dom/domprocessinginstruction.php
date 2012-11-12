@@ -1,7 +1,7 @@
 <?php
 
 /** @phpstub */
-class DOMProcessingInstruction extends \DOMNode
+class DomProcessingInstruction extends \DOMNode
 {
     /** @var string */
     public $target;

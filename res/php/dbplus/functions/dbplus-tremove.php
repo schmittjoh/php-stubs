@@ -11,6 +11,6 @@
  *
  * @return int 
  */
-function dbplus_tremove($relation, $tuple, $current = array())
+function dbplus_tremove($relation, $tuple, &$current = array())
 {
 }

@@ -11,6 +11,6 @@
  *
  * @return int Returns the current value of 's value on success,
  */
-function apc_dec($key, $step = 1, $success = NULL)
+function apc_dec($key, $step = 1, &$success = NULL)
 {
 }

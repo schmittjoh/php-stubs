@@ -11,6 +11,6 @@
  *
  * @return bool 
  */
-function ldap_get_option($link_identifier, $option, $retval)
+function ldap_get_option($link_identifier, $option, &$retval)
 {
 }

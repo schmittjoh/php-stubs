@@ -10,6 +10,6 @@
  *
  * @return void 
  */
-function passthru($command, $return_var = NULL)
+function passthru($command, &$return_var = NULL)
 {
 }

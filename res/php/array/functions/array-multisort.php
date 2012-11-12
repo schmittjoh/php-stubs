@@ -13,6 +13,6 @@
  *
  * @return bool 
  */
-function array_multisort($arr, $arg = 'SORT_ASC', $arg = 'SORT_REGULAR', $_ = NULL)
+function array_multisort(&$arr, $arg = 'SORT_ASC', $arg = 'SORT_REGULAR', $_ = NULL)
 {
 }

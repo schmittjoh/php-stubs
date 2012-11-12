@@ -15,6 +15,6 @@
  *               the array element, and  and
  *               contain the data.
  */
-function each($array)
+function each(&$array)
 {
 }

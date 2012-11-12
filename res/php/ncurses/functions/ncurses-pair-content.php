@@ -13,6 +13,6 @@
  *             if ncurses or terminal color capabilities have
  *             not been initialized.
  */
-function ncurses_pair_content($pair, $f, $b)
+function ncurses_pair_content($pair, &$f, &$b)
 {
 }

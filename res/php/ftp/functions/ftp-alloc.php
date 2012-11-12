@@ -11,6 +11,6 @@
  *
  * @return bool 
  */
-function ftp_alloc($ftp_stream, $filesize, $result = NULL)
+function ftp_alloc($ftp_stream, $filesize, &$result = NULL)
 {
 }

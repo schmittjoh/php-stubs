@@ -13,6 +13,6 @@
  *
  * @return void 
  */
-function mqseries_connx($qManagerName, $connOptions, $hconn, $compCode, $reason)
+function mqseries_connx($qManagerName, &$connOptions, &$hconn, &$compCode, &$reason)
 {
 }

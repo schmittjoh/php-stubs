@@ -11,6 +11,6 @@
  * @return int The function will return zero (aka. ) on success
  *             or a db++ error code on failure.
  */
-function dbplus_curr($relation, $tuple)
+function dbplus_curr($relation, &$tuple)
 {
 }

@@ -13,6 +13,6 @@
  *
  * @return bool 
  */
-function openssl_open($sealed_data, $open_data, $env_key, $priv_key_id, $method = NULL)
+function openssl_open($sealed_data, &$open_data, $env_key, $priv_key_id, $method = NULL)
 {
 }

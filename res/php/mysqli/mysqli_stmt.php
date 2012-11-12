@@ -154,7 +154,7 @@ class mysqli_stmt
      *
      * @return bool 
      */
-    public function bind_param($types, $var1, $_ = NULL, $stmt, $types, $var1, $_ = NULL)
+    public function bind_param($types, &$var1, &$_ = NULL, $stmt, $types, &$var1, &$_ = NULL)
     {
     }
 
@@ -171,7 +171,7 @@ class mysqli_stmt
      *
      * @return bool 
      */
-    public function bind_result($var1, $_ = NULL, $stmt, $var1, $_ = NULL)
+    public function bind_result(&$var1, &$_ = NULL, $stmt, &$var1, &$_ = NULL)
     {
     }
 

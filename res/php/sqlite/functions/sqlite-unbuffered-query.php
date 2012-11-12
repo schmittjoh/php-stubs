@@ -12,7 +12,7 @@
  *
  * @return resource
  */
-function sqlite_unbuffered_query($dbhandle, $query, $result_type = 0, $error_msg = NULL)
+function sqlite_unbuffered_query($dbhandle, $query, $result_type = 0, &$error_msg = NULL)
 {
 }
 
@@ -28,7 +28,7 @@ function sqlite_unbuffered_query($dbhandle, $query, $result_type = 0, $error_msg
  *
  * @return resource
  */
-function sqlite_unbuffered_query($query, $dbhandle, $result_type = 0, $error_msg = NULL)
+function sqlite_unbuffered_query($query, $dbhandle, $result_type = 0, &$error_msg = NULL)
 {
 }
 
@@ -43,6 +43,6 @@ function sqlite_unbuffered_query($query, $dbhandle, $result_type = 0, $error_msg
  *
  * @return SQLiteUnbuffered
  */
-function sqlite_unbuffered_query($query, $result_type = 0, $error_msg = NULL)
+function sqlite_unbuffered_query($query, $result_type = 0, &$error_msg = NULL)
 {
 }

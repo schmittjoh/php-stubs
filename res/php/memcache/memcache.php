@@ -106,7 +106,7 @@ class Memcache
      *               Returns false on failure,  is not found or
      *               is an empty ``array``.
      */
-    public function get($key, $flags = NULL, $keys, $flags = array())
+    public function get($key, &$flags = NULL, $keys, &$flags = array())
     {
     }
 

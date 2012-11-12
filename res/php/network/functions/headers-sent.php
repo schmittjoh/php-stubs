@@ -11,6 +11,6 @@
  * @return bool will return false if no HTTP headers
  *              have already been sent or true otherwise.
  */
-function headers_sent($file = NULL, $line = NULL)
+function headers_sent(&$file = NULL, &$line = NULL)
 {
 }

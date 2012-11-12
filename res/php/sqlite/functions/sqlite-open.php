@@ -11,6 +11,6 @@
  *
  * @return resource Returns a resource (database handle) on success, false on error.
  */
-function sqlite_open($filename, $mode = 666, $error_message = NULL)
+function sqlite_open($filename, $mode = 666, &$error_message = NULL)
 {
 }

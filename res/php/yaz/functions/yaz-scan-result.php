@@ -12,6 +12,6 @@
  *               value is a pair where the first item is the term, and the second item is
  *               the result-count.
  */
-function yaz_scan_result($id, $result = array())
+function yaz_scan_result($id, &$result = array())
 {
 }

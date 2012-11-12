@@ -12,6 +12,6 @@
  *
  * @return bool 
  */
-function ovrimos_fetch_into($result_id, $result_array, $how = NULL, $rownumber = NULL)
+function ovrimos_fetch_into($result_id, &$result_array, $how = NULL, $rownumber = NULL)
 {
 }

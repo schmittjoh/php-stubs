@@ -10,6 +10,6 @@
  *
  * @return array Returns an array with 7 elements.
  */
-function getimagesize($filename, $imageinfo = array())
+function getimagesize($filename, &$imageinfo = array())
 {
 }

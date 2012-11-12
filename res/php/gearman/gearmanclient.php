@@ -54,7 +54,7 @@ class GearmanClient
      *
      * @return GearmanTask A ``GearmanTask`` object or false if the task could not be added.
      */
-    public function addTask($function_name, $workload, $context = NULL, $unique = NULL)
+    public function addTask($function_name, $workload, &$context = NULL, $unique = NULL)
     {
     }
 
@@ -68,7 +68,7 @@ class GearmanClient
      *
      * @return GearmanTask A ``GearmanTask`` object or false if the task could not be added.
      */
-    public function addTaskBackground($function_name, $workload, $context = NULL, $unique = NULL)
+    public function addTaskBackground($function_name, $workload, &$context = NULL, $unique = NULL)
     {
     }
 
@@ -82,7 +82,7 @@ class GearmanClient
      *
      * @return GearmanTask A ``GearmanTask`` object or false if the task could not be added.
      */
-    public function addTaskHigh($function_name, $workload, $context = NULL, $unique = NULL)
+    public function addTaskHigh($function_name, $workload, &$context = NULL, $unique = NULL)
     {
     }
 
@@ -96,7 +96,7 @@ class GearmanClient
      *
      * @return GearmanTask A ``GearmanTask`` object or false if the task could not be added.
      */
-    public function addTaskHighBackground($function_name, $workload, $context = NULL, $unique = NULL)
+    public function addTaskHighBackground($function_name, $workload, &$context = NULL, $unique = NULL)
     {
     }
 
@@ -110,7 +110,7 @@ class GearmanClient
      *
      * @return GearmanTask A ``GearmanTask`` object or false if the task could not be added.
      */
-    public function addTaskLow($function_name, $workload, $context = NULL, $unique = NULL)
+    public function addTaskLow($function_name, $workload, &$context = NULL, $unique = NULL)
     {
     }
 
@@ -124,7 +124,7 @@ class GearmanClient
      *
      * @return GearmanTask A ``GearmanTask`` object or false if the task could not be added.
      */
-    public function addTaskLowBackground($function_name, $workload, $context = NULL, $unique = NULL)
+    public function addTaskLowBackground($function_name, $workload, &$context = NULL, $unique = NULL)
     {
     }
 
@@ -136,7 +136,7 @@ class GearmanClient
      *
      * @return GearmanTask A ``GearmanTask`` object.
      */
-    public function addTaskStatus($job_handle, $context = NULL)
+    public function addTaskStatus($job_handle, &$context = NULL)
     {
     }
 

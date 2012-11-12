@@ -9,6 +9,6 @@
  *
  * @return mixed Returns the value of the last element or false for empty array.
  */
-function end($array)
+function end(&$array)
 {
 }

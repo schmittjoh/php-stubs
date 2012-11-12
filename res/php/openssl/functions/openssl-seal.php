@@ -16,6 +16,6 @@
  *             , and the envelope keys in
  *             .
  */
-function openssl_seal($data, $sealed_data, $env_keys, $pub_key_ids, $method = NULL)
+function openssl_seal($data, &$sealed_data, &$env_keys, $pub_key_ids, $method = NULL)
 {
 }

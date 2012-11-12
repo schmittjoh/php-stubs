@@ -14,6 +14,6 @@
  * @return int Returns the number of rows in , which
  *             may be 0 or more, .
  */
-function oci_fetch_all($statement, $output, $skip = 0, $maxrows = -1, $flags = 0)
+function oci_fetch_all($statement, &$output, $skip = 0, $maxrows = -1, $flags = 0)
 {
 }

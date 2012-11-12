@@ -12,6 +12,6 @@
  *
  * @return string 
  */
-function http_put_file($url, $file, $options = array(), $info = array())
+function http_put_file($url, $file, $options = array(), &$info = array())
 {
 }

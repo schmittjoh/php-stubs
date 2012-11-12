@@ -15,6 +15,6 @@
  *             matches given , 0 if it does not, or false
  *             if an error occurred.
  */
-function preg_match($pattern, $subject, $matches = array(), $flags = 0, $offset = 0)
+function preg_match($pattern, $subject, &$matches = array(), $flags = 0, $offset = 0)
 {
 }

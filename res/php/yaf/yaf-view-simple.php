@@ -70,7 +70,7 @@ class Yaf_View_Simple implements \Yaf_View_Interface
      *
      * @return bool 
      */
-    public function assignRef($name, $value)
+    public function assignRef($name, &$value)
     {
     }
 

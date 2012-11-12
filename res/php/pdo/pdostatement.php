@@ -19,7 +19,7 @@ class PDOStatement implements \Traversable
      *
      * @return bool 
      */
-    public function bindColumn($column, $param, $type = NULL, $maxlen = NULL, $driverdata = NULL)
+    public function bindColumn($column, &$param, $type = NULL, $maxlen = NULL, $driverdata = NULL)
     {
     }
 
@@ -36,7 +36,7 @@ class PDOStatement implements \Traversable
      *
      * @return bool 
      */
-    public function bindParam($parameter, $variable, $data_type = 0, $length = NULL, $driver_options = NULL)
+    public function bindParam($parameter, &$variable, $data_type = 0, $length = NULL, $driver_options = NULL)
     {
     }
 

@@ -12,6 +12,6 @@
  *
  * @return string Returns the read data, as a string
  */
-function stream_socket_recvfrom($socket, $length, $flags = 0, $address = NULL)
+function stream_socket_recvfrom($socket, $length, $flags = 0, &$address = NULL)
 {
 }

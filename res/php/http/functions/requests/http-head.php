@@ -11,6 +11,6 @@
  *
  * @return string 
  */
-function http_head($url, $options = array(), $info = array())
+function http_head($url, $options = array(), &$info = array())
 {
 }

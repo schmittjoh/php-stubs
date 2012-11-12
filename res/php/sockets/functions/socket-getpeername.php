@@ -14,6 +14,6 @@
  *              , or , in which
  *              case the last socket error code is  updated.
  */
-function socket_getpeername($socket, $address, $port = NULL)
+function socket_getpeername($socket, &$address, &$port = NULL)
 {
 }

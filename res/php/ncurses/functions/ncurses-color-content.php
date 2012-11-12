@@ -14,6 +14,6 @@
  *             if ncurses or terminal color capabilities have not been
  *             initialized.
  */
-function ncurses_color_content($color, $r, $g, $b)
+function ncurses_color_content($color, &$r, &$g, &$b)
 {
 }

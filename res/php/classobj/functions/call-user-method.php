@@ -13,6 +13,6 @@
  *
  * @return mixed
  */
-function call_user_method($method_name, $obj, $parameter = NULL, $_ = NULL)
+function call_user_method($method_name, &$obj, $parameter = NULL, $_ = NULL)
 {
 }

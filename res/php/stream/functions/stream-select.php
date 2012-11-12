@@ -18,6 +18,6 @@
  *             is returned and a warning raised (this can happen if the system call is
  *             interrupted by an incoming signal).
  */
-function stream_select($read, $write, $except, $tv_sec, $tv_usec = 0)
+function stream_select(&$read, &$write, &$except, $tv_sec, $tv_usec = 0)
 {
 }

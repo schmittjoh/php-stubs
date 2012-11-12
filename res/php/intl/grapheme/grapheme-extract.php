@@ -14,6 +14,6 @@
  * @return string A string starting at offset $start and ending on a default grapheme cluster
  *                boundary that conforms to the $size and $extract_type specified.
  */
-function grapheme_extract($haystack, $size, $extract_type = NULL, $start = 0, $next = NULL)
+function grapheme_extract($haystack, $size, $extract_type = NULL, $start = 0, &$next = NULL)
 {
 }

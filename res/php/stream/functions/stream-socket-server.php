@@ -13,6 +13,6 @@
  *
  * @return resource Returns the created stream, or false on error.
  */
-function stream_socket_server($local_socket, $errno = NULL, $errstr = NULL, $flags = 0, $context = NULL)
+function stream_socket_server($local_socket, &$errno = NULL, &$errstr = NULL, $flags = 0, $context = NULL)
 {
 }

@@ -27,7 +27,7 @@ class Spoofchecker
      *
      * @return bool 
      */
-    public function areConfusable($s1, $s2, $error = NULL)
+    public function areConfusable($s1, $s2, &$error = NULL)
     {
     }
 
@@ -39,7 +39,7 @@ class Spoofchecker
      *
      * @return bool 
      */
-    public function isSuspicious($text, $error = NULL)
+    public function isSuspicious($text, &$error = NULL)
     {
     }
 

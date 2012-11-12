@@ -12,6 +12,6 @@
  *
  * @return string Returns the patched string, or false on error.
  */
-function xdiff_string_patch($str, $patch, $flags = NULL, $error = NULL)
+function xdiff_string_patch($str, $patch, $flags = NULL, &$error = NULL)
 {
 }

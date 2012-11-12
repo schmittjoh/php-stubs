@@ -12,6 +12,6 @@
  *
  * @return bool 
  */
-function socket_create_pair($domain, $type, $protocol, $fd)
+function socket_create_pair($domain, $type, $protocol, &$fd)
 {
 }

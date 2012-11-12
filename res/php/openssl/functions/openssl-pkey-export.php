@@ -12,6 +12,6 @@
  *
  * @return bool 
  */
-function openssl_pkey_export($key, $out, $passphrase = NULL, $configargs = array())
+function openssl_pkey_export($key, &$out, $passphrase = NULL, $configargs = array())
 {
 }

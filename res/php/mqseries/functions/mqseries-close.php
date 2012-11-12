@@ -13,6 +13,6 @@
  *
  * @return void 
  */
-function mqseries_close($hconn, $hobj, $options, $compCode, $reason)
+function mqseries_close($hconn, $hobj, $options, &$compCode, &$reason)
 {
 }

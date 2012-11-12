@@ -12,6 +12,6 @@
  *
  * @return int Returns the new number of elements in the array.
  */
-function array_push($array, $var, $_ = NULL)
+function array_push(&$array, $var, $_ = NULL)
 {
 }

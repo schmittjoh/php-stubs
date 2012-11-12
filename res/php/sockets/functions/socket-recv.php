@@ -16,6 +16,6 @@
  *             passed to  to get a textual explanation
  *             of the error.
  */
-function socket_recv($socket, $buf, $len, $flags)
+function socket_recv($socket, &$buf, $len, $flags)
 {
 }

@@ -12,6 +12,6 @@
  *
  * @return mixed Returns the CSR.
  */
-function openssl_csr_new($dn, $privkey, $configargs = array(), $extraattribs = array())
+function openssl_csr_new($dn, &$privkey, $configargs = array(), $extraattribs = array())
 {
 }

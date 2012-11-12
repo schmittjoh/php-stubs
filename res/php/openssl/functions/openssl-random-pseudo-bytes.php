@@ -10,6 +10,6 @@
  *
  * @return string Returns the generated string of bytes on success, .
  */
-function openssl_random_pseudo_bytes($length, $crypto_strong = NULL)
+function openssl_random_pseudo_bytes($length, &$crypto_strong = NULL)
 {
 }

@@ -13,6 +13,6 @@
  * @return string Returns the embedded thumbnail, or false if the image contains no
  *                thumbnail.
  */
-function exif_thumbnail($filename, $width = NULL, $height = NULL, $imagetype = NULL)
+function exif_thumbnail($filename, &$width = NULL, &$height = NULL, &$imagetype = NULL)
 {
 }

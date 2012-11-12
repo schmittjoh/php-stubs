@@ -10,6 +10,6 @@
  * @return mixed Returns the value of the first array element, or false if the array is
  *               empty.
  */
-function reset($array)
+function reset(&$array)
 {
 }

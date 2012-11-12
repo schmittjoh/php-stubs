@@ -14,6 +14,6 @@
  *              , or , in which
  *              case the last socket error code is  updated.
  */
-function socket_getsockname($socket, $addr, $port = NULL)
+function socket_getsockname($socket, &$addr, &$port = NULL)
 {
 }

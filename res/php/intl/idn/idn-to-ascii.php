@@ -12,6 +12,6 @@
  *
  * @return string Domain name encoded in ASCII-compatible form.
  */
-function idn_to_ascii($domain, $options = 0, $variant = 0, $idna_info = array())
+function idn_to_ascii($domain, $options = 0, $variant = 0, &$idna_info = array())
 {
 }

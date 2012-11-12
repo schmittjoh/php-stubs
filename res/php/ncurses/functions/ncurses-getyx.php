@@ -11,6 +11,6 @@
  *
  * @return void
  */
-function ncurses_getyx($window, $y, $x)
+function ncurses_getyx($window, &$y, &$x)
 {
 }

@@ -12,6 +12,6 @@
  *
  * @return int Returns value associated with the pattern that was matched.
  */
-function expect_expectl($expect, $cases, $match = array())
+function expect_expectl($expect, $cases, &$match = array())
 {
 }

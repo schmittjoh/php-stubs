@@ -17,7 +17,7 @@ class php_user_filter
      * @return int The  method must return one of
      *             three values upon completion.
      */
-    public function filter($in, $out, $consumed, $closing)
+    public function filter($in, $out, &$consumed, $closing)
     {
     }
 

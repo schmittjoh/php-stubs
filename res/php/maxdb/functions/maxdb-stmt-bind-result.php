@@ -12,7 +12,7 @@
  *
  * @return bool
  */
-function maxdb_stmt_bind_result($stmt, $var1, $_ = NULL)
+function maxdb_stmt_bind_result($stmt, &$var1, &$_ = NULL)
 {
 }
 
@@ -27,6 +27,6 @@ function maxdb_stmt_bind_result($stmt, $var1, $_ = NULL)
  *
  * @return bool
  */
-function maxdb_stmt_bind_result($var1, $_ = NULL)
+function maxdb_stmt_bind_result(&$var1, &$_ = NULL)
 {
 }

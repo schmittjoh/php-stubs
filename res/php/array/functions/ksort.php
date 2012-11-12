@@ -10,6 +10,6 @@
  *
  * @return bool 
  */
-function ksort($array, $sort_flags = 0)
+function ksort(&$array, $sort_flags = 0)
 {
 }

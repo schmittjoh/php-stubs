@@ -13,6 +13,6 @@
  *
  * @return string 
  */
-function http_post_fields($url, $data, $files = array(), $options = array(), $info = array())
+function http_post_fields($url, $data, $files = array(), $options = array(), &$info = array())
 {
 }

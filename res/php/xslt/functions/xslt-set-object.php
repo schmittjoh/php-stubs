@@ -10,6 +10,6 @@
  *
  * @return bool 
  */
-function xslt_set_object($processor, $obj)
+function xslt_set_object($processor, &$obj)
 {
 }

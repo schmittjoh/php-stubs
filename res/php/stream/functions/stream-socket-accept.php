@@ -11,6 +11,6 @@
  *
  * @return resource Returns a stream to the accepted socket connection.
  */
-function stream_socket_accept($server_socket, $timeout = 0, $peername = NULL)
+function stream_socket_accept($server_socket, $timeout = 0, &$peername = NULL)
 {
 }

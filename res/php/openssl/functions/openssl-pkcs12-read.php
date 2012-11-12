@@ -11,6 +11,6 @@
  *
  * @return bool 
  */
-function openssl_pkcs12_read($pkcs12, $certs, $pass)
+function openssl_pkcs12_read($pkcs12, &$certs, $pass)
 {
 }

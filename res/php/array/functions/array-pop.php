@@ -11,6 +11,6 @@
  *               If  is empty (or is not an array),
  *               null will be returned.
  */
-function array_pop($array)
+function array_pop(&$array)
 {
 }

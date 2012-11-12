@@ -13,6 +13,6 @@
  *                command and have all the data from the command passed directly back without
  *                any interference, use the  function.
  */
-function exec($command, $output = array(), $return_var = NULL)
+function exec($command, &$output = array(), &$return_var = NULL)
 {
 }

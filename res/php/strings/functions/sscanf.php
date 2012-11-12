@@ -15,6 +15,6 @@
  *               function will return the number of assigned values. The optional parameters
  *               must be passed by reference.
  */
-function sscanf($str, $format, $_ = NULL)
+function sscanf($str, $format, &$_ = NULL)
 {
 }

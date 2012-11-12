@@ -105,7 +105,7 @@ class SplFileObject extends \SplFileInfo implements \RecursiveIterator, \Travers
      *
      * @return bool 
      */
-    public function flock($operation, $wouldblock = NULL)
+    public function flock($operation, &$wouldblock = NULL)
     {
     }
 
@@ -145,7 +145,7 @@ class SplFileObject extends \SplFileInfo implements \RecursiveIterator, \Travers
      *               function will return the number of assigned values. The optional
      *               parameters must be passed by reference.
      */
-    public function fscanf($format, $_ = NULL)
+    public function fscanf($format, &$_ = NULL)
     {
     }
 

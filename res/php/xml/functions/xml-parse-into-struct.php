@@ -14,6 +14,6 @@
  *             success. This is not the same as false and true, be careful with
  *             operators such as ===.
  */
-function xml_parse_into_struct($parser, $data, $values, $index = array())
+function xml_parse_into_struct($parser, $data, &$values, &$index = array())
 {
 }

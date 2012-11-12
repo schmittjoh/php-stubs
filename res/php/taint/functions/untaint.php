@@ -11,6 +11,6 @@
  *
  * @return bool 
  */
-function untaint($string, $_ = NULL)
+function untaint(&$string, $_ = NULL)
 {
 }

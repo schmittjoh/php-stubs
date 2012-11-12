@@ -11,6 +11,6 @@
  * @return string Returns the last line of the command output on success, and false
  *                on failure.
  */
-function system($command, $return_var = NULL)
+function system($command, &$return_var = NULL)
 {
 }

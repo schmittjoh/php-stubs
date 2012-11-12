@@ -469,7 +469,7 @@ class mysqli
      *
      * @return int Returns number of ready connections in success, false otherwise.
      */
-    public function poll($read, $error, $reject, $sec, $usec = NULL, $read, $error, $reject, $sec, $usec = NULL)
+    public function poll(&$read, &$error, &$reject, $sec, $usec = NULL, &$read, &$error, &$reject, $sec, $usec = NULL)
     {
     }
 

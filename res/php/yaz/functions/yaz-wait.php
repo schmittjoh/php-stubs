@@ -9,6 +9,6 @@
  *
  * @return mixed In event mode, returns resource .
  */
-function yaz_wait($options = array())
+function yaz_wait(&$options = array())
 {
 }

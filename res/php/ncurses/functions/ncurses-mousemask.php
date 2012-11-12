@@ -12,6 +12,6 @@
  *             specified mouse events can be reported. On
  *             complete failure, it returns 0.
  */
-function ncurses_mousemask($newmask, $oldmask)
+function ncurses_mousemask($newmask, &$oldmask)
 {
 }

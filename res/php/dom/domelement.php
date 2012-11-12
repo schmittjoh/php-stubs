@@ -1,7 +1,7 @@
 <?php
 
 /** @phpstub */
-class DOMElement extends \DOMNode
+class DomElement extends \DOMNode
 {
     /** @var string */
     public $tagName;

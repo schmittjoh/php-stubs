@@ -80,8 +80,8 @@ class MultipleIterator implements \Iterator, \Traversable
     /**
      * Gets the registered iterator instances
      *
-     * @return void An ``array`` of all registered iterator instances,
-     *              or false if no sub iterator is attached.
+     * @return array An ``array`` of all registered iterator instances,
+     *               or false if no sub iterator is attached.
      */
     public function key()
     {
