@@ -14,6 +14,6 @@
  *
  * @return bool 
  */
-function oci_bind_array_by_name($statement, $name, &$var_array, $max_table_length, $max_item_length = -1, $type = 0)
+function oci_bind_array_by_name($statement, $name, &$var_array, $max_table_length, $max_item_length = -1, $type = false)
 {
 }

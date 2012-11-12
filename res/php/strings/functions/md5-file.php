@@ -10,6 +10,6 @@
  *
  * @return string Returns a string on success, false otherwise.
  */
-function md5_file($filename, $raw_output = 'false')
+function md5_file($filename, $raw_output = false)
 {
 }

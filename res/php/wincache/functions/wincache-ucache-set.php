@@ -11,7 +11,7 @@
  *
  * @return bool
  */
-function wincache_ucache_set($key, $value, $ttl = 0)
+function wincache_ucache_set($key, $value, $ttl = false)
 {
 }
 
@@ -26,6 +26,6 @@ function wincache_ucache_set($key, $value, $ttl = 0)
  *
  * @return bool
  */
-function wincache_ucache_set($values, $unused = NULL, $ttl = 0)
+function wincache_ucache_set($values, $unused = NULL, $ttl = false)
 {
 }

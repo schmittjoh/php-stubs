@@ -9,7 +9,7 @@ class HttpQueryString implements \ArrayAccess, \Serializable
      * @param bool $global
      * @param mixed $add
      */
-    public function __construct($global = 'true', $add = NULL)
+    public function __construct($global = true, $add = NULL)
     {
     }
 
@@ -23,7 +23,7 @@ class HttpQueryString implements \ArrayAccess, \Serializable
      *
      * @return mixed Returns the value of the query string param or the whole query string if no key was specified on success or defval if key does not exist.
      */
-    public function get($key = NULL, $type = '0', $defval = 'null', $delete = 'false')
+    public function get($key = NULL, $type = '0', $defval = NULL, $delete = false)
     {
     }
 
@@ -56,7 +56,7 @@ class HttpQueryString implements \ArrayAccess, \Serializable
      *
      * @return HttpQueryString Returns always the same ``HttpQueryString`` instance regarding the global setting.
      */
-    public function singleton($global = 'true')
+    public function singleton($global = true)
     {
     }
 

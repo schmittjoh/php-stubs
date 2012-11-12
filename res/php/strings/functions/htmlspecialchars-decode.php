@@ -10,6 +10,6 @@
  *
  * @return string Returns the decoded string.
  */
-function htmlspecialchars_decode($string, $flags = 0)
+function htmlspecialchars_decode($string, $flags = false)
 {
 }

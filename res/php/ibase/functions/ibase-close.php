@@ -9,6 +9,6 @@
  *
  * @return bool 
  */
-function ibase_close($connection_id = 'null')
+function ibase_close($connection_id = NULL)
 {
 }

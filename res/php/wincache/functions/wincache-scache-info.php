@@ -9,6 +9,6 @@
  *
  * @return array Array of meta data about session cache
  */
-function wincache_scache_info($summaryonly = 'false')
+function wincache_scache_info($summaryonly = false)
 {
 }

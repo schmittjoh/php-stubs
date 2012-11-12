@@ -15,6 +15,6 @@
  *                  the next calls to ldap_* funcs, usually with
  *                  .
  */
-function ldap_connect($hostname = 'null', $port = 389)
+function ldap_connect($hostname = NULL, $port = 389)
 {
 }

@@ -16,6 +16,6 @@
  *               consumes in the record. The total of all field sizes is equal to the
  *               record size as it can be retrieved with .
  */
-function px_get_schema($pxdoc, $mode = 0)
+function px_get_schema($pxdoc, $mode = false)
 {
 }

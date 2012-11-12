@@ -11,6 +11,6 @@
  *                instance. Returns false if  is not an
  *                object.
  */
-function get_class($object = 'null')
+function get_class($object = NULL)
 {
 }

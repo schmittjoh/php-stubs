@@ -12,7 +12,7 @@
  *
  * @return array
  */
-function sqlite_array_query($dbhandle, $query, $result_type = 0, $decode_binary = 'true')
+function sqlite_array_query($dbhandle, $query, $result_type = false, $decode_binary = true)
 {
 }
 
@@ -28,7 +28,7 @@ function sqlite_array_query($dbhandle, $query, $result_type = 0, $decode_binary 
  *
  * @return array
  */
-function sqlite_array_query($query, $dbhandle, $result_type = 0, $decode_binary = 'true')
+function sqlite_array_query($query, $dbhandle, $result_type = false, $decode_binary = true)
 {
 }
 
@@ -43,6 +43,6 @@ function sqlite_array_query($query, $dbhandle, $result_type = 0, $decode_binary 
  *
  * @return array
  */
-function sqlite_array_query($query, $result_type = 0, $decode_binary = 'true')
+function sqlite_array_query($query, $result_type = false, $decode_binary = true)
 {
 }

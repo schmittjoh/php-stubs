@@ -12,6 +12,6 @@
  *
  * @return string Returns a URL-encoded string.
  */
-function http_build_query($query_data, $numeric_prefix = NULL, $arg_separator = NULL, $enc_type = 0)
+function http_build_query($query_data, $numeric_prefix = NULL, $arg_separator = NULL, $enc_type = false)
 {
 }

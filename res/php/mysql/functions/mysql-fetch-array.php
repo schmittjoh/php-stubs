@@ -17,6 +17,6 @@
  *               works), using , you only get number indices
  *               (as  works).
  */
-function mysql_fetch_array($result, $result_type = 0)
+function mysql_fetch_array($result, $result_type = false)
 {
 }

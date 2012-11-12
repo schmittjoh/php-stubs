@@ -10,6 +10,6 @@
  *
  * @return int Returns an ``integer``.
  */
-function idate($format, $timestamp = 0)
+function idate($format, $timestamp = false)
 {
 }

@@ -11,6 +11,6 @@
  * @return resource (Procedural style only)
  *                  Returns a magic database resource on success.
  */
-function finfo_open($options = 0, $magic_file = 'null')
+function finfo_open($options = false, $magic_file = NULL)
 {
 }

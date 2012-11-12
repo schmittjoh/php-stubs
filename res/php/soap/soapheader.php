@@ -12,7 +12,7 @@ class SoapHeader
      * @param bool $mustunderstand
      * @param string $actor
      */
-    public function SoapHeader($namespace, $name, $data = NULL, $mustunderstand = 'false', $actor = NULL)
+    public function SoapHeader($namespace, $name, $data = NULL, $mustunderstand = false, $actor = NULL)
     {
     }
 

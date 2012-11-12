@@ -10,6 +10,6 @@
  *
  * @return bool 
  */
-function mb_check_encoding($var = 'null', $encoding = 'mb_internal_encoding()')
+function mb_check_encoding($var = NULL, $encoding = 'mb_internal_encoding()')
 {
 }

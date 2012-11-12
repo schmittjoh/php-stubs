@@ -11,6 +11,6 @@
  *
  * @return bool 
  */
-function openssl_x509_export($x509, &$output, $notext = 'true')
+function openssl_x509_export($x509, &$output, $notext = true)
 {
 }

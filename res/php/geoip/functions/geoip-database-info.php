@@ -9,6 +9,6 @@
  *
  * @return string Returns the corresponding database version, or null on error.
  */
-function geoip_database_info($database = 0)
+function geoip_database_info($database = false)
 {
 }

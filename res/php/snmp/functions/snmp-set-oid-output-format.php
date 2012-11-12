@@ -9,6 +9,6 @@
  *
  * @return bool 
  */
-function snmp_set_oid_output_format($oid_format = 0)
+function snmp_set_oid_output_format($oid_format = false)
 {
 }

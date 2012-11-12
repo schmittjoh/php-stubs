@@ -13,6 +13,6 @@
  *             occurs, false is returned and unless the function was called as
  *             @, an error message is printed.
  */
-function readfile($filename, $use_include_path = 'false', $context = NULL)
+function readfile($filename, $use_include_path = false, $context = NULL)
 {
 }

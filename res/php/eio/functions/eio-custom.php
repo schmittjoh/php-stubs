@@ -12,6 +12,6 @@
  *
  * @return resource returns request resource on success or false on error.
  */
-function eio_custom($execute, $pri, $callback, $data = 'NULL')
+function eio_custom($execute, $pri, $callback, $data = NULL)
 {
 }

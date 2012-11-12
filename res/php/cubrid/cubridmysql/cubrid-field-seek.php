@@ -10,6 +10,6 @@
  *
  * @return bool true on success.
  */
-function cubrid_field_seek($result, $field_offset = 0)
+function cubrid_field_seek($result, $field_offset = false)
 {
 }

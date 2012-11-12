@@ -9,6 +9,6 @@
  *
  * @return array Array of meta data about the resolve file path cache
  */
-function wincache_rplist_fileinfo($summaryonly = 'false')
+function wincache_rplist_fileinfo($summaryonly = false)
 {
 }

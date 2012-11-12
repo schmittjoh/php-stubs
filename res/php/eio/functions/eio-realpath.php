@@ -12,6 +12,6 @@
  *
  * @return resource 
  */
-function eio_realpath($path, $pri, $callback, $data = 'NULL')
+function eio_realpath($path, $pri, $callback, $data = NULL)
 {
 }

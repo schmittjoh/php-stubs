@@ -11,6 +11,6 @@
  *
  * @return bool 
  */
-function pg_lo_seek($large_object, $offset, $whence = 0)
+function pg_lo_seek($large_object, $offset, $whence = false)
 {
 }

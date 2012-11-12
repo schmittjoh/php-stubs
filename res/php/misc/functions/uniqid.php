@@ -10,6 +10,6 @@
  *
  * @return string Returns the unique identifier, as a string.
  */
-function uniqid($prefix = '', $more_entropy = 'false')
+function uniqid($prefix = '', $more_entropy = false)
 {
 }

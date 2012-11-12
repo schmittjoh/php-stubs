@@ -13,6 +13,6 @@
  * @return int Returns true if the certificate can be used for the intended purpose,
  *             false if it cannot, or -1 on error.
  */
-function openssl_x509_checkpurpose($x509cert, $purpose, $cainfo = 'array()', $untrustedfile = NULL)
+function openssl_x509_checkpurpose($x509cert, $purpose, $cainfo = array(), $untrustedfile = NULL)
 {
 }

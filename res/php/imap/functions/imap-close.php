@@ -10,6 +10,6 @@
  *
  * @return bool 
  */
-function imap_close($imap_stream, $flag = 0)
+function imap_close($imap_stream, $flag = false)
 {
 }

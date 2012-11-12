@@ -10,6 +10,6 @@
  *
  * @return bool 
  */
-function id3_remove_tag($filename, $version = 0)
+function id3_remove_tag($filename, $version = false)
 {
 }

@@ -12,6 +12,6 @@
  *
  * @return bool 
  */
-function ssh2_sftp_mkdir($sftp, $dirname, $mode = 777, $recursive = 'false')
+function ssh2_sftp_mkdir($sftp, $dirname, $mode = 777, $recursive = false)
 {
 }

@@ -14,6 +14,6 @@
  *               division) and the second being
  *               (the remainder of the division).
  */
-function gmp_div_qr($n, $d, $round = 0)
+function gmp_div_qr($n, $d, $round = false)
 {
 }

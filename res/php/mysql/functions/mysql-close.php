@@ -9,6 +9,6 @@
  *
  * @return bool 
  */
-function mysql_close($link_identifier = 'NULL')
+function mysql_close($link_identifier = NULL)
 {
 }

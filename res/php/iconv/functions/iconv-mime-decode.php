@@ -12,6 +12,6 @@
  * @return string Returns a decoded  field on success,
  *                or false if an error occurs during the decoding.
  */
-function iconv_mime_decode($encoded_header, $mode = 0, $charset = 'ini_get("iconv.internal_encoding")')
+function iconv_mime_decode($encoded_header, $mode = false, $charset = 'ini_get("iconv.internal_encoding")')
 {
 }

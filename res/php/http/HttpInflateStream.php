@@ -8,7 +8,7 @@ class HttpInflateStream
      *
      * @param int $flags
      */
-    public function __construct($flags = 0)
+    public function __construct($flags = false)
     {
     }
 
@@ -20,7 +20,7 @@ class HttpInflateStream
      *
      * @return HttpInflateStream
      */
-    public function factory($flags = 0, $class_name = 'HttpInflateStream')
+    public function factory($flags = false, $class_name = 'HttpInflateStream')
     {
     }
 

@@ -10,6 +10,6 @@
  *
  * @return string Returns the initialization vector, or false on error.
  */
-function mcrypt_create_iv($size, $source = 0)
+function mcrypt_create_iv($size, $source = false)
 {
 }

@@ -13,6 +13,6 @@
  *              to get a textual explanation of the
  *              error.
  */
-function socket_listen($socket, $backlog = 0)
+function socket_listen($socket, $backlog = false)
 {
 }

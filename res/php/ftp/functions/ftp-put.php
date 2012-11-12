@@ -13,6 +13,6 @@
  *
  * @return bool 
  */
-function ftp_put($ftp_stream, $remote_file, $local_file, $mode, $startpos = 0)
+function ftp_put($ftp_stream, $remote_file, $local_file, $mode, $startpos = false)
 {
 }

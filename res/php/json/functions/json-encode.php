@@ -10,6 +10,6 @@
  *
  * @return string Returns a JSON encoded ``string`` on success .
  */
-function json_encode($value, $options = 0)
+function json_encode($value, $options = false)
 {
 }

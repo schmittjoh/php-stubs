@@ -9,6 +9,6 @@
  *
  * @return array Array of Shared Memory Allocation data; false on failure.
  */
-function apc_sma_info($limited = 'false')
+function apc_sma_info($limited = false)
 {
 }

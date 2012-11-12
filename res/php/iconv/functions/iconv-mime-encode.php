@@ -12,6 +12,6 @@
  * @return string Returns an encoded  field on success,
  *                or false if an error occurs during the encoding.
  */
-function iconv_mime_encode($field_name, $field_value, $preferences = 'null')
+function iconv_mime_encode($field_name, $field_value, $preferences = NULL)
 {
 }

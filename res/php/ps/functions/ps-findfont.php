@@ -13,6 +13,6 @@
  * @return int Returns the identifier of the font or zero in case of an error. The
  *             identifier is a positive number.
  */
-function ps_findfont($psdoc, $fontname, $encoding, $embed = 'false')
+function ps_findfont($psdoc, $fontname, $encoding, $embed = false)
 {
 }

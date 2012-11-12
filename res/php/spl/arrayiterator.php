@@ -9,7 +9,7 @@ class ArrayIterator implements \Iterator, \Traversable, \ArrayAccess, \SeekableI
      * @param mixed $array
      * @param int $flags
      */
-    public function __construct($array = 'array()', $flags = 0)
+    public function __construct($array = array(), $flags = false)
     {
     }
 

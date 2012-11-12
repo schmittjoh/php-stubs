@@ -11,6 +11,6 @@
  *
  * @return string Returns the body of the specified message, as a string.
  */
-function imap_body($imap_stream, $msg_number, $options = 0)
+function imap_body($imap_stream, $msg_number, $options = false)
 {
 }

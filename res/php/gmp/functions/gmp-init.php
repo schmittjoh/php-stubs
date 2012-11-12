@@ -10,6 +10,6 @@
  *
  * @return resource 
  */
-function gmp_init($number, $base = 0)
+function gmp_init($number, $base = false)
 {
 }

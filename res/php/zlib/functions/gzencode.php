@@ -11,6 +11,6 @@
  *
  * @return string The encoded string, or false if an error occurred.
  */
-function gzencode($data, $level = -1, $encoding_mode = 0)
+function gzencode($data, $level = -1, $encoding_mode = false)
 {
 }

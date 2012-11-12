@@ -14,6 +14,6 @@
  *
  * @return bool 
  */
-function openssl_pkcs7_encrypt($infile, $outfile, $recipcerts, $headers, $flags = 0, $cipherid = 0)
+function openssl_pkcs7_encrypt($infile, $outfile, $recipcerts, $headers, $flags = false, $cipherid = false)
 {
 }

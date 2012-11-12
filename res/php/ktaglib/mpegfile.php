@@ -26,7 +26,7 @@ class KTaglib_MPEG_File
      *
      * @return KTaglib_ID3v1_Tag Returns an KTaglib_MPEG_ID3v1Tag object or false if there is no ID3v1 tag.
      */
-    public function getID3v1Tag($create = 'false')
+    public function getID3v1Tag($create = false)
     {
     }
 
@@ -38,7 +38,7 @@ class KTaglib_MPEG_File
      * @return KTaglib_ID3v2_Tag Returns the KTaglib_ID3v2_Tag object of the MPEG file or false if there is
      *                           no ID3v2 tag
      */
-    public function getID3v2Tag($create = 'false')
+    public function getID3v2Tag($create = false)
     {
     }
 }

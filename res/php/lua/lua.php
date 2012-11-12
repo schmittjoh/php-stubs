@@ -10,7 +10,7 @@ class Lua
      *
      * @param string $lua_script_file
      */
-    public function __construct($lua_script_file = 'NULL')
+    public function __construct($lua_script_file = NULL)
     {
     }
 
@@ -39,7 +39,7 @@ class Lua
      * @return mixed Returns result of the called function, null for wrong arguments or
      *               false on other failure.
      */
-    public function call($lua_func, $args = array(), $use_self = 0, $lua_func, $args = array(), $use_self = 0)
+    public function call($lua_func, $args = array(), $use_self = false, $lua_func, $args = array(), $use_self = false)
     {
     }
 

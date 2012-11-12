@@ -14,6 +14,6 @@
  *
  * @return bool 
  */
-function msg_send($queue, $msgtype, $message, $serialize = 'true', $blocking = 'true', &$errorcode = NULL)
+function msg_send($queue, $msgtype, $message, $serialize = true, $blocking = true, &$errorcode = NULL)
 {
 }

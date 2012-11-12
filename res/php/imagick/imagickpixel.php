@@ -38,7 +38,7 @@ class ImagickPixel
      * @return array An array of channel values, each normalized if true is given as param. Throws
      *               ImagickPixelException on error.
      */
-    public function getColor($normalized = 'false')
+    public function getColor($normalized = false)
     {
     }
 

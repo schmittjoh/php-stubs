@@ -10,6 +10,6 @@
  *
  * @return array
  */
-function localtime($timestamp = 0, $is_associative = 'false')
+function localtime($timestamp = false, $is_associative = false)
 {
 }

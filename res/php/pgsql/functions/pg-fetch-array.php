@@ -15,6 +15,6 @@
  *               ``string``.  Database
  *               values are returned as null.
  */
-function pg_fetch_array($result, $row = NULL, $result_type = 0)
+function pg_fetch_array($result, $row = NULL, $result_type = false)
 {
 }

@@ -9,6 +9,6 @@
  *
  * @return bool 
  */
-function session_regenerate_id($delete_old_session = 'false')
+function session_regenerate_id($delete_old_session = false)
 {
 }

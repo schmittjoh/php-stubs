@@ -15,6 +15,6 @@
  * @return array Returns an array of message numbers sorted by the given
  *               parameters.
  */
-function imap_sort($imap_stream, $criteria, $reverse, $options = 0, $search_criteria = 'null', $charset = 'NIL')
+function imap_sort($imap_stream, $criteria, $reverse, $options = false, $search_criteria = NULL, $charset = 'NIL')
 {
 }

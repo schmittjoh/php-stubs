@@ -13,6 +13,6 @@
  *
  * @return int Returns the dictionary link identifier on success.
  */
-function pspell_new($language, $spelling = NULL, $jargon = NULL, $encoding = NULL, $mode = 0)
+function pspell_new($language, $spelling = NULL, $jargon = NULL, $encoding = NULL, $mode = false)
 {
 }

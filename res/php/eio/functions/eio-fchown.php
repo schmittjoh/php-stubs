@@ -14,6 +14,6 @@
  *
  * @return resource
  */
-function eio_fchown($fd, $uid, $gid = -1, $pri = 0, $callback = 'NULL', $data = 'NULL')
+function eio_fchown($fd, $uid, $gid = -1, $pri = false, $callback = NULL, $data = NULL)
 {
 }

@@ -10,6 +10,6 @@
  *
  * @return string A string with the extension corresponding to the given image type.
  */
-function image_type_to_extension($imagetype, $include_dot = 'true')
+function image_type_to_extension($imagetype, $include_dot = true)
 {
 }

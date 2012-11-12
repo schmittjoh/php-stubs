@@ -11,6 +11,6 @@
  *
  * @return bool 
  */
-function pcntl_setpriority($priority, $pid = 0, $process_identifier = 0)
+function pcntl_setpriority($priority, $pid = false, $process_identifier = false)
 {
 }

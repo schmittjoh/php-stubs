@@ -10,6 +10,6 @@
  *
  * @return string Returns the hash as a 32-character hexadecimal number.
  */
-function md5($str, $raw_output = 'false')
+function md5($str, $raw_output = false)
 {
 }

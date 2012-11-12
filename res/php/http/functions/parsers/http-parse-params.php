@@ -10,6 +10,6 @@
  *
  * @return object Returns parameter list as stdClass object.
  */
-function http_parse_params($param, $flags = 0)
+function http_parse_params($param, $flags = false)
 {
 }

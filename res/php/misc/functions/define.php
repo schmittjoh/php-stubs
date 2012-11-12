@@ -11,6 +11,6 @@
  *
  * @return bool 
  */
-function define($name, $value, $case_insensitive = 'false')
+function define($name, $value, $case_insensitive = false)
 {
 }

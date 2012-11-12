@@ -13,6 +13,6 @@
  *
  * @return string Returns the encrypted string on success.
  */
-function openssl_encrypt($data, $method, $password, $raw_output = 'false', $iv = '')
+function openssl_encrypt($data, $method, $password, $raw_output = false, $iv = '')
 {
 }

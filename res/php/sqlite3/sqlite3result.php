@@ -40,7 +40,7 @@ class SQLite3Result
      * @return array Returns a result row as an associatively or numerically indexed array or
      *               both. Alternately will return false if there are no more rows.
      */
-    public function fetchArray($mode = 0)
+    public function fetchArray($mode = false)
     {
     }
 

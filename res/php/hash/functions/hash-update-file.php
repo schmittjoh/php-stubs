@@ -11,6 +11,6 @@
  *
  * @return bool 
  */
-function hash_update_file($context, $filename, $context = 'null')
+function hash_update_file($context, $filename, $context = NULL)
 {
 }

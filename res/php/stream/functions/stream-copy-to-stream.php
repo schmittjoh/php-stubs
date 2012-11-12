@@ -12,6 +12,6 @@
  *
  * @return int Returns the total count of bytes copied.
  */
-function stream_copy_to_stream($source, $dest, $maxlength = -1, $offset = 0)
+function stream_copy_to_stream($source, $dest, $maxlength = -1, $offset = false)
 {
 }

@@ -13,6 +13,6 @@
  *              belongs to a class which is a subclass of
  *              , false otherwise.
  */
-function is_subclass_of($object, $class_name, $allow_string = 'true')
+function is_subclass_of($object, $class_name, $allow_string = true)
 {
 }

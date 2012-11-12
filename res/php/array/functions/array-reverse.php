@@ -10,6 +10,6 @@
  *
  * @return array Returns the reversed array.
  */
-function array_reverse($array, $preserve_keys = 'false')
+function array_reverse($array, $preserve_keys = false)
 {
 }

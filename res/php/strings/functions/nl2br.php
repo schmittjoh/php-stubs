@@ -10,6 +10,6 @@
  *
  * @return string Returns the altered string.
  */
-function nl2br($string, $is_xhtml = 'true')
+function nl2br($string, $is_xhtml = true)
 {
 }

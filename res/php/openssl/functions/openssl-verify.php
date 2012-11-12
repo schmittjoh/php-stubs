@@ -13,6 +13,6 @@
  * @return int Returns 1 if the signature is correct, 0 if it is incorrect, and
  *             -1 on error.
  */
-function openssl_verify($data, $signature, $pub_key_id, $signature_alg = 0)
+function openssl_verify($data, $signature, $pub_key_id, $signature_alg = false)
 {
 }

@@ -9,6 +9,6 @@
  *
  * @return int Returns the MySQL protocol on success.
  */
-function mysql_get_proto_info($link_identifier = 'NULL')
+function mysql_get_proto_info($link_identifier = NULL)
 {
 }

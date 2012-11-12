@@ -11,7 +11,7 @@
  *
  * @return object
  */
-function pg_fetch_object($result, $row = NULL, $result_type = 0)
+function pg_fetch_object($result, $row = NULL, $result_type = false)
 {
 }
 

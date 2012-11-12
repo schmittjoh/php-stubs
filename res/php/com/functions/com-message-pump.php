@@ -11,6 +11,6 @@
  *              dispatched, and the function will return true. If the timeout occurs and
  *              no messages were processed, the return value will be false.
  */
-function com_message_pump($timeoutms = 0)
+function com_message_pump($timeoutms = false)
 {
 }

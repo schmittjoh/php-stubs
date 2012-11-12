@@ -12,6 +12,6 @@
  *
  * @return bool with the specified redirection status code.
  */
-function http_redirect($url = NULL, $params = array(), $session = 'false', $status = 0)
+function http_redirect($url = NULL, $params = array(), $session = false, $status = false)
 {
 }

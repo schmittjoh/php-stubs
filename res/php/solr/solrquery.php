@@ -137,7 +137,7 @@ class SolrQuery extends \SolrModifiableParams implements \Serializable
      *
      * @return SolrQuery Returns the current SolrQuery object.
      */
-    public function addSortField($field, $order = 0)
+    public function addSortField($field, $order = false)
     {
     }
 

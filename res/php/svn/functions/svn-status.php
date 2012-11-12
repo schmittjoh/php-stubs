@@ -11,6 +11,6 @@
  * @return array Returns a numerically indexed array of associative arrays detailing
  *               the status of items in the repository:
  */
-function svn_status($path, $flags = 0)
+function svn_status($path, $flags = false)
 {
 }

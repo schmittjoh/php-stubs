@@ -12,6 +12,6 @@
  *
  * @return string
  */
-function ibase_db_info($service_handle, $db, $action, $argument = 0)
+function ibase_db_info($service_handle, $db, $action, $argument = false)
 {
 }

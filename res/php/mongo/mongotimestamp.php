@@ -15,7 +15,7 @@ class MongoTimestamp
      * @param int $sec
      * @param int $inc
      */
-    public function __construct($sec = 0, $inc = NULL)
+    public function __construct($sec = false, $inc = NULL)
     {
     }
 

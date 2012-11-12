@@ -12,6 +12,6 @@
  *
  * @return resource Returns a MS SQL link identifier on success, or false on error.
  */
-function mssql_connect($servername = NULL, $username = NULL, $password = NULL, $new_link = 'false')
+function mssql_connect($servername = NULL, $username = NULL, $password = NULL, $new_link = false)
 {
 }

@@ -14,6 +14,6 @@
  *
  * @return resource returns request resource on success or false on error.
  */
-function eio_readahead($fd, $offset, $length, $pri = 0, $callback = 'NULL', $data = 'NULL')
+function eio_readahead($fd, $offset, $length, $pri = false, $callback = NULL, $data = NULL)
 {
 }

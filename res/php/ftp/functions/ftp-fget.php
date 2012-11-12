@@ -13,6 +13,6 @@
  *
  * @return bool 
  */
-function ftp_fget($ftp_stream, $handle, $remote_file, $mode, $resumepos = 0)
+function ftp_fget($ftp_stream, $handle, $remote_file, $mode, $resumepos = false)
 {
 }

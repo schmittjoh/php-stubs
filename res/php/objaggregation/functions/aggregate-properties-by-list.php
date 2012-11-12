@@ -12,6 +12,6 @@
  *
  * @return void 
  */
-function aggregate_properties_by_list($object, $class_name, $properties_list, $exclude = 'false')
+function aggregate_properties_by_list($object, $class_name, $properties_list, $exclude = false)
 {
 }

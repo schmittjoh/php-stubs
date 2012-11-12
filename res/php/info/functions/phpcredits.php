@@ -9,6 +9,6 @@
  *
  * @return bool 
  */
-function phpcredits($flag = 0)
+function phpcredits($flag = false)
 {
 }

@@ -9,6 +9,6 @@
  *
  * @return bool 
  */
-function ibase_drop_db($connection = 'null')
+function ibase_drop_db($connection = NULL)
 {
 }

@@ -98,7 +98,7 @@ class HttpRequestPool implements \Iterator, \Countable
      *
      * @return bool 
      */
-    public function socketSelect($timeout = 0)
+    public function socketSelect($timeout = false)
     {
     }
 }

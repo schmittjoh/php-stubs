@@ -14,6 +14,6 @@
  *              to get a textual explanation of the
  *              error.
  */
-function socket_connect($socket, $address, $port = 0)
+function socket_connect($socket, $address, $port = false)
 {
 }

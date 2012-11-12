@@ -11,6 +11,6 @@
  *
  * @return int The id of the new spot color or 0 in case of an error.
  */
-function ps_makespotcolor($psdoc, $name, $reserved = 0)
+function ps_makespotcolor($psdoc, $name, $reserved = false)
 {
 }

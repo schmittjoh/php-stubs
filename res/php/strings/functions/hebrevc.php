@@ -10,6 +10,6 @@
  *
  * @return string Returns the visual string.
  */
-function hebrevc($hebrew_text, $max_chars_per_line = 0)
+function hebrevc($hebrew_text, $max_chars_per_line = false)
 {
 }

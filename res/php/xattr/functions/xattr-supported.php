@@ -12,6 +12,6 @@
  *              false if it doesn't and null if it can't be determined (for example
  *              wrong path or lack of permissions to file).
  */
-function xattr_supported($filename, $flags = 0)
+function xattr_supported($filename, $flags = false)
 {
 }

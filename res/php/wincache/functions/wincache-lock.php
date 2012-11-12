@@ -10,6 +10,6 @@
  *
  * @return bool 
  */
-function wincache_lock($key, $isglobal = 'false')
+function wincache_lock($key, $isglobal = false)
 {
 }

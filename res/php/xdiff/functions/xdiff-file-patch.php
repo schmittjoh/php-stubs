@@ -13,6 +13,6 @@
  * @return mixed Returns false if an internal error happened, string with rejected
  *               chunks if patch couldn't be applied or true if patch has been successfully applied.
  */
-function xdiff_file_patch($file, $patch, $dest, $flags = 0)
+function xdiff_file_patch($file, $patch, $dest, $flags = false)
 {
 }

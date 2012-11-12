@@ -10,6 +10,6 @@
  * @return array Returns an associative array containing the data returned from the system
  *               call. All entries are accessible by using their documented field names.
  */
-function getrusage($who = 0)
+function getrusage($who = false)
 {
 }

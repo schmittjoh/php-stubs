@@ -13,6 +13,6 @@
  *                  returns a ``resource`` on success, or false on
  *                  error.
  */
-function mysql_query($query, $link_identifier = 'NULL')
+function mysql_query($query, $link_identifier = NULL)
 {
 }

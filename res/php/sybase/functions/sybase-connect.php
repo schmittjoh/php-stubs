@@ -15,6 +15,6 @@
  * @return resource Returns a positive Sybase link identifier on success, or false on
  *                  failure.
  */
-function sybase_connect($servername = NULL, $username = NULL, $password = NULL, $charset = NULL, $appname = NULL, $new = 'false')
+function sybase_connect($servername = NULL, $username = NULL, $password = NULL, $charset = NULL, $appname = NULL, $new = false)
 {
 }

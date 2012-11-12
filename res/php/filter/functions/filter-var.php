@@ -11,6 +11,6 @@
  *
  * @return mixed Returns the filtered data, or false if the filter fails.
  */
-function filter_var($variable, $filter = 0, $options = NULL)
+function filter_var($variable, $filter = false, $options = NULL)
 {
 }

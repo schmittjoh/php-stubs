@@ -15,6 +15,6 @@
  *               element 'descender' contains the maximum descender and 'ascender' the
  *               maximum ascender of the string.
  */
-function ps_string_geometry($psdoc, $text, $fontid = 0, $size = 0)
+function ps_string_geometry($psdoc, $text, $fontid = false, $size = false)
 {
 }

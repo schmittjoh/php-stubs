@@ -14,6 +14,6 @@
  *                unless  is set to true in which case the raw
  *                binary representation of the message digest is returned.
  */
-function hash_hmac_file($algo, $filename, $key, $raw_output = 'false')
+function hash_hmac_file($algo, $filename, $key, $raw_output = false)
 {
 }

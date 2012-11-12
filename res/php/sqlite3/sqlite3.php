@@ -153,7 +153,7 @@ class SQLite3
      *
      * @return void 
      */
-    public function open($filename, $flags = 0, $encryption_key = NULL)
+    public function open($filename, $flags = false, $encryption_key = NULL)
     {
     }
 
@@ -189,7 +189,7 @@ class SQLite3
      * @return mixed Returns the value of the first column of results or an array of the entire
      *               first row (if  is true).
      */
-    public function querySingle($query, $entire_row = 'false')
+    public function querySingle($query, $entire_row = false)
     {
     }
 

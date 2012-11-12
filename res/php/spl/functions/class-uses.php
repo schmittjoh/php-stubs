@@ -10,6 +10,6 @@
  *
  * @return array An array on success, or false on error.
  */
-function class_uses($class, $autoload = 'true')
+function class_uses($class, $autoload = true)
 {
 }

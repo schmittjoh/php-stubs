@@ -10,6 +10,6 @@
  *
  * @return bool 
  */
-function svn_revert($path, $recursive = 'false')
+function svn_revert($path, $recursive = false)
 {
 }

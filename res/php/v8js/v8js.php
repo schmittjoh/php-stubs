@@ -15,7 +15,7 @@ class V8Js
      * @param array $extensions
      * @param bool $report_uncaught_exceptions
      */
-    public function __construct($object_name = 'PHP', $variables = 'array()', $extensions = 'array()', $report_uncaught_exceptions = 'true')
+    public function __construct($object_name = 'PHP', $variables = array(), $extensions = array(), $report_uncaught_exceptions = true)
     {
     }
 
@@ -28,7 +28,7 @@ class V8Js
      *
      * @return mixed Returns the last variable instantiated in the Javascript code converted to matching PHP variable type.
      */
-    public function executeString($script, $identifier = 'V8Js::executeString()', $flags = 0)
+    public function executeString($script, $identifier = 'V8Js::executeString()', $flags = false)
     {
     }
 
@@ -60,7 +60,7 @@ class V8Js
      *
      * @return bool Returns true if extension was registered succesfully, false otherwise.
      */
-    public function registerExtension($extension_name, $script, $dependencies = 'array()', $auto_enable = 'false')
+    public function registerExtension($extension_name, $script, $dependencies = array(), $auto_enable = false)
     {
     }
 }

@@ -13,6 +13,6 @@
  * @return string Returns the portion of .
  *                or false if  is not found.
  */
-function mb_strrichr($haystack, $needle, $part = 'false', $encoding = NULL)
+function mb_strrichr($haystack, $needle, $part = false, $encoding = NULL)
 {
 }

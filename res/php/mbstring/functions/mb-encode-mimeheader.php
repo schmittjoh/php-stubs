@@ -13,6 +13,6 @@
  *
  * @return string A converted version of the ``string`` represented in ASCII.
  */
-function mb_encode_mimeheader($str, $charset = NULL, $transfer_encoding = NULL, $linefeed = 'quot\\r\\nquot', $indent = 0)
+function mb_encode_mimeheader($str, $charset = NULL, $transfer_encoding = NULL, $linefeed = 'quot\\r\\nquot', $indent = false)
 {
 }

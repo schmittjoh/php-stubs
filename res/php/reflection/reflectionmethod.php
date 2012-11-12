@@ -41,7 +41,7 @@ class ReflectionMethod extends \ReflectionFunctionAbstract implements \Reflector
      *
      * @return string 
      */
-    public function export($class, $name, $return = 'false')
+    public function export($class, $name, $return = false)
     {
     }
 

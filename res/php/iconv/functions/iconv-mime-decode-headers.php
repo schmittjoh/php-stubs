@@ -14,6 +14,6 @@
  *               on success, or false
  *               if an error occurs during the decoding.
  */
-function iconv_mime_decode_headers($encoded_headers, $mode = 0, $charset = 'ini_get("iconv.internal_encoding")')
+function iconv_mime_decode_headers($encoded_headers, $mode = false, $charset = 'ini_get("iconv.internal_encoding")')
 {
 }

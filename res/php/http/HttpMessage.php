@@ -20,7 +20,7 @@ class HttpMessage implements \Iterator, \Countable, \Serializable
      *
      * @return void 
      */
-    public function addHeaders($headers, $append = 'false')
+    public function addHeaders($headers, $append = false)
     {
     }
 
@@ -172,7 +172,7 @@ class HttpMessage implements \Iterator, \Countable, \Serializable
      *
      * @return string Returns the guessed content type on success.
      */
-    public function guessContentType($magic_file, $magic_mode = 0)
+    public function guessContentType($magic_file, $magic_mode = false)
     {
     }
 
@@ -184,7 +184,7 @@ class HttpMessage implements \Iterator, \Countable, \Serializable
      *
      * @return void
      */
-    public function prepend($message, $top = 'true')
+    public function prepend($message, $top = true)
     {
     }
 
@@ -314,7 +314,7 @@ class HttpMessage implements \Iterator, \Countable, \Serializable
      *
      * @return string Returns the message as string.
      */
-    public function toString($include_parent = 'false')
+    public function toString($include_parent = false)
     {
     }
 }

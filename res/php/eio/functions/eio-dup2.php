@@ -13,6 +13,6 @@
  *
  * @return resource returns request resource on success or false on error.
  */
-function eio_dup2($fd, $fd2, $pri = 0, $callback = 'NULL', $data = 'NULL')
+function eio_dup2($fd, $fd2, $pri = false, $callback = NULL, $data = NULL)
 {
 }

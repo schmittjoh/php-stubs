@@ -12,6 +12,6 @@
  *
  * @return void 
  */
-function aggregate_methods_by_list($object, $class_name, $methods_list, $exclude = 'false')
+function aggregate_methods_by_list($object, $class_name, $methods_list, $exclude = false)
 {
 }

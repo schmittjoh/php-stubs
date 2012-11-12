@@ -15,6 +15,6 @@
  *               those headers. If no data can be returned,
  *               will return false.
  */
-function exif_read_data($filename, $sections = 'null', $arrays = 'false', $thumbnail = 'false')
+function exif_read_data($filename, $sections = NULL, $arrays = false, $thumbnail = false)
 {
 }

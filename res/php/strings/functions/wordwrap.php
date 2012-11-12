@@ -12,6 +12,6 @@
  *
  * @return string Returns the given string wrapped at the specified length.
  */
-function wordwrap($str, $width = 75, $break = '\\n', $cut = 'false')
+function wordwrap($str, $width = 75, $break = '\\n', $cut = false)
 {
 }

@@ -11,6 +11,6 @@
  * @return array Returns an indexed or associative array with the headers, or false on
  *               failure.
  */
-function get_headers($url, $format = 0)
+function get_headers($url, $format = false)
 {
 }

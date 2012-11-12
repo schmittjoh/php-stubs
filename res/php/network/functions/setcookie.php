@@ -18,6 +18,6 @@
  *              successfully runs, it will return true.
  *              This does not indicate whether the user accepted the cookie.
  */
-function setcookie($name, $value = NULL, $expire = 0, $path = NULL, $domain = NULL, $secure = 'false', $httponly = 'false')
+function setcookie($name, $value = NULL, $expire = false, $path = NULL, $domain = NULL, $secure = false, $httponly = false)
 {
 }

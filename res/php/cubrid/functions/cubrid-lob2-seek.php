@@ -11,6 +11,6 @@
  *
  * @return bool true if the process is successful and false for failure.
  */
-function cubrid_lob2_seek($lob_identifier, $offset, $origin = 0)
+function cubrid_lob2_seek($lob_identifier, $offset, $origin = false)
 {
 }

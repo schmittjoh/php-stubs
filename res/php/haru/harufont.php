@@ -93,7 +93,7 @@ class HaruFont
      * @return int Returns the number of characters which can be included within the
      *             specified width.
      */
-    public function measureText($text, $width, $font_size, $char_space, $word_space, $word_wrap = 'false')
+    public function measureText($text, $width, $font_size, $char_space, $word_space, $word_wrap = false)
     {
     }
 }

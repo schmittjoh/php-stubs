@@ -10,6 +10,6 @@
  *
  * @return string Returns the escaped string, or false on error.
  */
-function mysql_real_escape_string($unescaped_string, $link_identifier = 'NULL')
+function mysql_real_escape_string($unescaped_string, $link_identifier = NULL)
 {
 }

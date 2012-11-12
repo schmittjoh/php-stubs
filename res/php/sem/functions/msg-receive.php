@@ -16,6 +16,6 @@
  *
  * @return bool 
  */
-function msg_receive($queue, $desiredmsgtype, &$msgtype, $maxsize, &$message, $unserialize = 'true', $flags = 0, &$errorcode = NULL)
+function msg_receive($queue, $desiredmsgtype, &$msgtype, $maxsize, &$message, $unserialize = true, $flags = false, &$errorcode = NULL)
 {
 }

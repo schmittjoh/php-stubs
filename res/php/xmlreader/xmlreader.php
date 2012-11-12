@@ -78,7 +78,7 @@ class XMLReader
      * @return bool If called statically, returns an
      *              ``XMLReader``.
      */
-    public function XML($source, $encoding = NULL, $options = 0)
+    public function XML($source, $encoding = NULL, $options = false)
     {
     }
 
@@ -256,7 +256,7 @@ class XMLReader
      * @return bool If called statically, returns an
      *              ``XMLReader``.
      */
-    public function open($URI, $encoding = NULL, $options = 0)
+    public function open($URI, $encoding = NULL, $options = false)
     {
     }
 

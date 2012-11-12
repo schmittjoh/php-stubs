@@ -10,6 +10,6 @@
  *
  * @return array Returns an array of strings that corresponds to the fetched row, when process is successful.
  */
-function cubrid_fetch_array($result, $type = 0)
+function cubrid_fetch_array($result, $type = false)
 {
 }

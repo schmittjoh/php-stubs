@@ -10,6 +10,6 @@
  *
  * @return float 
  */
-function stats_variance($a, $sample = 'false')
+function stats_variance($a, $sample = false)
 {
 }

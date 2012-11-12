@@ -12,6 +12,6 @@
  * @return mixed Returns an array or an integer, depending on the
  *               chosen.
  */
-function str_word_count($string, $format = 0, $charlist = NULL)
+function str_word_count($string, $format = false, $charlist = NULL)
 {
 }

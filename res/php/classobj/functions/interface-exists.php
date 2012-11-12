@@ -11,6 +11,6 @@
  * @return bool Returns true if the interface given by
  *              has been defined, false otherwise.
  */
-function interface_exists($interface_name, $autoload = 'true')
+function interface_exists($interface_name, $autoload = true)
 {
 }

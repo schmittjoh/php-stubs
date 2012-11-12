@@ -21,7 +21,7 @@ class CairoMatrix
      *
      * @return object Returns a new CairoMatrix object that can be used with surfaces, contexts, and patterns.
      */
-    public function __construct($xx = 1, $yx = 0, $xy = 0, $yy = 1, $x0 = 0, $y0 = 0, $xx = 1, $yx = 0, $xy = 0, $yy = 1, $x0 = 0, $y0 = 0)
+    public function __construct($xx = 1, $yx = false, $xy = false, $yy = 1, $x0 = false, $y0 = false, $xx = 1, $yx = false, $xy = false, $yy = 1, $x0 = false, $y0 = false)
     {
     }
 

@@ -15,7 +15,7 @@ class OAuth
      * @param string $signature_method
      * @param int $auth_type
      */
-    public function __construct($consumer_key, $consumer_secret, $signature_method = '', $auth_type = 0)
+    public function __construct($consumer_key, $consumer_secret, $signature_method = '', $auth_type = false)
     {
     }
 

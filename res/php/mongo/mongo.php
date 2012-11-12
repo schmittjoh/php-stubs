@@ -225,7 +225,7 @@ class Mongo
      *
      * @return bool Returns the former value of slaveOkay for this instance.
      */
-    public function setSlaveOkay($ok = 'true')
+    public function setSlaveOkay($ok = true)
     {
     }
 

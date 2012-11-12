@@ -13,6 +13,6 @@
  *
  * @return bool 
  */
-function ssh2_publickey_add($pkey, $algoname, $blob, $overwrite = 'false', $attributes = array())
+function ssh2_publickey_add($pkey, $algoname, $blob, $overwrite = false, $attributes = array())
 {
 }

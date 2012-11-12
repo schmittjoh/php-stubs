@@ -11,6 +11,6 @@
  *
  * @return bool 
  */
-function com_print_typeinfo($comobject, $dispinterface = NULL, $wantsink = 'false')
+function com_print_typeinfo($comobject, $dispinterface = NULL, $wantsink = false)
 {
 }

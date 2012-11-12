@@ -14,6 +14,6 @@
  *             or offset).
  *             Also note that string positions start at 0, and not 1.
  */
-function strripos($haystack, $needle, $offset = 0)
+function strripos($haystack, $needle, $offset = false)
 {
 }

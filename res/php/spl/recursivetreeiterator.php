@@ -20,7 +20,7 @@ class RecursiveTreeIterator extends \RecursiveIteratorIterator implements \Outer
      * @param int $cit_flags
      * @param int $mode
      */
-    public function __construct($it, $flags = 0, $cit_flags = 0, $mode = 0)
+    public function __construct($it, $flags = false, $cit_flags = false, $mode = false)
     {
     }
 

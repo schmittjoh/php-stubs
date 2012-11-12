@@ -10,6 +10,6 @@
  *
  * @return string Returns the metaphone key as a string, .
  */
-function metaphone($str, $phonemes = 0)
+function metaphone($str, $phonemes = false)
 {
 }

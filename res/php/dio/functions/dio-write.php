@@ -11,6 +11,6 @@
  *
  * @return int Returns the number of bytes written to .
  */
-function dio_write($fd, $data, $len = 0)
+function dio_write($fd, $data, $len = false)
 {
 }

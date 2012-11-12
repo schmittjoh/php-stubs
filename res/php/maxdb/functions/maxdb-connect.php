@@ -15,6 +15,6 @@
  * @return resource Returns a resource which represents the connection to a MaxDB Server or
  *                  false if the connection failed.
  */
-function maxdb_connect($host = NULL, $username = NULL, $passwd = NULL, $dbname = NULL, $port = 0, $socket = NULL)
+function maxdb_connect($host = NULL, $username = NULL, $passwd = NULL, $dbname = NULL, $port = false, $socket = NULL)
 {
 }

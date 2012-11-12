@@ -12,6 +12,6 @@
  * @return mixed Returns a MS SQL result resource on success, true if no rows were
  *               returned, or false on error.
  */
-function mssql_query($query, $link_identifier = NULL, $batch_size = 0)
+function mssql_query($query, $link_identifier = NULL, $batch_size = false)
 {
 }

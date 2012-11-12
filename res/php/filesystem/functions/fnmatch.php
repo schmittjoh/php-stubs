@@ -11,6 +11,6 @@
  *
  * @return bool Returns true if there is a match, false otherwise.
  */
-function fnmatch($pattern, $string, $flags = 0)
+function fnmatch($pattern, $string, $flags = false)
 {
 }

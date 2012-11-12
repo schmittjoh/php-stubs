@@ -11,6 +11,6 @@
  * @return object Returns an ``object`` containing field information. The properties
  *                of the object are:
  */
-function mysql_fetch_field($result, $field_offset = 0)
+function mysql_fetch_field($result, $field_offset = false)
 {
 }

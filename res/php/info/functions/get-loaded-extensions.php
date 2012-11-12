@@ -9,6 +9,6 @@
  *
  * @return array Returns an indexed array of all the modules names.
  */
-function get_loaded_extensions($zend_extensions = 'false')
+function get_loaded_extensions($zend_extensions = false)
 {
 }

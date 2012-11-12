@@ -13,6 +13,6 @@
  * @return array Returns an array containing substrings of
  *               split along boundaries matched by .
  */
-function preg_split($pattern, $subject, $limit = -1, $flags = 0)
+function preg_split($pattern, $subject, $limit = -1, $flags = false)
 {
 }

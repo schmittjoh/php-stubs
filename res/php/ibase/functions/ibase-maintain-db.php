@@ -12,6 +12,6 @@
  *
  * @return bool 
  */
-function ibase_maintain_db($service_handle, $db, $action, $argument = 0)
+function ibase_maintain_db($service_handle, $db, $action, $argument = false)
 {
 }

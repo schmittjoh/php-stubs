@@ -13,6 +13,6 @@
  * @return resource Returns a MySQL persistent link identifier on success, or false on
  *                  failure.
  */
-function mysql_pconnect($server = 'ini_get("mysql.default_host")', $username = 'ini_get("mysql.default_user")', $password = 'ini_get("mysql.default_password")', $client_flags = 0)
+function mysql_pconnect($server = 'ini_get("mysql.default_host")', $username = 'ini_get("mysql.default_user")', $password = 'ini_get("mysql.default_password")', $client_flags = false)
 {
 }

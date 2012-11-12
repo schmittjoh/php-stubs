@@ -14,6 +14,6 @@
  *
  * @return resource 
  */
-function ssh2_shell($session, $term_type = 'vanilla', $env = array(), $width = 80, $height = 25, $width_height_type = 0)
+function ssh2_shell($session, $term_type = 'vanilla', $env = array(), $width = 80, $height = 25, $width_height_type = false)
 {
 }

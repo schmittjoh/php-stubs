@@ -12,6 +12,6 @@
  * @return string A case folded version of  converted in the
  *                way specified by .
  */
-function mb_convert_case($str, $mode = 0, $encoding = 'mb_internal_encoding()')
+function mb_convert_case($str, $mode = false, $encoding = 'mb_internal_encoding()')
 {
 }

@@ -12,7 +12,7 @@
  *
  * @return object
  */
-function sqlite_fetch_object($result, $class_name = NULL, $ctor_params = array(), $decode_binary = 'true')
+function sqlite_fetch_object($result, $class_name = NULL, $ctor_params = array(), $decode_binary = true)
 {
 }
 
@@ -27,7 +27,7 @@ function sqlite_fetch_object($result, $class_name = NULL, $ctor_params = array()
  *
  * @return object
  */
-function sqlite_fetch_object($class_name = NULL, $ctor_params = array(), $decode_binary = 'true')
+function sqlite_fetch_object($class_name = NULL, $ctor_params = array(), $decode_binary = true)
 {
 }
 
@@ -42,6 +42,6 @@ function sqlite_fetch_object($class_name = NULL, $ctor_params = array(), $decode
  *
  * @return object
  */
-function sqlite_fetch_object($class_name = NULL, $ctor_params = array(), $decode_binary = 'true')
+function sqlite_fetch_object($class_name = NULL, $ctor_params = array(), $decode_binary = true)
 {
 }

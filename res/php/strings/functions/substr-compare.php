@@ -19,6 +19,6 @@
  *             is less than 1,  prints a warning and returns
  *             false.
  */
-function substr_compare($main_str, $str, $offset, $length = NULL, $case_insensitivity = 'false')
+function substr_compare($main_str, $str, $offset, $length = NULL, $case_insensitivity = false)
 {
 }

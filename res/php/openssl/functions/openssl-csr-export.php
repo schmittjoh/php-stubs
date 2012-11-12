@@ -11,6 +11,6 @@
  *
  * @return bool 
  */
-function openssl_csr_export($csr, &$out, $notext = 'true')
+function openssl_csr_export($csr, &$out, $notext = true)
 {
 }

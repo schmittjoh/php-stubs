@@ -28,6 +28,6 @@ function session_set_save_handler($open, $close, $read, $write, $destroy, $gc)
  *
  * @return bool
  */
-function session_set_save_handler($sessionhandler, $register_shutdown = 'true')
+function session_set_save_handler($sessionhandler, $register_shutdown = true)
 {
 }

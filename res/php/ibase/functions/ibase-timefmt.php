@@ -10,6 +10,6 @@
  *
  * @return bool 
  */
-function ibase_timefmt($format, $columntype = 0)
+function ibase_timefmt($format, $columntype = false)
 {
 }

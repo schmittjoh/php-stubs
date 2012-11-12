@@ -13,6 +13,6 @@
  * @return mixed Returns ``string`` if  is passed
  *               via .
  */
-function pg_insert($connection, $table_name, $assoc_array, $options = 0)
+function pg_insert($connection, $table_name, $assoc_array, $options = false)
 {
 }

@@ -10,6 +10,6 @@
  *
  * @return void 
  */
-function debug_print_backtrace($options = 0, $limit = 0)
+function debug_print_backtrace($options = false, $limit = false)
 {
 }

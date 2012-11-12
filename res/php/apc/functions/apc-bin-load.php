@@ -13,6 +13,6 @@
  *              is not enabled, or if the  is not a valid APC
  *              binary dump (e.g., unexpected size).
  */
-function apc_bin_load($data, $flags = 0)
+function apc_bin_load($data, $flags = false)
 {
 }

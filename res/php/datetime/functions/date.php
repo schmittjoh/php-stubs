@@ -12,6 +12,6 @@
  *                , false is returned and an
  *                level error is emitted.
  */
-function date($format, $timestamp = 0)
+function date($format, $timestamp = false)
 {
 }

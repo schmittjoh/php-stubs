@@ -10,6 +10,6 @@
  *
  * @return float 
  */
-function stats_standard_deviation($a, $sample = 'false')
+function stats_standard_deviation($a, $sample = false)
 {
 }

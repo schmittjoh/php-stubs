@@ -11,7 +11,7 @@
  *
  * @return bool
  */
-function apc_store($key, $var, $ttl = 0)
+function apc_store($key, $var, $ttl = false)
 {
 }
 
@@ -26,6 +26,6 @@ function apc_store($key, $var, $ttl = 0)
  *
  * @return array
  */
-function apc_store($values, $unused = NULL, $ttl = 0)
+function apc_store($values, $unused = NULL, $ttl = false)
 {
 }

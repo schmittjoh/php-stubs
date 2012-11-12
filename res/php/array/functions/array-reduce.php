@@ -11,6 +11,6 @@
  *
  * @return mixed Returns the resulting value.
  */
-function array_reduce($input, $function, $initial = 'null')
+function array_reduce($input, $function, $initial = NULL)
 {
 }

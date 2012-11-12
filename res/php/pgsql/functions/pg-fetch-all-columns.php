@@ -10,6 +10,6 @@
  *
  * @return array An ``array`` with all values in the result column.
  */
-function pg_fetch_all_columns($result, $column = 0)
+function pg_fetch_all_columns($result, $column = false)
 {
 }

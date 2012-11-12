@@ -106,7 +106,7 @@ class Memcached
      *
      * @return bool 
      */
-    public function addServer($host, $port, $weight = 0)
+    public function addServer($host, $port, $weight = false)
     {
     }
 
@@ -204,7 +204,7 @@ class Memcached
      * @return bool The  will return
      *              if the key does not exist.
      */
-    public function delete($key, $time = 0)
+    public function delete($key, $time = false)
     {
     }
 
@@ -218,7 +218,7 @@ class Memcached
      * @return bool The  will return
      *              if the key does not exist.
      */
-    public function deleteByKey($server_key, $key, $time = 0)
+    public function deleteByKey($server_key, $key, $time = false)
     {
     }
 
@@ -249,7 +249,7 @@ class Memcached
      *
      * @return bool 
      */
-    public function flush($delay = 0)
+    public function flush($delay = false)
     {
     }
 

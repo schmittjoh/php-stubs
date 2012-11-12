@@ -14,6 +14,6 @@
  *               , ,
  *               (if any), and .
  */
-function pathinfo($path, $options = 0)
+function pathinfo($path, $options = false)
 {
 }

@@ -16,6 +16,6 @@
  *
  * @return bool 
  */
-function ldap_sasl_bind($link, $binddn = 'null', $password = 'null', $sasl_mech = 'null', $sasl_realm = 'null', $sasl_authc_id = 'null', $sasl_authz_id = 'null', $props = 'null')
+function ldap_sasl_bind($link, $binddn = NULL, $password = NULL, $sasl_mech = NULL, $sasl_realm = NULL, $sasl_authc_id = NULL, $sasl_authz_id = NULL, $props = NULL)
 {
 }

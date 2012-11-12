@@ -12,6 +12,6 @@
  * @return mixed Returns the key for  if it is found in the
  *               array, false otherwise.
  */
-function array_search($needle, $haystack, $strict = 'false')
+function array_search($needle, $haystack, $strict = false)
 {
 }

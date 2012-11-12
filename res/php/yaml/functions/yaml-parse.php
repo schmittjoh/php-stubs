@@ -15,6 +15,6 @@
  *               ``array`` will be returned with one entry for each document found
  *               in the stream.
  */
-function yaml_parse($input, $pos = 0, &$ndocs = NULL, $callbacks = array())
+function yaml_parse($input, $pos = false, &$ndocs = NULL, $callbacks = array())
 {
 }

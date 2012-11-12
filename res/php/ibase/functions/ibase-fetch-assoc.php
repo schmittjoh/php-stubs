@@ -12,6 +12,6 @@
  *               Subsequent calls will return the next row in the result set, or false if
  *               there are no more rows.
  */
-function ibase_fetch_assoc($result, $fetch_flag = 0)
+function ibase_fetch_assoc($result, $fetch_flag = false)
 {
 }

@@ -12,6 +12,6 @@
  *
  * @return bool 
  */
-function error_log($message, $message_type = 0, $destination = NULL, $extra_headers = NULL)
+function error_log($message, $message_type = false, $destination = NULL, $extra_headers = NULL)
 {
 }

@@ -14,6 +14,6 @@
  *                  //
  *                  queries to indicate success/failure.
  */
-function mysql_db_query($database, $query, $link_identifier = 'NULL')
+function mysql_db_query($database, $query, $link_identifier = NULL)
 {
 }

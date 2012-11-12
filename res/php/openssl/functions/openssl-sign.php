@@ -12,6 +12,6 @@
  *
  * @return bool 
  */
-function openssl_sign($data, &$signature, $priv_key_id, $signature_alg = 0)
+function openssl_sign($data, &$signature, $priv_key_id, $signature_alg = false)
 {
 }

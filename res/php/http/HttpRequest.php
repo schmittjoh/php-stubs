@@ -10,7 +10,7 @@ class HttpRequest
      * @param int $request_method
      * @param array $options
      */
-    public function __construct($url = NULL, $request_method = 0, $options = array())
+    public function __construct($url = NULL, $request_method = false, $options = array())
     {
     }
 
@@ -284,7 +284,7 @@ class HttpRequest
      *
      * @return array Returns an array of stdClass objects like  would return.
      */
-    public function getResponseCookies($flags = 0, $allowed_extras = array())
+    public function getResponseCookies($flags = false, $allowed_extras = array())
     {
     }
 
@@ -367,7 +367,7 @@ class HttpRequest
      *
      * @return bool 
      */
-    public function resetCookies($session_only = 'false')
+    public function resetCookies($session_only = false)
     {
     }
 

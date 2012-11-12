@@ -10,6 +10,6 @@
  *
  * @return array Returns an array with all the parsed meta tags.
  */
-function get_meta_tags($filename, $use_include_path = 'false')
+function get_meta_tags($filename, $use_include_path = false)
 {
 }

@@ -12,6 +12,6 @@
  * @return OCI-Collection Returns a new ``OCICollection`` object or false on
  *                        error.
  */
-function oci_new_collection($connection, $tdo, $schema = 'null')
+function oci_new_collection($connection, $tdo, $schema = NULL)
 {
 }

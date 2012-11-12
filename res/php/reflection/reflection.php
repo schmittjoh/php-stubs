@@ -11,7 +11,7 @@ class Reflection
      *
      * @return string 
      */
-    public function export($reflector, $return = 'false')
+    public function export($reflector, $return = false)
     {
     }
 

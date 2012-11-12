@@ -12,6 +12,6 @@
  *
  * @return resource A file descriptor or false on error.
  */
-function dio_open($filename, $flags, $mode = 0)
+function dio_open($filename, $flags, $mode = false)
 {
 }

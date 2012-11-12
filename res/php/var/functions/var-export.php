@@ -12,6 +12,6 @@
  *               parameter is used and evaluates to true. Otherwise, this function will
  *               return null.
  */
-function var_export($expression, $return = 'false')
+function var_export($expression, $return = false)
 {
 }

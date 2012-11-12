@@ -13,6 +13,6 @@
  *             the  string (independent of offset).
  *             Also note that string positions start at 0, and not 1.
  */
-function stripos($haystack, $needle, $offset = 0)
+function stripos($haystack, $needle, $offset = false)
 {
 }

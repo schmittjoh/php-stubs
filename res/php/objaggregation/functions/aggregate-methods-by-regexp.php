@@ -13,6 +13,6 @@
  *
  * @return void 
  */
-function aggregate_methods_by_regexp($object, $class_name, $regexp, $exclude = 'false')
+function aggregate_methods_by_regexp($object, $class_name, $regexp, $exclude = false)
 {
 }

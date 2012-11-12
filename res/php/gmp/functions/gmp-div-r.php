@@ -11,6 +11,6 @@
  *
  * @return resource The remainder, as a GMP number.
  */
-function gmp_div_r($n, $d, $round = 0)
+function gmp_div_r($n, $d, $round = false)
 {
 }

@@ -11,6 +11,6 @@
  * @return array Returns an associative array with various keys like:
  *               , , ..
  */
-function id3_get_tag($filename, $version = 0)
+function id3_get_tag($filename, $version = false)
 {
 }

@@ -10,6 +10,6 @@
  *
  * @return int Returns 1 if the interlace bit is set for the image, 0 otherwise.
  */
-function imageinterlace($image, $interlace = 0)
+function imageinterlace($image, $interlace = false)
 {
 }

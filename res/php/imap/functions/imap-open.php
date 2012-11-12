@@ -14,6 +14,6 @@
  *
  * @return resource Returns an IMAP stream on success or false on error.
  */
-function imap_open($mailbox, $username, $password, $options = 0, $n_retries = 0, $params = 'null')
+function imap_open($mailbox, $username, $password, $options = false, $n_retries = false, $params = NULL)
 {
 }

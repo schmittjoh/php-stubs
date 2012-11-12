@@ -13,6 +13,6 @@
  * @return resource Returns a positive MS SQL persistent link identifier on success, or
  *                  false on error.
  */
-function mssql_pconnect($servername = NULL, $username = NULL, $password = NULL, $new_link = 'false')
+function mssql_pconnect($servername = NULL, $username = NULL, $password = NULL, $new_link = false)
 {
 }

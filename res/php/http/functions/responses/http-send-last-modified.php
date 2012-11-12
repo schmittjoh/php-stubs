@@ -9,6 +9,6 @@
  *
  * @return bool 
  */
-function http_send_last_modified($timestamp = 0)
+function http_send_last_modified($timestamp = false)
 {
 }

@@ -10,6 +10,6 @@
  *
  * @return array Returns an associative array with directive name as the array key.
  */
-function ini_get_all($extension = NULL, $details = 'true')
+function ini_get_all($extension = NULL, $details = true)
 {
 }

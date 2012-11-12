@@ -11,6 +11,6 @@
  *
  * @return bool 
  */
-function touch($filename, $time = 0, $atime = NULL)
+function touch($filename, $time = false, $atime = NULL)
 {
 }

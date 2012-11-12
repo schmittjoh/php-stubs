@@ -14,6 +14,6 @@
  *
  * @return void 
  */
-function imagecolorset($image, $index, $red, $green, $blue, $alpha = 0)
+function imagecolorset($image, $index, $red, $green, $blue, $alpha = false)
 {
 }

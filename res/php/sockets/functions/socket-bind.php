@@ -11,6 +11,6 @@
  *
  * @return bool 
  */
-function socket_bind($socket, $address, $port = 0)
+function socket_bind($socket, $address, $port = false)
 {
 }

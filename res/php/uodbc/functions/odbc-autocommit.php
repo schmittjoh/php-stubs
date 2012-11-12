@@ -13,6 +13,6 @@
  *               returned if auto-commit is on, 0 if it is off, or false if an error
  *               occurs.
  */
-function odbc_autocommit($connection_id, $OnOff = 'false')
+function odbc_autocommit($connection_id, $OnOff = false)
 {
 }

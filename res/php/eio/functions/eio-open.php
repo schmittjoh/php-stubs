@@ -16,6 +16,6 @@
  *                  argument of
  *                  on success; otherwise,  is equal to .
  */
-function eio_open($path, $flags, $mode, $pri, $callback, $data = 'NULL')
+function eio_open($path, $flags, $mode, $pri, $callback, $data = NULL)
 {
 }

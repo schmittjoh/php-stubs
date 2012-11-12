@@ -14,6 +14,6 @@
  *               boolean false is returned, and an error of level
  *               is generated.
  */
-function scandir($directory, $sorting_order = 0, $context = NULL)
+function scandir($directory, $sorting_order = false, $context = NULL)
 {
 }

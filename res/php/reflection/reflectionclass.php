@@ -35,7 +35,7 @@ class ReflectionClass implements \Reflector
      *
      * @return string 
      */
-    public function export($argument, $return = 'false')
+    public function export($argument, $return = false)
     {
     }
 

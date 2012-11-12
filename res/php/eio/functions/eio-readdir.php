@@ -16,6 +16,6 @@
  *                  function according to
  *                  :
  */
-function eio_readdir($path, $flags, $pri, $callback, $data = 'NULL')
+function eio_readdir($path, $flags, $pri, $callback, $data = NULL)
 {
 }

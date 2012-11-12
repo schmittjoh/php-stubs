@@ -16,6 +16,6 @@
  *
  * @return resource returns request resource on success or false on error.
  */
-function eio_fallocate($fd, $mode, $offset, $length, $pri = 0, $callback = 'NULL', $data = 'NULL')
+function eio_fallocate($fd, $mode, $offset, $length, $pri = false, $callback = NULL, $data = NULL)
 {
 }

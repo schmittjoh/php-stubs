@@ -10,6 +10,6 @@
  *
  * @return mixed
  */
-function mssql_execute($stmt, $skip_results = 'false')
+function mssql_execute($stmt, $skip_results = false)
 {
 }

@@ -9,6 +9,6 @@
  *
  * @return int A julian day number as integer.
  */
-function unixtojd($timestamp = 0)
+function unixtojd($timestamp = false)
 {
 }

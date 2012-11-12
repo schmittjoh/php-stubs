@@ -10,6 +10,6 @@
  *
  * @return mixed The decompressed string, or an error number if an error occurred.
  */
-function bzdecompress($source, $small = 0)
+function bzdecompress($source, $small = false)
 {
 }

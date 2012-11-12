@@ -11,6 +11,6 @@
  *
  * @return int Returns 1 on success or 0 on failure.
  */
-function xml_parse($parser, $data, $is_final = 'false')
+function xml_parse($parser, $data, $is_final = false)
 {
 }

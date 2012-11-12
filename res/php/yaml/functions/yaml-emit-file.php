@@ -13,6 +13,6 @@
  *
  * @return bool Returns true on success.
  */
-function yaml_emit_file($filename, $data, $encoding = 0, $linebreak = 0, $callbacks = array())
+function yaml_emit_file($filename, $data, $encoding = false, $linebreak = false, $callbacks = array())
 {
 }

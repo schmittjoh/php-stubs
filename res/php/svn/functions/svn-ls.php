@@ -13,6 +13,6 @@
  * @return array On success, this function returns an array file listing in the format
  *               of:
  */
-function svn_ls($repos_url, $revision_no = 0, $recurse = 'false', $peg = 'false')
+function svn_ls($repos_url, $revision_no = false, $recurse = false, $peg = false)
 {
 }

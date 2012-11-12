@@ -12,6 +12,6 @@
  * @return string[] Returns an array indexed using the keys from the
  *                  array.
  */
-function preg_grep($pattern, $input, $flags = 0)
+function preg_grep($pattern, $input, $flags = false)
 {
 }

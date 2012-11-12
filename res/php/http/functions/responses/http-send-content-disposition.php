@@ -10,6 +10,6 @@
  *
  * @return bool 
  */
-function http_send_content_disposition($filename, $inline = 'false')
+function http_send_content_disposition($filename, $inline = false)
 {
 }

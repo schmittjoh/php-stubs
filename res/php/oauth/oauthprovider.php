@@ -81,7 +81,7 @@ class OAuthProvider
      *
      * @return string The generated token, as a ``string`` of bytes.
      */
-    public function generateToken($size, $strong = 'false')
+    public function generateToken($size, $strong = false)
     {
     }
 
@@ -126,7 +126,7 @@ class OAuthProvider
      *
      * @return string 
      */
-    public function reportProblem($oauthexception, $send_headers = 'true')
+    public function reportProblem($oauthexception, $send_headers = true)
     {
     }
 

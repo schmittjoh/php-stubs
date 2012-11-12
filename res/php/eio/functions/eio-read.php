@@ -16,6 +16,6 @@
  *                  argument of
  *                  function.
  */
-function eio_read($fd, $length, $offset, $pri, $callback, $data = 'NULL')
+function eio_read($fd, $length, $offset, $pri, $callback, $data = NULL)
 {
 }

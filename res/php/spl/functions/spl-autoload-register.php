@@ -11,6 +11,6 @@
  *
  * @return bool 
  */
-function spl_autoload_register($autoload_function = NULL, $throw = 'true', $prepend = 'false')
+function spl_autoload_register($autoload_function = NULL, $throw = true, $prepend = false)
 {
 }

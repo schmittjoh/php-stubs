@@ -13,6 +13,6 @@
  *               The object will only define a property if it exists. The possible
  *               properties are:
  */
-function imap_fetch_overview($imap_stream, $sequence, $options = 0)
+function imap_fetch_overview($imap_stream, $sequence, $options = false)
 {
 }

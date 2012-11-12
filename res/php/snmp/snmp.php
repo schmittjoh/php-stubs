@@ -65,7 +65,7 @@ class SNMP
      * @return mixed Returns  objects requested as string or array
      *               depending on  type or false on error.
      */
-    public function get($object_id, $preserve_keys = 'false')
+    public function get($object_id, $preserve_keys = false)
     {
     }
 
@@ -145,7 +145,7 @@ class SNMP
      *               number (specific to SNMP extension, see class constants) and error message
      *               respectively.
      */
-    public function walk($object_id, $suffix_as_key = 'false', $max_repetitions = NULL, $non_repeaters = NULL)
+    public function walk($object_id, $suffix_as_key = false, $max_repetitions = NULL, $non_repeaters = NULL)
     {
     }
 }

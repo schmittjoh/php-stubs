@@ -12,6 +12,6 @@
  *                and what the returned value may look like. Statements that are not listed
  *                will return false.
  */
-function mysql_info($link_identifier = 'NULL')
+function mysql_info($link_identifier = NULL)
 {
 }

@@ -11,6 +11,6 @@
  *
  * @return array Returns an array of all the keys in .
  */
-function array_keys($input, $search_value = 'null', $strict = 'false')
+function array_keys($input, $search_value = NULL, $strict = false)
 {
 }

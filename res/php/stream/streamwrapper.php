@@ -198,7 +198,7 @@ class streamWrapper
      *
      * @return bool Return true if the position was updated, false otherwise.
      */
-    public function stream_seek($offset, $whence = 0)
+    public function stream_seek($offset, $whence = false)
     {
     }
 

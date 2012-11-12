@@ -12,7 +12,7 @@ class SplEnum extends \SplType
      *
      * @return array 
      */
-    public function getConstList($include_default = 'false')
+    public function getConstList($include_default = false)
     {
     }
 }

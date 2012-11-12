@@ -11,6 +11,6 @@
  *
  * @return string Returns the digested hash value on success.
  */
-function openssl_digest($data, $method, $raw_output = 'false')
+function openssl_digest($data, $method, $raw_output = false)
 {
 }

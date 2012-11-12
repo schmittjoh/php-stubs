@@ -10,6 +10,6 @@
  *
  * @return void null
  */
-function xhprof_enable($flags = 0, $options = array())
+function xhprof_enable($flags = false, $options = array())
 {
 }

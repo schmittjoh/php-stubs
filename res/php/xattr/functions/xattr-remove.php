@@ -11,6 +11,6 @@
  *
  * @return bool 
  */
-function xattr_remove($filename, $name, $flags = 0)
+function xattr_remove($filename, $name, $flags = false)
 {
 }

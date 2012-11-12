@@ -69,7 +69,7 @@ class ZIPARCHIVE
      *
      * @return bool 
      */
-    public function addFile($filename, $localname = 'null', $start = 0, $length = 0)
+    public function addFile($filename, $localname = NULL, $start = false, $length = false)
     {
     }
 
@@ -172,7 +172,7 @@ class ZIPARCHIVE
      *
      * @return mixed Returns the contents of the entry on success.
      */
-    public function getFromIndex($index, $length = 0, $flags = NULL)
+    public function getFromIndex($index, $length = false, $flags = NULL)
     {
     }
 
@@ -185,7 +185,7 @@ class ZIPARCHIVE
      *
      * @return mixed Returns the contents of the entry on success.
      */
-    public function getFromName($name, $length = 0, $flags = NULL)
+    public function getFromName($name, $length = false, $flags = NULL)
     {
     }
 

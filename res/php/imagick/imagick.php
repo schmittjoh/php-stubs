@@ -405,7 +405,7 @@ class Imagick implements \Iterator, \Traversable
      *
      * @return bool 
      */
-    public function adaptiveBlurImage($radius, $sigma, $channel = 0)
+    public function adaptiveBlurImage($radius, $sigma, $channel = false)
     {
     }
 
@@ -418,7 +418,7 @@ class Imagick implements \Iterator, \Traversable
      *
      * @return bool 
      */
-    public function adaptiveResizeImage($columns, $rows, $bestfit = 'false')
+    public function adaptiveResizeImage($columns, $rows, $bestfit = false)
     {
     }
 
@@ -431,7 +431,7 @@ class Imagick implements \Iterator, \Traversable
      *
      * @return bool 
      */
-    public function adaptiveSharpenImage($radius, $sigma, $channel = 0)
+    public function adaptiveSharpenImage($radius, $sigma, $channel = false)
     {
     }
 
@@ -467,7 +467,7 @@ class Imagick implements \Iterator, \Traversable
      *
      * @return bool 
      */
-    public function addNoiseImage($noise_type, $channel = 0)
+    public function addNoiseImage($noise_type, $channel = false)
     {
     }
 
@@ -515,7 +515,7 @@ class Imagick implements \Iterator, \Traversable
      *
      * @return Imagick Returns Imagick instance on success.
      */
-    public function appendImages($stack = 'false')
+    public function appendImages($stack = false)
     {
     }
 
@@ -638,7 +638,7 @@ class Imagick implements \Iterator, \Traversable
      *
      * @return bool 
      */
-    public function clutImage($lookup_table, $channel = 0)
+    public function clutImage($lookup_table, $channel = false)
     {
     }
 
@@ -748,7 +748,7 @@ class Imagick implements \Iterator, \Traversable
      *
      * @return bool 
      */
-    public function compositeImage($composite_object, $composite, $x, $y, $channel = 0)
+    public function compositeImage($composite_object, $composite, $x, $y, $channel = false)
     {
     }
 
@@ -772,7 +772,7 @@ class Imagick implements \Iterator, \Traversable
      *
      * @return bool 
      */
-    public function contrastStretchImage($black_point, $white_point, $channel = 0)
+    public function contrastStretchImage($black_point, $white_point, $channel = false)
     {
     }
 
@@ -784,7 +784,7 @@ class Imagick implements \Iterator, \Traversable
      *
      * @return bool 
      */
-    public function convolveImage($kernel, $channel = 0)
+    public function convolveImage($kernel, $channel = false)
     {
     }
 
@@ -1001,7 +1001,7 @@ class Imagick implements \Iterator, \Traversable
      *
      * @return bool 
      */
-    public function evaluateImage($op, $constant, $channel = 0)
+    public function evaluateImage($op, $constant, $channel = false)
     {
     }
 
@@ -1066,7 +1066,7 @@ class Imagick implements \Iterator, \Traversable
      *
      * @return bool 
      */
-    public function floodFillPaintImage($fill, $fuzz, $target, $x, $y, $invert, $channel = 0)
+    public function floodFillPaintImage($fill, $fuzz, $target, $x, $y, $invert, $channel = false)
     {
     }
 
@@ -1103,7 +1103,7 @@ class Imagick implements \Iterator, \Traversable
      *
      * @return bool 
      */
-    public function functionImage($function, $arguments, $channel = 0)
+    public function functionImage($function, $arguments, $channel = false)
     {
     }
 
@@ -1115,7 +1115,7 @@ class Imagick implements \Iterator, \Traversable
      *
      * @return Imagick 
      */
-    public function fxImage($expression, $channel = 0)
+    public function fxImage($expression, $channel = false)
     {
     }
 
@@ -1127,7 +1127,7 @@ class Imagick implements \Iterator, \Traversable
      *
      * @return bool 
      */
-    public function gammaImage($gamma, $channel = 0)
+    public function gammaImage($gamma, $channel = false)
     {
     }
 
@@ -1140,7 +1140,7 @@ class Imagick implements \Iterator, \Traversable
      *
      * @return bool 
      */
-    public function gaussianBlurImage($radius, $sigma, $channel = 0)
+    public function gaussianBlurImage($radius, $sigma, $channel = false)
     {
     }
 
@@ -1326,7 +1326,7 @@ class Imagick implements \Iterator, \Traversable
      *
      * @return float Returns a double describing the channel distortion.
      */
-    public function getImageChannelDistortions($reference, $metric, $channel = 0)
+    public function getImageChannelDistortions($reference, $metric, $channel = false)
     {
     }
 
@@ -1349,7 +1349,7 @@ class Imagick implements \Iterator, \Traversable
      * @return array Returns an array with  and
      *               members.
      */
-    public function getImageChannelKurtosis($channel = 0)
+    public function getImageChannelKurtosis($channel = false)
     {
     }
 
@@ -1694,7 +1694,7 @@ class Imagick implements \Iterator, \Traversable
      *
      * @return array Returns an array containing the image profiles or profile names.
      */
-    public function getImageProfiles($pattern = '*', $only_names = 'true')
+    public function getImageProfiles($pattern = '*', $only_names = true)
     {
     }
 
@@ -1706,7 +1706,7 @@ class Imagick implements \Iterator, \Traversable
      *
      * @return array Returns an array containing the image properties or property names.
      */
-    public function getImageProperties($pattern = '*', $only_names = 'true')
+    public function getImageProperties($pattern = '*', $only_names = true)
     {
     }
 
@@ -2050,7 +2050,7 @@ class Imagick implements \Iterator, \Traversable
      *
      * @return bool 
      */
-    public function haldClutImage($clut, $channel = 0)
+    public function haldClutImage($clut, $channel = false)
     {
     }
 
@@ -2082,7 +2082,7 @@ class Imagick implements \Iterator, \Traversable
      * @return array Identifies an image and returns the attributes.  Attributes include
      *               the image width, height, size, and others.
      */
-    public function identifyImage($appendRawOutput = 'false')
+    public function identifyImage($appendRawOutput = false)
     {
     }
 
@@ -2135,7 +2135,7 @@ class Imagick implements \Iterator, \Traversable
      *
      * @return bool 
      */
-    public function levelImage($blackPoint, $gamma, $whitePoint, $channel = 0)
+    public function levelImage($blackPoint, $gamma, $whitePoint, $channel = false)
     {
     }
 
@@ -2290,7 +2290,7 @@ class Imagick implements \Iterator, \Traversable
      *
      * @return bool 
      */
-    public function motionBlurImage($radius, $sigma, $angle, $channel = 0)
+    public function motionBlurImage($radius, $sigma, $angle, $channel = false)
     {
     }
 
@@ -2302,7 +2302,7 @@ class Imagick implements \Iterator, \Traversable
      *
      * @return bool 
      */
-    public function negateImage($gray, $channel = 0)
+    public function negateImage($gray, $channel = false)
     {
     }
 
@@ -2349,7 +2349,7 @@ class Imagick implements \Iterator, \Traversable
      *
      * @return bool 
      */
-    public function normalizeImage($channel = 0)
+    public function normalizeImage($channel = false)
     {
     }
 
@@ -2375,7 +2375,7 @@ class Imagick implements \Iterator, \Traversable
      *
      * @return bool 
      */
-    public function opaquePaintImage($target, $fill, $fuzz, $invert, $channel = 0)
+    public function opaquePaintImage($target, $fill, $fuzz, $invert, $channel = false)
     {
     }
 
@@ -2396,7 +2396,7 @@ class Imagick implements \Iterator, \Traversable
      *
      * @return bool 
      */
-    public function orderedPosterizeImage($threshold_map, $channel = 0)
+    public function orderedPosterizeImage($threshold_map, $channel = false)
     {
     }
 
@@ -2412,7 +2412,7 @@ class Imagick implements \Iterator, \Traversable
      *
      * @return bool 
      */
-    public function paintFloodfillImage($fill, $fuzz, $bordercolor, $x, $y, $channel = 0)
+    public function paintFloodfillImage($fill, $fuzz, $bordercolor, $x, $y, $channel = false)
     {
     }
 
@@ -2426,7 +2426,7 @@ class Imagick implements \Iterator, \Traversable
      *
      * @return bool 
      */
-    public function paintOpaqueImage($target, $fill, $fuzz, $channel = 0)
+    public function paintOpaqueImage($target, $fill, $fuzz, $channel = false)
     {
     }
 
@@ -2606,7 +2606,7 @@ class Imagick implements \Iterator, \Traversable
      *
      * @return bool 
      */
-    public function radialBlurImage($angle, $channel = 0)
+    public function radialBlurImage($angle, $channel = false)
     {
     }
 
@@ -2634,7 +2634,7 @@ class Imagick implements \Iterator, \Traversable
      *
      * @return bool 
      */
-    public function randomThresholdImage($low, $high, $channel = 0)
+    public function randomThresholdImage($low, $high, $channel = false)
     {
     }
 
@@ -2669,7 +2669,7 @@ class Imagick implements \Iterator, \Traversable
      *
      * @return bool 
      */
-    public function readImageFile($filehandle, $fileName = 'null')
+    public function readImageFile($filehandle, $fileName = NULL)
     {
     }
 
@@ -2772,7 +2772,7 @@ class Imagick implements \Iterator, \Traversable
      *
      * @return bool 
      */
-    public function resizeImage($columns, $rows, $filter, $blur, $bestfit = 'false')
+    public function resizeImage($columns, $rows, $filter, $blur, $bestfit = false)
     {
     }
 
@@ -2836,7 +2836,7 @@ class Imagick implements \Iterator, \Traversable
      *
      * @return bool 
      */
-    public function scaleImage($cols, $rows, $bestfit = 'false')
+    public function scaleImage($cols, $rows, $bestfit = false)
     {
     }
 
@@ -2850,7 +2850,7 @@ class Imagick implements \Iterator, \Traversable
      *
      * @return bool 
      */
-    public function segmentImage($COLORSPACE, $cluster_threshold, $smooth_threshold, $verbose = 'false')
+    public function segmentImage($COLORSPACE, $cluster_threshold, $smooth_threshold, $verbose = false)
     {
     }
 
@@ -3635,7 +3635,7 @@ class Imagick implements \Iterator, \Traversable
      *
      * @return bool 
      */
-    public function sharpenImage($radius, $sigma, $channel = 0)
+    public function sharpenImage($radius, $sigma, $channel = false)
     {
     }
 
@@ -3674,7 +3674,7 @@ class Imagick implements \Iterator, \Traversable
      *
      * @return bool 
      */
-    public function sigmoidalContrastImage($sharpen, $alpha, $beta, $channel = 0)
+    public function sigmoidalContrastImage($sharpen, $alpha, $beta, $channel = false)
     {
     }
 
@@ -3711,7 +3711,7 @@ class Imagick implements \Iterator, \Traversable
      *
      * @return bool 
      */
-    public function sparseColorImage($SPARSE_METHOD, $arguments, $channel = 0)
+    public function sparseColorImage($SPARSE_METHOD, $arguments, $channel = false)
     {
     }
 
@@ -3802,7 +3802,7 @@ class Imagick implements \Iterator, \Traversable
      *
      * @return bool 
      */
-    public function thresholdImage($threshold, $channel = 0)
+    public function thresholdImage($threshold, $channel = false)
     {
     }
 
@@ -3816,7 +3816,7 @@ class Imagick implements \Iterator, \Traversable
      *
      * @return bool 
      */
-    public function thumbnailImage($columns, $rows, $bestfit = 'false', $fill = 'false')
+    public function thumbnailImage($columns, $rows, $bestfit = false, $fill = false)
     {
     }
 
@@ -3907,7 +3907,7 @@ class Imagick implements \Iterator, \Traversable
      *
      * @return bool 
      */
-    public function unsharpMaskImage($radius, $sigma, $amount, $threshold, $channel = 0)
+    public function unsharpMaskImage($radius, $sigma, $amount, $threshold, $channel = false)
     {
     }
 

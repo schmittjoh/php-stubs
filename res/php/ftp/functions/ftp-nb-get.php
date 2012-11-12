@@ -14,6 +14,6 @@
  * @return int Returns  or
  *             or .
  */
-function ftp_nb_get($ftp_stream, $local_file, $remote_file, $mode, $resumepos = 0)
+function ftp_nb_get($ftp_stream, $local_file, $remote_file, $mode, $resumepos = false)
 {
 }

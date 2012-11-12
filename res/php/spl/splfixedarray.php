@@ -37,7 +37,7 @@ class SplFixedArray implements \Iterator, \ArrayAccess, \Countable
      * @return SplFixedArray Returns an instance of ``SplFixedArray``
      *                       containing the array content.
      */
-    public function fromArray($array, $save_indexes = 'true')
+    public function fromArray($array, $save_indexes = true)
     {
     }
 

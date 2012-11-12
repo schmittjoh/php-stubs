@@ -10,6 +10,6 @@
  * @return string Returns the error text from the last MySQL function, or
  *                (empty string) if no error occurred.
  */
-function mysql_error($link_identifier = 'NULL')
+function mysql_error($link_identifier = NULL)
 {
 }

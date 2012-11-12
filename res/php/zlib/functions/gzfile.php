@@ -10,6 +10,6 @@
  *
  * @return array An array containing the file, one line per cell.
  */
-function gzfile($filename, $use_include_path = 0)
+function gzfile($filename, $use_include_path = false)
 {
 }

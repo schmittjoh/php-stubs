@@ -13,6 +13,6 @@
  *
  * @return mixed
  */
-function ibase_restore($service_handle, $source_file, $dest_db, $options = 0, $verbose = 'false')
+function ibase_restore($service_handle, $source_file, $dest_db, $options = false, $verbose = false)
 {
 }

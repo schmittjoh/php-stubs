@@ -15,6 +15,6 @@
  * @return mixed Returns the sunrise time in a specified  on
  *               success.
  */
-function date_sunrise($timestamp, $format = 0, $latitude = 0, $longitude = 0, $zenith = 0, $gmt_offset = 0)
+function date_sunrise($timestamp, $format = false, $latitude = false, $longitude = false, $zenith = false, $gmt_offset = false)
 {
 }

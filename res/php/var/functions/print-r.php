@@ -13,6 +13,6 @@
  *               will be presented in a format that shows keys and elements.  Similar
  *               notation is used for ``object``s.
  */
-function print_r($expression, $return = 'false')
+function print_r($expression, $return = false)
 {
 }

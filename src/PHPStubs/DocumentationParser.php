@@ -387,6 +387,25 @@ class DocumentationParser
             } else if ('double' === $type || 'float' === $type) {
                 $value = (double) $value;
             }
+            
+            switch ($value) {
+                case 'false':
+                    $value = false;
+                    break;
+                
+                case 'true':
+                    $value = true;
+                    break;
+                
+                case 'NULL':
+                case 'null':
+                    $value = null;
+                    break;
+                
+                case 'array()':
+                    $value = array();
+                    break;
+            }
 
             $param->setDefaultValue($value);
         } else if ('opt' === (string) @$paramElem->attributes()->choice) {

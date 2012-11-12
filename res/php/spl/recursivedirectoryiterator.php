@@ -9,7 +9,7 @@ class RecursiveDirectoryIterator extends \FilesystemIterator implements \Travers
      * @param string $path
      * @param int $flags
      */
-    public function __construct($path, $flags = 0)
+    public function __construct($path, $flags = false)
     {
     }
 
@@ -48,7 +48,7 @@ class RecursiveDirectoryIterator extends \FilesystemIterator implements \Travers
      *
      * @return bool Returns whether the current entry is a directory, but not '.' or '..'
      */
-    public function hasChildren($allow_links = 'false')
+    public function hasChildren($allow_links = false)
     {
     }
 

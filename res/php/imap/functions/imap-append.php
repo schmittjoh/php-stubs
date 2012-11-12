@@ -13,6 +13,6 @@
  *
  * @return bool 
  */
-function imap_append($imap_stream, $mailbox, $message, $options = 'null', $internal_date = 'null')
+function imap_append($imap_stream, $mailbox, $message, $options = NULL, $internal_date = NULL)
 {
 }

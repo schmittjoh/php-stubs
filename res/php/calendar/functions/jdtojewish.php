@@ -11,6 +11,6 @@
  *
  * @return string The jewish date as a string in the form "month/day/year"
  */
-function jdtojewish($juliandaycount, $hebrew = 'false', $fl = 0)
+function jdtojewish($juliandaycount, $hebrew = false, $fl = false)
 {
 }

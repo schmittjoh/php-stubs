@@ -12,6 +12,6 @@
  *               keys, and their version information as value. Otherwise, the result will be
  *               an indexed array of handlers names.
  */
-function dba_handlers($full_info = 'false')
+function dba_handlers($full_info = false)
 {
 }

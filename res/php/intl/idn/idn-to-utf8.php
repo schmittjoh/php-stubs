@@ -12,6 +12,6 @@
  *
  * @return string Domain name in Unicode, encoded in UTF-8.
  */
-function idn_to_utf8($domain, $options = 0, $variant = 0, &$idna_info = array())
+function idn_to_utf8($domain, $options = false, $variant = false, &$idna_info = array())
 {
 }

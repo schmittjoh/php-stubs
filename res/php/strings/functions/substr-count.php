@@ -12,6 +12,6 @@
  *
  * @return int This function returns an ``integer``.
  */
-function substr_count($haystack, $needle, $offset = 0, $length = NULL)
+function substr_count($haystack, $needle, $offset = false, $length = NULL)
 {
 }

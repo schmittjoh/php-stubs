@@ -449,7 +449,7 @@ class DomDocument extends \DOMNode
      * @return mixed If called statically, returns a
      *               ``DOMDocument``.
      */
-    public function load($filename, $options = 0)
+    public function load($filename, $options = false)
     {
     }
 
@@ -492,7 +492,7 @@ class DomDocument extends \DOMNode
      * @return mixed If called statically, returns a
      *               ``DOMDocument``.
      */
-    public function loadXML($source, $options = 0)
+    public function loadXML($source, $options = false)
     {
     }
 
@@ -566,7 +566,7 @@ class DomDocument extends \DOMNode
      *
      * @return string Returns the HTML, or false if an error occurred.
      */
-    public function saveHTML($node = 'NULL')
+    public function saveHTML($node = NULL)
     {
     }
 

@@ -11,6 +11,6 @@
  *
  * @return int Returns the position as an integer. If needle is not found, grapheme_strrpos() will return boolean FALSE.
  */
-function grapheme_strrpos($haystack, $needle, $offset = 0)
+function grapheme_strrpos($haystack, $needle, $offset = false)
 {
 }

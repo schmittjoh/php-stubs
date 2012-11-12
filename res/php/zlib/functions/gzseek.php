@@ -12,6 +12,6 @@
  * @return int Upon success, returns 0; otherwise, returns -1. Note that seeking
  *             past EOF is not considered an error.
  */
-function gzseek($zp, $offset, $whence = 0)
+function gzseek($zp, $offset, $whence = false)
 {
 }

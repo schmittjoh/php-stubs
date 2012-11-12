@@ -15,6 +15,6 @@
  *
  * @return resource Returns a stream on success.
  */
-function ssh2_exec($session, $command, $pty = NULL, $env = array(), $width = 80, $height = 25, $width_height_type = 0)
+function ssh2_exec($session, $command, $pty = NULL, $env = array(), $width = 80, $height = 25, $width_height_type = false)
 {
 }

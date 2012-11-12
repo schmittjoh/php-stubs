@@ -10,6 +10,6 @@
  *
  * @return resource A result pointer ``resource`` on success.
  */
-function mysql_list_tables($database, $link_identifier = 'NULL')
+function mysql_list_tables($database, $link_identifier = NULL)
 {
 }

@@ -26,7 +26,7 @@ class DOMImplementation
      *                     and  are null, the returned
      *                     ``DOMDocument`` is empty with no document element
      */
-    public function createDocument($namespaceURI = 'null', $qualifiedName = 'null', $doctype = 'null')
+    public function createDocument($namespaceURI = NULL, $qualifiedName = NULL, $doctype = NULL)
     {
     }
 
@@ -42,7 +42,7 @@ class DOMImplementation
      * @return DOMDocumentType A new ``DOMDocumentType`` node with its
      *                         set to null.
      */
-    public function createDocumentType($qualifiedName = 'null', $publicId = 'null', $systemId = 'null')
+    public function createDocumentType($qualifiedName = NULL, $publicId = NULL, $systemId = NULL)
     {
     }
 

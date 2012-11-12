@@ -11,6 +11,6 @@
  *
  * @return bool 
  */
-function id3_set_tag($filename, $tag, $version = 0)
+function id3_set_tag($filename, $tag, $version = false)
 {
 }

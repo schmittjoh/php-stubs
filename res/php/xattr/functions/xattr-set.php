@@ -12,6 +12,6 @@
  *
  * @return bool 
  */
-function xattr_set($filename, $name, $value, $flags = 0)
+function xattr_set($filename, $name, $value, $flags = false)
 {
 }

@@ -14,6 +14,6 @@
  *
  * @return resource Returns an x509 certificate resource on success, false on failure.
  */
-function openssl_csr_sign($csr, $cacert, $priv_key, $days, $configargs = array(), $serial = 0)
+function openssl_csr_sign($csr, $cacert, $priv_key, $days, $configargs = array(), $serial = false)
 {
 }

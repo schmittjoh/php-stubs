@@ -11,7 +11,7 @@ class MongoId
      *
      * @param string $id
      */
-    public function __construct($id = 'null')
+    public function __construct($id = NULL)
     {
     }
 

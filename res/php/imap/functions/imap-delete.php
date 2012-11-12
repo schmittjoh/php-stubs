@@ -11,6 +11,6 @@
  *
  * @return bool Returns true.
  */
-function imap_delete($imap_stream, $msg_number, $options = 0)
+function imap_delete($imap_stream, $msg_number, $options = false)
 {
 }

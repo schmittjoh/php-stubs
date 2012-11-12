@@ -11,6 +11,6 @@
  *
  * @return bool 
  */
-function apache_setenv($variable, $value, $walk_to_top = 'false')
+function apache_setenv($variable, $value, $walk_to_top = false)
 {
 }

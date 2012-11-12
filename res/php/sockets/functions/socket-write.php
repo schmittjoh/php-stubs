@@ -15,6 +15,6 @@
  *             to get a textual explanation of the
  *             error.
  */
-function socket_write($socket, $buffer, $length = 0)
+function socket_write($socket, $buffer, $length = false)
 {
 }

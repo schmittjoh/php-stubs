@@ -13,6 +13,6 @@
  *
  * @return bool 
  */
-function classkit_method_redefine($classname, $methodname, $args, $code, $flags = 0)
+function classkit_method_redefine($classname, $methodname, $args, $code, $flags = false)
 {
 }

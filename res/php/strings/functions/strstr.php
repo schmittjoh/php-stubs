@@ -12,6 +12,6 @@
  * @return string Returns the portion of string, or false if
  *                is not found.
  */
-function strstr($haystack, $needle, $before_needle = 'false')
+function strstr($haystack, $needle, $before_needle = false)
 {
 }

@@ -10,6 +10,6 @@
  *
  * @return bool 
  */
-function oci_execute($statement, $mode = 0)
+function oci_execute($statement, $mode = false)
 {
 }

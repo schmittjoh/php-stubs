@@ -13,6 +13,6 @@
  *
  * @return resource
  */
-function pfsockopen($hostname, $port = -1, &$errno = NULL, &$errstr = NULL, $timeout = 0)
+function pfsockopen($hostname, $port = -1, &$errno = NULL, &$errstr = NULL, $timeout = false)
 {
 }

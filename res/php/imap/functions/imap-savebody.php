@@ -13,6 +13,6 @@
  *
  * @return bool 
  */
-function imap_savebody($imap_stream, $file, $msg_number, $part_number = '', $options = 0)
+function imap_savebody($imap_stream, $file, $msg_number, $part_number = '', $options = false)
 {
 }

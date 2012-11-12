@@ -12,6 +12,6 @@
  *               which includes the revision number, line number, line of code,
  *               author, and date.
  */
-function svn_blame($repository_url, $revision_no = 0)
+function svn_blame($repository_url, $revision_no = false)
 {
 }

@@ -8,7 +8,7 @@ class AMQPConnection
      *
      * @param array $credentials
      */
-    public function __construct($credentials = 'array()')
+    public function __construct($credentials = array())
     {
     }
 

@@ -10,6 +10,6 @@
  *
  * @return void 
  */
-function clearstatcache($clear_realpath_cache = 'false', $filename = NULL)
+function clearstatcache($clear_realpath_cache = false, $filename = NULL)
 {
 }

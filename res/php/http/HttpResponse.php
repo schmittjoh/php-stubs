@@ -167,7 +167,7 @@ class HttpResponse
      *
      * @return string Returns the guessed content type on success.
      */
-    public function guessContentType($magic_file, $magic_mode = 0)
+    public function guessContentType($magic_file, $magic_mode = false)
     {
     }
 
@@ -181,7 +181,7 @@ class HttpResponse
      *
      * @return void
      */
-    public function redirect($url = NULL, $params = array(), $session = 'false', $status = NULL)
+    public function redirect($url = NULL, $params = array(), $session = false, $status = NULL)
     {
     }
 
@@ -192,7 +192,7 @@ class HttpResponse
      *
      * @return bool 
      */
-    public function send($clean_ob = 'true')
+    public function send($clean_ob = true)
     {
     }
 
@@ -227,7 +227,7 @@ class HttpResponse
      *
      * @return bool Returns true on success, or false if control does not match one of ,  or .
      */
-    public function setCacheControl($control, $max_age = 0, $must_revalidate = 'true')
+    public function setCacheControl($control, $max_age = false, $must_revalidate = true)
     {
     }
 
@@ -239,7 +239,7 @@ class HttpResponse
      *
      * @return bool 
      */
-    public function setContentDisposition($filename, $inline = 'false')
+    public function setContentDisposition($filename, $inline = false)
     {
     }
 
@@ -308,7 +308,7 @@ class HttpResponse
      *
      * @return bool 
      */
-    public function setHeader($name, $value = NULL, $replace = 'true')
+    public function setHeader($name, $value = NULL, $replace = true)
     {
     }
 

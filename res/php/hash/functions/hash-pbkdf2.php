@@ -16,6 +16,6 @@
  *                is set to true in which case the raw
  *                binary representation of the derived key is returned.
  */
-function hash_pbkdf2($algo, $password, $salt, $iterations, $length = 0, $raw_output = 'false')
+function hash_pbkdf2($algo, $password, $salt, $iterations, $length = false, $raw_output = false)
 {
 }

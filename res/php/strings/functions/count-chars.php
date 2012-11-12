@@ -11,6 +11,6 @@
  * @return mixed Depending on
  *               returns one of the following:
  */
-function count_chars($string, $mode = 0)
+function count_chars($string, $mode = false)
 {
 }

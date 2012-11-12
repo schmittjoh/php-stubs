@@ -14,6 +14,6 @@
  *
  * @return int Returns the dictionary link identifier for use in other pspell functions.
  */
-function pspell_new_personal($personal, $language, $spelling = NULL, $jargon = NULL, $encoding = NULL, $mode = 0)
+function pspell_new_personal($personal, $language, $spelling = NULL, $jargon = NULL, $encoding = NULL, $mode = false)
 {
 }

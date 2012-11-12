@@ -100,7 +100,7 @@ class DateTimeZone
      *
      * @return array Returns array on success.
      */
-    public function listIdentifiers($what = 0, $country = 'null', $what = 0, $country = 'null')
+    public function listIdentifiers($what = false, $country = NULL, $what = false, $country = NULL)
     {
     }
 }

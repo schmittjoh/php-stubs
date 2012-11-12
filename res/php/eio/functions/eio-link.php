@@ -13,6 +13,6 @@
  *
  * @return resource 
  */
-function eio_link($path, $new_path, $pri = 0, $callback = 'NULL', $data = 'NULL')
+function eio_link($path, $new_path, $pri = false, $callback = NULL, $data = NULL)
 {
 }

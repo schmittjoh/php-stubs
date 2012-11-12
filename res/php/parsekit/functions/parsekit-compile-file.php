@@ -11,6 +11,6 @@
  *
  * @return array Returns a complex multi-layer array structure as detailed below.
  */
-function parsekit_compile_file($filename, &$errors = array(), $options = 0)
+function parsekit_compile_file($filename, &$errors = array(), $options = false)
 {
 }

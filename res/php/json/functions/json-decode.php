@@ -17,6 +17,6 @@
  *               cannot be decoded or if the encoded
  *               data is deeper than the recursion limit.
  */
-function json_decode($json, $assoc = 'false', $depth = 512, $options = 0)
+function json_decode($json, $assoc = false, $depth = 512, $options = false)
 {
 }

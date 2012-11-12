@@ -13,6 +13,6 @@
  *             called as , an error message is
  *             printed.
  */
-function readgzfile($filename, $use_include_path = 0)
+function readgzfile($filename, $use_include_path = false)
 {
 }

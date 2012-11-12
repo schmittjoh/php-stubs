@@ -11,6 +11,6 @@
  *
  * @return bool 
  */
-function ldap_bind($link_identifier, $bind_rdn = 'null', $bind_password = 'null')
+function ldap_bind($link_identifier, $bind_rdn = NULL, $bind_password = NULL)
 {
 }

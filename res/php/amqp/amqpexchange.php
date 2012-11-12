@@ -41,7 +41,7 @@ class AMQPExchange
      *
      * @return bool 
      */
-    public function delete($flags = 0)
+    public function delete($flags = false)
     {
     }
 
@@ -102,7 +102,7 @@ class AMQPExchange
      *
      * @return bool 
      */
-    public function publish($message, $routing_key, $flags = 0, $attributes = 'array()')
+    public function publish($message, $routing_key, $flags = false, $attributes = array())
     {
     }
 

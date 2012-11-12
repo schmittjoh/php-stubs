@@ -11,6 +11,6 @@
  * @return int Returns a timestamp on success, false otherwise. Previous to PHP 5.1.0,
  *             this function would return  on failure.
  */
-function strtotime($time, $now = 0)
+function strtotime($time, $now = false)
 {
 }

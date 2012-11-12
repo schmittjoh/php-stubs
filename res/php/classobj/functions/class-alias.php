@@ -11,6 +11,6 @@
  *
  * @return bool 
  */
-function class_alias($original, $alias, $autoload = 'true')
+function class_alias($original, $alias, $autoload = true)
 {
 }

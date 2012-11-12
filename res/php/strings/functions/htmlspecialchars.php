@@ -12,6 +12,6 @@
  *
  * @return string The converted ``string``.
  */
-function htmlspecialchars($string, $flags = 0, $encoding = '\'UTF-8\'', $double_encode = 'true')
+function htmlspecialchars($string, $flags = false, $encoding = '\'UTF-8\'', $double_encode = true)
 {
 }

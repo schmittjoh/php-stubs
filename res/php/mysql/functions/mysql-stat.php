@@ -12,6 +12,6 @@
  *                variables, you have to use the  SQL command.
  *                If  is invalid, null is returned.
  */
-function mysql_stat($link_identifier = 'NULL')
+function mysql_stat($link_identifier = NULL)
 {
 }

@@ -12,6 +12,6 @@
  *
  * @return int Returns a result code, as an integer.
  */
-function stream_socket_sendto($socket, $data, $flags = 0, $address = NULL)
+function stream_socket_sendto($socket, $data, $flags = false, $address = NULL)
 {
 }

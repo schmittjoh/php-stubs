@@ -11,6 +11,6 @@
  *
  * @return string Returns the portion of string, or FALSE if needle is not found.
  */
-function grapheme_strstr($haystack, $needle, $before_needle = 'false')
+function grapheme_strstr($haystack, $needle, $before_needle = false)
 {
 }

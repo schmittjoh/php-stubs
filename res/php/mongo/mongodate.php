@@ -15,7 +15,7 @@ class MongoDate
      * @param int $sec
      * @param int $usec
      */
-    public function __construct($sec = 0, $usec = 0)
+    public function __construct($sec = false, $usec = false)
     {
     }
 

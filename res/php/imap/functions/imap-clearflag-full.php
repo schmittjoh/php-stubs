@@ -12,6 +12,6 @@
  *
  * @return bool 
  */
-function imap_clearflag_full($imap_stream, $sequence, $flag, $options = 0)
+function imap_clearflag_full($imap_stream, $sequence, $flag, $options = false)
 {
 }

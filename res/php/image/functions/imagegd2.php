@@ -12,6 +12,6 @@
  *
  * @return bool 
  */
-function imagegd2($image, $filename = NULL, $chunk_size = NULL, $type = 0)
+function imagegd2($image, $filename = NULL, $chunk_size = NULL, $type = false)
 {
 }

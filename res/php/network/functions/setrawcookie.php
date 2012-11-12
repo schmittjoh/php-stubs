@@ -15,6 +15,6 @@
  *
  * @return bool 
  */
-function setrawcookie($name, $value = NULL, $expire = 0, $path = NULL, $domain = NULL, $secure = 'false', $httponly = 'false')
+function setrawcookie($name, $value = NULL, $expire = false, $path = NULL, $domain = NULL, $secure = false, $httponly = false)
 {
 }

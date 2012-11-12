@@ -10,6 +10,6 @@
  *
  * @return array Returns the filtered array.
  */
-function array_unique($array, $sort_flags = 0)
+function array_unique($array, $sort_flags = false)
 {
 }

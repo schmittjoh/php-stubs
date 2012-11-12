@@ -9,6 +9,6 @@
  *
  * @return void 
  */
-function ob_implicit_flush($flag = 0)
+function ob_implicit_flush($flag = false)
 {
 }

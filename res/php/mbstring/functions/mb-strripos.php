@@ -15,6 +15,6 @@
  *             string, or false
  *             if  is not found.
  */
-function mb_strripos($haystack, $needle, $offset = 0, $encoding = NULL)
+function mb_strripos($haystack, $needle, $offset = false, $encoding = NULL)
 {
 }

@@ -11,7 +11,7 @@
  *
  * @return bool
  */
-function apc_add($key, $var = NULL, $ttl = 0)
+function apc_add($key, $var = NULL, $ttl = false)
 {
 }
 
@@ -26,6 +26,6 @@ function apc_add($key, $var = NULL, $ttl = 0)
  *
  * @return array
  */
-function apc_add($values, $unused = NULL, $ttl = 0)
+function apc_add($values, $unused = NULL, $ttl = false)
 {
 }

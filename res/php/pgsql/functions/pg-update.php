@@ -14,6 +14,6 @@
  * @return mixed Returns ``string`` if  is passed
  *               via .
  */
-function pg_update($connection, $table_name, $data, $condition, $options = 0)
+function pg_update($connection, $table_name, $data, $condition, $options = false)
 {
 }

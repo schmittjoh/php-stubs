@@ -12,6 +12,6 @@
  *
  * @return bool 
  */
-function svn_checkout($repos, $targetpath, $revision = NULL, $flags = 0)
+function svn_checkout($repos, $targetpath, $revision = NULL, $flags = false)
 {
 }

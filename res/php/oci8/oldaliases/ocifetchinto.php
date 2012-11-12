@@ -11,6 +11,6 @@
  *
  * @return int
  */
-function ocifetchinto($statement, &$result, $mode = 0)
+function ocifetchinto($statement, &$result, $mode = false)
 {
 }

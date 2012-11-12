@@ -13,6 +13,6 @@
  *                  from this file descriptor will be transparently decompressed and what you
  *                  write gets compressed.
  */
-function gzopen($filename, $mode, $use_include_path = 0)
+function gzopen($filename, $mode, $use_include_path = false)
 {
 }

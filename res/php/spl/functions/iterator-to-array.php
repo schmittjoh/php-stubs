@@ -10,6 +10,6 @@
  *
  * @return array An ``array`` containing the elements of the .
  */
-function iterator_to_array($iterator, $use_keys = 'true')
+function iterator_to_array($iterator, $use_keys = true)
 {
 }

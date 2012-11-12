@@ -12,6 +12,6 @@
  * @return string Returns the matched substring. If  is not
  *                found, returns false.
  */
-function stristr($haystack, $needle, $before_needle = 'false')
+function stristr($haystack, $needle, $before_needle = false)
 {
 }

@@ -12,6 +12,6 @@
  *
  * @return bool 
  */
-function oci_define_by_name($statement, $column_name, &$variable, $type = 0)
+function oci_define_by_name($statement, $column_name, &$variable, $type = false)
 {
 }

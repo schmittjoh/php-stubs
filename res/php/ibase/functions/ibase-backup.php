@@ -13,6 +13,6 @@
  *
  * @return mixed
  */
-function ibase_backup($service_handle, $source_db, $dest_file, $options = 0, $verbose = 'false')
+function ibase_backup($service_handle, $source_db, $dest_file, $options = false, $verbose = false)
 {
 }

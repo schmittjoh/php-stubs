@@ -12,6 +12,6 @@
  * @return bool Returns true if  is found in the array,
  *              false otherwise.
  */
-function in_array($needle, $haystack, $strict = 'false')
+function in_array($needle, $haystack, $strict = false)
 {
 }

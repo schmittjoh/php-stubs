@@ -71,7 +71,7 @@ class MongoCollection
      *               ("ok") and any error that may have occured ("err").  Otherwise, returns
      *               true if the batch insert was successfully sent, false otherwise.
      */
-    public function batchInsert($a, $options = 'array()')
+    public function batchInsert($a, $options = array())
     {
     }
 
@@ -84,7 +84,7 @@ class MongoCollection
      *
      * @return int Returns the number of documents matching the query.
      */
-    public function count($query = 'array()', $limit = 0, $skip = 0)
+    public function count($query = array(), $limit = false, $skip = false)
     {
     }
 
@@ -151,7 +151,7 @@ class MongoCollection
      *
      * @return bool Returns true.
      */
-    public function ensureIndex($key|keys, $options = 'array()')
+    public function ensureIndex($key|keys, $options = array())
     {
     }
 
@@ -164,7 +164,7 @@ class MongoCollection
      *
      * @return MongoCursor Returns a cursor for the search results.
      */
-    public function find($query = 'array()', $fields = 'array()')
+    public function find($query = array(), $fields = array())
     {
     }
 
@@ -191,7 +191,7 @@ class MongoCollection
      *
      * @return array Returns record matching the search or null.
      */
-    public function findOne($query = 'array()', $fields = 'array()')
+    public function findOne($query = array(), $fields = array())
     {
     }
 
@@ -262,7 +262,7 @@ class MongoCollection
      *
      * @return array Returns an array containing the result.
      */
-    public function group($keys, $initial, $reduce, $options = 'array()')
+    public function group($keys, $initial, $reduce, $options = array())
     {
     }
 
@@ -277,7 +277,7 @@ class MongoCollection
      *                    inserted array is not empty (a ``MongoException`` will be
      *                    thrown if the inserted array is empty).
      */
-    public function insert($a, $options = 'array()')
+    public function insert($a, $options = array())
     {
     }
 
@@ -290,7 +290,7 @@ class MongoCollection
      * @return bool|array Returns an array containing the status of the removal if the
      *                    option is set. Otherwise, returns true.
      */
-    public function remove($criteria = 'array()', $options = 'array()')
+    public function remove($criteria = array(), $options = array())
     {
     }
 
@@ -304,7 +304,7 @@ class MongoCollection
      *               Otherwise, returns a boolean representing if the array was not empty (an empty array will not
      *               be inserted).
      */
-    public function save($a, $options = 'array()')
+    public function save($a, $options = array())
     {
     }
 
@@ -327,7 +327,7 @@ class MongoCollection
      *
      * @return bool Returns the former value of slaveOkay for this instance.
      */
-    public function setSlaveOkay($ok = 'true')
+    public function setSlaveOkay($ok = true)
     {
     }
 
@@ -352,7 +352,7 @@ class MongoCollection
      * @return bool|array Returns an array containing the status of the update if the
      *                    option is set. Otherwise, returns true.
      */
-    public function update($criteria, $new_object, $options = 'array()')
+    public function update($criteria, $new_object, $options = array())
     {
     }
 
@@ -363,7 +363,7 @@ class MongoCollection
      *
      * @return array Returns the databaseaposs evaluation of this object.
      */
-    public function validate($scan_data = 'false')
+    public function validate($scan_data = false)
     {
     }
 }

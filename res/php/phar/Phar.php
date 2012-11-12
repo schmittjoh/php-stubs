@@ -93,7 +93,7 @@ class Phar extends \RecursiveDirectoryIterator implements \Countable, \ArrayAcce
      *
      * @return bool true if compression/decompression is available, false if not.
      */
-    public function canCompress($type = 0)
+    public function canCompress($type = false)
     {
     }
 
@@ -264,7 +264,7 @@ class Phar extends \RecursiveDirectoryIterator implements \Countable, \ArrayAcce
      * @return bool returns true on success, but it is better to check for thrown exception,
      *              and assume success if none is thrown.
      */
-    public function extractTo($pathto, $files = NULL, $overwrite = 'false')
+    public function extractTo($pathto, $files = NULL, $overwrite = false)
     {
     }
 
@@ -403,7 +403,7 @@ class Phar extends \RecursiveDirectoryIterator implements \Countable, \ArrayAcce
      *
      * @return bool Returns true if the filename is valid, false if not.
      */
-    public function isValidPharFilename($filename, $executable = 'true')
+    public function isValidPharFilename($filename, $executable = true)
     {
     }
 
@@ -436,7 +436,7 @@ class Phar extends \RecursiveDirectoryIterator implements \Countable, \ArrayAcce
      *
      * @return bool 
      */
-    public function mapPhar($alias = NULL, $dataoffset = 0)
+    public function mapPhar($alias = NULL, $dataoffset = false)
     {
     }
 
@@ -516,7 +516,7 @@ class Phar extends \RecursiveDirectoryIterator implements \Countable, \ArrayAcce
      *
      * @return string Returns the filename if valid, empty string otherwise.
      */
-    public function running($retphar = 'true')
+    public function running($retphar = true)
     {
     }
 

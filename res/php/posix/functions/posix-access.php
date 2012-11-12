@@ -10,6 +10,6 @@
  *
  * @return bool 
  */
-function posix_access($file, $mode = 0)
+function posix_access($file, $mode = false)
 {
 }

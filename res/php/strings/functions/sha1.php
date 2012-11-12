@@ -10,6 +10,6 @@
  *
  * @return string Returns the sha1 hash as a string.
  */
-function sha1($str, $raw_output = 'false')
+function sha1($str, $raw_output = false)
 {
 }

@@ -12,6 +12,6 @@
  *
  * @return bool 
  */
-function svn_export($frompath, $topath, $working_copy = 'true', $revision_no = -1)
+function svn_export($frompath, $topath, $working_copy = true, $revision_no = -1)
 {
 }

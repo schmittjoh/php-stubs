@@ -11,6 +11,6 @@
  *
  * @return string Returns the header of the specified message as a text string.
  */
-function imap_fetchheader($imap_stream, $msg_number, $options = 0)
+function imap_fetchheader($imap_stream, $msg_number, $options = false)
 {
 }

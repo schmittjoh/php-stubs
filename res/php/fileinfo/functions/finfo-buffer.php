@@ -12,7 +12,7 @@
  *
  * @return string
  */
-function finfo_buffer($finfo, $string = 'null', $options = 0, $context = 'null')
+function finfo_buffer($finfo, $string = NULL, $options = false, $context = NULL)
 {
 }
 
@@ -27,6 +27,6 @@ function finfo_buffer($finfo, $string = 'null', $options = 0, $context = 'null')
  *
  * @return string
  */
-function finfo_buffer($string = 'null', $options = 0, $context = 'null')
+function finfo_buffer($string = NULL, $options = false, $context = NULL)
 {
 }

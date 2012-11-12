@@ -10,7 +10,7 @@ class LimitIterator extends \IteratorIterator implements \OuterIterator, \Traver
      * @param int $offset
      * @param int $count
      */
-    public function __construct($iterator, $offset = 0, $count = -1)
+    public function __construct($iterator, $offset = false, $count = -1)
     {
     }
 

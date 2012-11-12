@@ -10,6 +10,6 @@
  *
  * @return mixed The gregorian weekday as either an integer or string.
  */
-function JDDayOfWeek($julianday, $mode = 0)
+function JDDayOfWeek($julianday, $mode = false)
 {
 }

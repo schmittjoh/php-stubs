@@ -12,6 +12,6 @@
  * @return resource A result pointer ``resource`` on success, or false on
  *                  failure.
  */
-function mysql_list_fields($database_name, $table_name, $link_identifier = 'NULL')
+function mysql_list_fields($database_name, $table_name, $link_identifier = NULL)
 {
 }

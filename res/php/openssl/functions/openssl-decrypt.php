@@ -13,6 +13,6 @@
  *
  * @return string The decrypted string on success.
  */
-function openssl_decrypt($data, $method, $password, $raw_input = 'false', $iv = '')
+function openssl_decrypt($data, $method, $password, $raw_input = false, $iv = '')
 {
 }

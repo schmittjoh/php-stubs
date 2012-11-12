@@ -9,6 +9,6 @@
  *
  * @return int Returns the memory amount in bytes.
  */
-function memory_get_usage($real_usage = 'false')
+function memory_get_usage($real_usage = false)
 {
 }

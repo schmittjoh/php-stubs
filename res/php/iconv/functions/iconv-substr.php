@@ -13,6 +13,6 @@
  * @return string Returns the portion of  specified by the
  *                and  parameters.
  */
-function iconv_substr($str, $offset, $length = 0, $charset = 'ini_get("iconv.internal_encoding")')
+function iconv_substr($str, $offset, $length = false, $charset = 'ini_get("iconv.internal_encoding")')
 {
 }

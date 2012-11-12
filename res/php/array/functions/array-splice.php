@@ -12,6 +12,6 @@
  *
  * @return array Returns the array consisting of the extracted elements.
  */
-function array_splice(&$input, $offset, $length = 0, $replacement = NULL)
+function array_splice(&$input, $offset, $length = false, $replacement = NULL)
 {
 }

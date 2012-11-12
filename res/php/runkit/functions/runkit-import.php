@@ -10,6 +10,6 @@
  *
  * @return bool 
  */
-function runkit_import($filename, $flags = 0)
+function runkit_import($filename, $flags = false)
 {
 }

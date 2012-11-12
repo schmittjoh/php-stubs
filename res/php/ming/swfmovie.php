@@ -216,7 +216,7 @@ class SWFMovie
      *
      * @return int Return number of frames.
      */
-    public function streamMP3($mp3file, $skip = 0)
+    public function streamMP3($mp3file, $skip = false)
     {
     }
 

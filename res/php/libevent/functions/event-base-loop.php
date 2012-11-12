@@ -11,6 +11,6 @@
  * @return int returns 0 on success, -1 on error and
  *             1 if no events were registered.
  */
-function event_base_loop($event_base, $flags = 0)
+function event_base_loop($event_base, $flags = false)
 {
 }

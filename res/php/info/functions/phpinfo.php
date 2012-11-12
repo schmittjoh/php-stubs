@@ -9,6 +9,6 @@
  *
  * @return bool 
  */
-function phpinfo($what = 0)
+function phpinfo($what = false)
 {
 }

@@ -13,6 +13,6 @@
  *                is returned, use  to determine the nature
  *                of the error.
  */
-function mysql_db_name($result, $row, $field = 'NULL')
+function mysql_db_name($result, $row, $field = NULL)
 {
 }

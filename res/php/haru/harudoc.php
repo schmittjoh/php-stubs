@@ -164,7 +164,7 @@ class HaruDoc
      *
      * @return object Returns a ``HaruImage`` instance.
      */
-    public function loadPNG($filename, $deferred = 'false')
+    public function loadPNG($filename, $deferred = false)
     {
     }
 
@@ -191,7 +191,7 @@ class HaruDoc
      *
      * @return string Returns the name of the loaded font on success.
      */
-    public function loadTTC($fontfile, $index, $embed = 'false')
+    public function loadTTC($fontfile, $index, $embed = false)
     {
     }
 
@@ -203,7 +203,7 @@ class HaruDoc
      *
      * @return string Returns the name of the loaded font on success.
      */
-    public function loadTTF($fontfile, $embed = 'false')
+    public function loadTTF($fontfile, $embed = false)
     {
     }
 

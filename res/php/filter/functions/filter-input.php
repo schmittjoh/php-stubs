@@ -15,6 +15,6 @@
  *               If the flag  is used, it
  *               returns false if the variable is not set and null if the filter fails.
  */
-function filter_input($type, $variable_name, $filter = 0, $options = NULL)
+function filter_input($type, $variable_name, $filter = false, $options = NULL)
 {
 }

@@ -255,7 +255,7 @@ class SplFileInfo
      *
      * @return SplFileObject The opened file as an ``SplFileObject`` .
      */
-    public function openFile($open_mode = 'r', $use_include_path = 'false', $context = 'null')
+    public function openFile($open_mode = 'r', $use_include_path = false, $context = NULL)
     {
     }
 

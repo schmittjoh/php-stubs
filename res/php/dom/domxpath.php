@@ -29,7 +29,7 @@ class DOMXPath
      * @return mixed Returns a typed result if possible or a ``DOMNodeList``
      *               containing all nodes matching the given XPath .
      */
-    public function evaluate($expression, $contextnode = NULL, $registerNodeNS = 'true')
+    public function evaluate($expression, $contextnode = NULL, $registerNodeNS = true)
     {
     }
 
@@ -47,7 +47,7 @@ class DOMXPath
      *                     does not return nodes will return an empty
      *                     ``DOMNodeList``.
      */
-    public function query($expression, $contextnode = NULL, $registerNodeNS = 'true')
+    public function query($expression, $contextnode = NULL, $registerNodeNS = true)
     {
     }
 

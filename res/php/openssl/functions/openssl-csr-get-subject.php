@@ -10,6 +10,6 @@
  *
  * @return array
  */
-function openssl_csr_get_subject($csr, $use_shortnames = 'true')
+function openssl_csr_get_subject($csr, $use_shortnames = true)
 {
 }

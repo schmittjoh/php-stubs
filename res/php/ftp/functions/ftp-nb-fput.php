@@ -14,6 +14,6 @@
  * @return int Returns  or
  *             or .
  */
-function ftp_nb_fput($ftp_stream, $remote_file, $handle, $mode, $startpos = 0)
+function ftp_nb_fput($ftp_stream, $remote_file, $handle, $mode, $startpos = false)
 {
 }

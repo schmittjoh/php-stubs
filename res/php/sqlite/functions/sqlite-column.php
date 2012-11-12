@@ -11,7 +11,7 @@
  *
  * @return mixed
  */
-function sqlite_column($result, $index_or_name, $decode_binary = 'true')
+function sqlite_column($result, $index_or_name, $decode_binary = true)
 {
 }
 
@@ -25,7 +25,7 @@ function sqlite_column($result, $index_or_name, $decode_binary = 'true')
  *
  * @return mixed
  */
-function sqlite_column($index_or_name, $decode_binary = 'true')
+function sqlite_column($index_or_name, $decode_binary = true)
 {
 }
 
@@ -39,6 +39,6 @@ function sqlite_column($index_or_name, $decode_binary = 'true')
  *
  * @return mixed
  */
-function sqlite_column($index_or_name, $decode_binary = 'true')
+function sqlite_column($index_or_name, $decode_binary = true)
 {
 }

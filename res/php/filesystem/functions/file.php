@@ -13,6 +13,6 @@
  *               line in the file, with the newline still attached. Upon failure,
  *               returns false.
  */
-function file($filename, $flags = 0, $context = NULL)
+function file($filename, $flags = false, $context = NULL)
 {
 }

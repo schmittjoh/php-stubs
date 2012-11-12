@@ -12,7 +12,7 @@
  *
  * @return string
  */
-function finfo_file($finfo, $file_name = 'null', $options = 0, $context = 'null')
+function finfo_file($finfo, $file_name = NULL, $options = false, $context = NULL)
 {
 }
 
@@ -27,6 +27,6 @@ function finfo_file($finfo, $file_name = 'null', $options = 0, $context = 'null'
  *
  * @return string
  */
-function finfo_file($file_name = 'null', $options = 0, $context = 'null')
+function finfo_file($file_name = NULL, $options = false, $context = NULL)
 {
 }

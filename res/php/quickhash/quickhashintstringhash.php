@@ -15,7 +15,7 @@ class QuickHashIntStringHash
      * @param int $size
      * @param int $options
      */
-    public function __construct($size, $options = 0)
+    public function __construct($size, $options = false)
     {
     }
 
@@ -83,7 +83,7 @@ class QuickHashIntStringHash
      *
      * @return QuickHashIntStringHash Returns a new QuickHashIntStringHash.
      */
-    public function loadFromFile($filename, $size = 0, $options = 0)
+    public function loadFromFile($filename, $size = false, $options = false)
     {
     }
 
@@ -96,7 +96,7 @@ class QuickHashIntStringHash
      *
      * @return QuickHashIntStringHash Returns a new QuickHashIntStringHash.
      */
-    public function loadFromString($contents, $size = 0, $options = 0)
+    public function loadFromString($contents, $size = false, $options = false)
     {
     }
 

@@ -11,6 +11,6 @@
  * @return string Returns the original data. The returned data may be
  *                binary.
  */
-function base64_decode($data, $strict = 'false')
+function base64_decode($data, $strict = false)
 {
 }

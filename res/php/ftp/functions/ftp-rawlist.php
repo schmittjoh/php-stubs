@@ -11,6 +11,6 @@
  *
  * @return array Returns an array where each element corresponds to one line of text.
  */
-function ftp_rawlist($ftp_stream, $directory, $recursive = 'false')
+function ftp_rawlist($ftp_stream, $directory, $recursive = false)
 {
 }

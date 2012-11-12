@@ -10,6 +10,6 @@
  *
  * @return bool 
  */
-function mysql_set_charset($charset, $link_identifier = 'NULL')
+function mysql_set_charset($charset, $link_identifier = NULL)
 {
 }

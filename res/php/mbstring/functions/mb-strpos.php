@@ -15,6 +15,6 @@
  *             . If
  *             is not found, it returns false.
  */
-function mb_strpos($haystack, $needle, $offset = 0, $encoding = NULL)
+function mb_strpos($haystack, $needle, $offset = false, $encoding = NULL)
 {
 }

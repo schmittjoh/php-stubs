@@ -46,7 +46,7 @@ class SoapClient
      *
      * @return string The XML SOAP response.
      */
-    public function __doRequest($request, $location, $action, $version, $one_way = 0)
+    public function __doRequest($request, $location, $action, $version, $one_way = false)
     {
     }
 

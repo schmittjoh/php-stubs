@@ -14,6 +14,6 @@
  *
  * @return resource Connection identifier, when process is successful.
  */
-function cubrid_connect($host, $port, $dbname, $userid = NULL, $passwd = NULL, $new_link = 'false')
+function cubrid_connect($host, $port, $dbname, $userid = NULL, $passwd = NULL, $new_link = false)
 {
 }

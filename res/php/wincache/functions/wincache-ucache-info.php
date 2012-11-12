@@ -10,6 +10,6 @@
  *
  * @return array Array of meta data about user cache
  */
-function wincache_ucache_info($summaryonly = 'false', $key = NULL)
+function wincache_ucache_info($summaryonly = false, $key = NULL)
 {
 }

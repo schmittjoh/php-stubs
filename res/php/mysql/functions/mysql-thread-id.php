@@ -9,6 +9,6 @@
  *
  * @return int The thread ID on success.
  */
-function mysql_thread_id($link_identifier = 'NULL')
+function mysql_thread_id($link_identifier = NULL)
 {
 }

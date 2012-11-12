@@ -11,6 +11,6 @@
  *
  * @return mixed The compressed string, or an error number if an error occurred.
  */
-function bzcompress($source, $blocksize = 4, $workfactor = 0)
+function bzcompress($source, $blocksize = 4, $workfactor = false)
 {
 }

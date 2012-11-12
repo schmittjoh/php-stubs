@@ -13,6 +13,6 @@
  *                body structure along with a similar object for each mime attachment. The
  *                structure of the returned objects is as follows:
  */
-function imap_fetchstructure($imap_stream, $msg_number, $options = 0)
+function imap_fetchstructure($imap_stream, $msg_number, $options = false)
 {
 }

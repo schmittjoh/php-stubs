@@ -12,6 +12,6 @@
  *
  * @return string Returns a YAML encoded ``string`` on success.
  */
-function yaml_emit($data, $encoding = 0, $linebreak = 0, $callbacks = array())
+function yaml_emit($data, $encoding = false, $linebreak = false, $callbacks = array())
 {
 }

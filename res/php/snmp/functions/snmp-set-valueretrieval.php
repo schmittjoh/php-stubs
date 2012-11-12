@@ -9,6 +9,6 @@
  *
  * @return bool
  */
-function snmp_set_valueretrieval($method = 0)
+function snmp_set_valueretrieval($method = false)
 {
 }

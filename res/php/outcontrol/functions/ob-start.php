@@ -11,6 +11,6 @@
  *
  * @return bool 
  */
-function ob_start($output_callback = NULL, $chunk_size = 0, $erase = 'true')
+function ob_start($output_callback = NULL, $chunk_size = false, $erase = true)
 {
 }

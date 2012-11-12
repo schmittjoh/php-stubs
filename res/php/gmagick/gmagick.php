@@ -988,7 +988,7 @@ class Gmagick
      *
      * @return mixed Gmagick object with image levelled.
      */
-    public function levelimage($blackPoint, $gamma, $whitePoint, $channel = 0)
+    public function levelimage($blackPoint, $gamma, $whitePoint, $channel = false)
     {
     }
 
@@ -1197,7 +1197,7 @@ class Gmagick
      *
      * @return void The Gmagick object on success
      */
-    public function radialblurimage($angle, $channel = 0)
+    public function radialblurimage($angle, $channel = false)
     {
     }
 
@@ -1318,7 +1318,7 @@ class Gmagick
      *
      * @return void The Gmagick object on success
      */
-    public function resizeimage($width, $height, $filter, $blur, $fit = 'false')
+    public function resizeimage($width, $height, $filter, $blur, $fit = false)
     {
     }
 
@@ -1355,7 +1355,7 @@ class Gmagick
      *
      * @return Gmagick The Gmagick object on success.
      */
-    public function scaleimage($width, $height, $fit = 'false')
+    public function scaleimage($width, $height, $fit = false)
     {
     }
 
@@ -1739,7 +1739,7 @@ class Gmagick
      *
      * @return Gmagick The Gmagick object on success.
      */
-    public function thumbnailimage($width, $height, $fit = 'false')
+    public function thumbnailimage($width, $height, $fit = false)
     {
     }
 
@@ -1773,7 +1773,7 @@ class Gmagick
      *
      * @return Gmagick The Gmagick object
      */
-    public function writeimage($filename, $all_frames = 'false')
+    public function writeimage($filename, $all_frames = false)
     {
     }
 }

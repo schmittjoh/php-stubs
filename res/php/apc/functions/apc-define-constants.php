@@ -11,6 +11,6 @@
  *
  * @return bool 
  */
-function apc_define_constants($key, $constants, $case_sensitive = 'true')
+function apc_define_constants($key, $constants, $case_sensitive = true)
 {
 }

@@ -193,7 +193,7 @@ class tidy
      *
      * @return tidy 
      */
-    public function parseFile($filename, $config = NULL, $encoding = NULL, $use_include_path = 'false', $filename, $config = NULL, $encoding = NULL, $use_include_path = 'false')
+    public function parseFile($filename, $config = NULL, $encoding = NULL, $use_include_path = false, $filename, $config = NULL, $encoding = NULL, $use_include_path = false)
     {
     }
 
@@ -227,7 +227,7 @@ class tidy
      *
      * @return string Returns the repaired contents as a string.
      */
-    public function repairFile($filename, $config = NULL, $encoding = NULL, $use_include_path = 'false', $filename, $config = NULL, $encoding = NULL, $use_include_path = 'false')
+    public function repairFile($filename, $config = NULL, $encoding = NULL, $use_include_path = false, $filename, $config = NULL, $encoding = NULL, $use_include_path = false)
     {
     }
 

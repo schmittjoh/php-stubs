@@ -62,7 +62,7 @@ class MongoGridFSFile
      *
      * @return int Returns the number of bytes written.
      */
-    public function write($filename = 'null')
+    public function write($filename = NULL)
     {
     }
 }

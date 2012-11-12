@@ -15,6 +15,6 @@
  *
  * @return bool 
  */
-function db2_bind_param($stmt, $parameter-number, $variable-name, $parameter-type = NULL, $data-type = 0, $precision = -1, $scale = 0)
+function db2_bind_param($stmt, $parameter-number, $variable-name, $parameter-type = NULL, $data-type = false, $precision = -1, $scale = false)
 {
 }

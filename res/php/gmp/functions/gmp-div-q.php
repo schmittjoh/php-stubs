@@ -11,6 +11,6 @@
  *
  * @return resource 
  */
-function gmp_div_q($a, $b, $round = 0)
+function gmp_div_q($a, $b, $round = false)
 {
 }

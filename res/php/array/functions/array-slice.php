@@ -12,6 +12,6 @@
  *
  * @return array Returns the slice.
  */
-function array_slice($array, $offset, $length = 0, $preserve_keys = 'false')
+function array_slice($array, $offset, $length = false, $preserve_keys = false)
 {
 }

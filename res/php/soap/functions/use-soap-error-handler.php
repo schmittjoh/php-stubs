@@ -9,6 +9,6 @@
  *
  * @return bool Returns the original value.
  */
-function use_soap_error_handler($handler = 'true')
+function use_soap_error_handler($handler = true)
 {
 }

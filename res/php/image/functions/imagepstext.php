@@ -20,6 +20,6 @@
  *
  * @return array This function returns an array containing the following elements:
  */
-function imagepstext($image, $text, $font_index, $size, $foreground, $background, $x, $y, $space = 0, $tightness = 0, $angle = 0, $antialias_steps = 4)
+function imagepstext($image, $text, $font_index, $size, $foreground, $background, $x, $y, $space = false, $tightness = false, $angle = false, $antialias_steps = 4)
 {
 }

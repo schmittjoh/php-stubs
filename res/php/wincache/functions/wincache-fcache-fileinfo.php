@@ -9,6 +9,6 @@
  *
  * @return array Array of meta data about file cache
  */
-function wincache_fcache_fileinfo($summaryonly = 'false')
+function wincache_fcache_fileinfo($summaryonly = false)
 {
 }

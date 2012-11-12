@@ -11,6 +11,6 @@
  *
  * @return bool 
  */
-function array_walk_recursive(&$input, $funcname, $userdata = 'null')
+function array_walk_recursive(&$input, $funcname, $userdata = NULL)
 {
 }

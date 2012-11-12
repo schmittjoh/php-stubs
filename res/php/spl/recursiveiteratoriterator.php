@@ -15,7 +15,7 @@ class RecursiveIteratorIterator implements \OuterIterator, \Traversable, \Iterat
      * @param int $mode
      * @param int $flags
      */
-    public function __construct($iterator, $mode = 0, $flags = 0)
+    public function __construct($iterator, $mode = false, $flags = false)
     {
     }
 

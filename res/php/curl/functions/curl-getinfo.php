@@ -12,6 +12,6 @@
  *               Otherwise, returns an associative array with the following elements
  *               (which correspond to ), or false on failure:
  */
-function curl_getinfo($ch, $opt = 0)
+function curl_getinfo($ch, $opt = false)
 {
 }

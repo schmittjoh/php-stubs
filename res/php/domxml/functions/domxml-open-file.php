@@ -11,6 +11,6 @@
  *
  * @return DomDocument Returns a ``DomDocument`` instance of the given file.
  */
-function domxml_open_file($filename, $mode = 0, &$error = array())
+function domxml_open_file($filename, $mode = false, &$error = array())
 {
 }

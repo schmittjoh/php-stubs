@@ -11,6 +11,6 @@
  *
  * @return bool 
  */
-function oci_lob_copy($lob_to, $lob_from, $length = 0)
+function oci_lob_copy($lob_to, $lob_from, $length = false)
 {
 }

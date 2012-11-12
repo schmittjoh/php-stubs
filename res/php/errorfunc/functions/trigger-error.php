@@ -11,6 +11,6 @@
  * @return bool This function returns false if wrong  is
  *              specified, true otherwise.
  */
-function trigger_error($error_msg, $error_type = 0)
+function trigger_error($error_msg, $error_type = false)
 {
 }

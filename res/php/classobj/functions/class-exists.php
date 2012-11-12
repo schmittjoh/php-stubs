@@ -11,6 +11,6 @@
  * @return bool Returns true if  is a defined class,
  *              false otherwise.
  */
-function class_exists($class_name, $autoload = 'true')
+function class_exists($class_name, $autoload = true)
 {
 }

@@ -10,7 +10,7 @@
  *
  * @return string
  */
-function number_format($number, $decimals = 0)
+function number_format($number, $decimals = false)
 {
 }
 
@@ -26,6 +26,6 @@ function number_format($number, $decimals = 0)
  *
  * @return string
  */
-function number_format($number, $decimals = 0, $dec_point = '\'.\'', $thousands_sep = '\',\'')
+function number_format($number, $decimals = false, $dec_point = '\'.\'', $thousands_sep = '\',\'')
 {
 }

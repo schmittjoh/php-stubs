@@ -12,6 +12,6 @@
  *               a tree of messages threaded by , or false
  *               on error.
  */
-function imap_thread($imap_stream, $options = 0)
+function imap_thread($imap_stream, $options = false)
 {
 }

@@ -10,7 +10,7 @@
  *
  * @return string
  */
-function sqlite_fetch_single($result, $decode_binary = 'true')
+function sqlite_fetch_single($result, $decode_binary = true)
 {
 }
 
@@ -23,7 +23,7 @@ function sqlite_fetch_single($result, $decode_binary = 'true')
  *
  * @return string
  */
-function sqlite_fetch_single($decode_binary = 'true')
+function sqlite_fetch_single($decode_binary = true)
 {
 }
 
@@ -36,6 +36,6 @@ function sqlite_fetch_single($decode_binary = 'true')
  *
  * @return string
  */
-function sqlite_fetch_single($decode_binary = 'true')
+function sqlite_fetch_single($decode_binary = true)
 {
 }

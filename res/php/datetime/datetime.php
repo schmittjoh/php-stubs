@@ -23,7 +23,7 @@ class DateTime
      *
      * @return DateTime Returns a new DateTime instance.
      */
-    public function __construct($time = 'now', $timezone = 'null')
+    public function __construct($time = 'now', $timezone = NULL)
     {
     }
 
@@ -91,7 +91,7 @@ class DateTime
      * @return DateInterval The ``DateInterval`` object representing the
      *                      difference between the two dates.
      */
-    public function diff($datetime2, $absolute = 'false', $datetime1, $datetime2, $absolute = 'false')
+    public function diff($datetime2, $absolute = false, $datetime1, $datetime2, $absolute = false)
     {
     }
 
@@ -212,7 +212,7 @@ class DateTime
      *
      * @return DateTime 
      */
-    public function setTime($hour, $minute, $second = 0, $object, $hour, $minute, $second = 0)
+    public function setTime($hour, $minute, $second = false, $object, $hour, $minute, $second = false)
     {
     }
 

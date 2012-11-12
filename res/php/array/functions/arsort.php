@@ -10,6 +10,6 @@
  *
  * @return bool 
  */
-function arsort(&$array, $sort_flags = 0)
+function arsort(&$array, $sort_flags = false)
 {
 }

@@ -70,7 +70,7 @@ class mysqli_result implements \Traversable
      *
      * @return mixed Returns an array of associative or numeric arrays holding result rows.
      */
-    public function fetch_all($resulttype = 0, $result, $resulttype = 0)
+    public function fetch_all($resulttype = false, $result, $resulttype = false)
     {
     }
 
@@ -84,7 +84,7 @@ class mysqli_result implements \Traversable
      * @return mixed Returns an array of strings that corresponds to the fetched row or null if there
      *               are no more rows in resultset.
      */
-    public function fetch_array($resulttype = 0, $result, $resulttype = 0)
+    public function fetch_array($resulttype = false, $result, $resulttype = false)
     {
     }
 

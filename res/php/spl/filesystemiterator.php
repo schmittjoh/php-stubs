@@ -21,7 +21,7 @@ class FilesystemIterator extends \DirectoryIterator implements \SeekableIterator
      * @param string $path
      * @param int $flags
      */
-    public function __construct($path, $flags = 0)
+    public function __construct($path, $flags = false)
     {
     }
 

@@ -18,6 +18,6 @@
  *             If the arguments are invalid, the function returns false (before PHP 5.1
  *             it returned ).
  */
-function mktime($hour = 0, $minute = 0, $second = 0, $month = 0, $day = 0, $year = 0, $is_dst = -1)
+function mktime($hour = false, $minute = false, $second = false, $month = false, $day = false, $year = false, $is_dst = -1)
 {
 }

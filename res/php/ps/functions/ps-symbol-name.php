@@ -11,6 +11,6 @@
  *
  * @return string The name of a glyph in the given font.
  */
-function ps_symbol_name($psdoc, $ord, $fontid = 0)
+function ps_symbol_name($psdoc, $ord, $fontid = false)
 {
 }

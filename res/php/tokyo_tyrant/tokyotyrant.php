@@ -62,7 +62,7 @@ class TokyoTyrant
      * @param int $port
      * @param array $options
      */
-    public function __construct($host = NULL, $port = 0, $options = array())
+    public function __construct($host = NULL, $port = false, $options = array())
     {
     }
 
@@ -75,7 +75,7 @@ class TokyoTyrant
      *
      * @return number Returns the new value on success
      */
-    public function add($key, $increment, $type = 0)
+    public function add($key, $increment, $type = false)
     {
     }
 
@@ -88,7 +88,7 @@ class TokyoTyrant
      *
      * @return TokyoTyrant This method returns the current object and throws TokyoTyrantException on failure.
      */
-    public function connect($host, $port = 0, $options = array())
+    public function connect($host, $port = false, $options = array())
     {
     }
 
@@ -191,7 +191,7 @@ class TokyoTyrant
      *
      * @return TokyoTyrant This method returns a reference to the current object and throws TokyoTyrantException on failure.
      */
-    public function put($keys, $value = 'NULL')
+    public function put($keys, $value = NULL)
     {
     }
 
@@ -227,7 +227,7 @@ class TokyoTyrant
      *
      * @return TokyoTyrant This method returns a reference to the current object and throws TokyoTyrantException on failure.
      */
-    public function putNr($keys, $value = 'NULL')
+    public function putNr($keys, $value = NULL)
     {
     }
 
@@ -253,7 +253,7 @@ class TokyoTyrant
      *
      * @return mixed This method returns the current object and throws TokyoTyrantException on failure.
      */
-    public function restore($log_dir, $timestamp, $check_consistency = 'true')
+    public function restore($log_dir, $timestamp, $check_consistency = true)
     {
     }
 
@@ -267,7 +267,7 @@ class TokyoTyrant
      *
      * @return mixed This method returns the current object and throws TokyoTyrantException on failure.
      */
-    public function setMaster($host, $port, $timestamp, $check_consistency = 'true')
+    public function setMaster($host, $port, $timestamp, $check_consistency = true)
     {
     }
 
@@ -308,7 +308,7 @@ class TokyoTyrant
      *
      * @return TokyoTyrant This method returns a reference to the current object and throws TokyoTyrantException on failure.
      */
-    public function tune($timeout, $options = 0)
+    public function tune($timeout, $options = false)
     {
     }
 

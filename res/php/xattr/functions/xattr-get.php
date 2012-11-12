@@ -12,6 +12,6 @@
  * @return string Returns a string containing the value or false if the attribute doesn't
  *                exist.
  */
-function xattr_get($filename, $name, $flags = 0)
+function xattr_get($filename, $name, $flags = false)
 {
 }

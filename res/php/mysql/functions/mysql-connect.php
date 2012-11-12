@@ -13,6 +13,6 @@
  *
  * @return resource Returns a MySQL link identifier on success.
  */
-function mysql_connect($server = 'ini_get("mysql.default_host")', $username = 'ini_get("mysql.default_user")', $password = 'ini_get("mysql.default_password")', $new_link = 'false', $client_flags = 0)
+function mysql_connect($server = 'ini_get("mysql.default_host")', $username = 'ini_get("mysql.default_user")', $password = 'ini_get("mysql.default_password")', $new_link = false, $client_flags = false)
 {
 }

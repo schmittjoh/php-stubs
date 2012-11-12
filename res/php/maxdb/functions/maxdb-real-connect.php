@@ -15,7 +15,7 @@
  *
  * @return bool
  */
-function maxdb_real_connect($link, $hostname = NULL, $username = NULL, $passwd = NULL, $dbname = NULL, $port = 0, $socket = NULL)
+function maxdb_real_connect($link, $hostname = NULL, $username = NULL, $passwd = NULL, $dbname = NULL, $port = false, $socket = NULL)
 {
 }
 
@@ -33,6 +33,6 @@ function maxdb_real_connect($link, $hostname = NULL, $username = NULL, $passwd =
  *
  * @return bool
  */
-function maxdb_real_connect($hostname = NULL, $username = NULL, $passwd = NULL, $dbname = NULL, $port = 0, $socket = NULL)
+function maxdb_real_connect($hostname = NULL, $username = NULL, $passwd = NULL, $dbname = NULL, $port = false, $socket = NULL)
 {
 }

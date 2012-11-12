@@ -46,7 +46,7 @@ class Judy implements \ArrayAccess, \Iterator
      *
      * @return int Return the number of elements.
      */
-    public function count($index_start = 0, $index_end = -1)
+    public function count($index_start = false, $index_end = -1)
     {
     }
 

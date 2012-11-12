@@ -10,6 +10,6 @@
  *
  * @return mixed Result array or object, when process is successful.
  */
-function cubrid_fetch($result, $type = 0)
+function cubrid_fetch($result, $type = false)
 {
 }

@@ -12,7 +12,7 @@ class APCIterator implements \Iterator, \Traversable
      * @param int $chunk_size
      * @param int $list
      */
-    public function __construct($cache, $search = 'null', $format = NULL, $chunk_size = 100, $list = NULL)
+    public function __construct($cache, $search = NULL, $format = NULL, $chunk_size = 100, $list = NULL)
     {
     }
 

@@ -10,6 +10,6 @@
  *
  * @return string The original uncompressed data or false on error.
  */
-function gzinflate($data, $length = 0)
+function gzinflate($data, $length = false)
 {
 }

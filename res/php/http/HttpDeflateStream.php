@@ -8,7 +8,7 @@ class HttpDeflateStream
      *
      * @param int $flags
      */
-    public function __construct($flags = 0)
+    public function __construct($flags = false)
     {
     }
 
@@ -20,7 +20,7 @@ class HttpDeflateStream
      *
      * @return HttpDeflateStream
      */
-    public function factory($flags = 0, $class_name = 'HttpDeflateStream')
+    public function factory($flags = false, $class_name = 'HttpDeflateStream')
     {
     }
 

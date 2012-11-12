@@ -12,6 +12,6 @@
  *                  this result pointer, or any function for result tables, such as
  *                  .
  */
-function mysql_list_dbs($link_identifier = 'NULL')
+function mysql_list_dbs($link_identifier = NULL)
 {
 }

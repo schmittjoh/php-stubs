@@ -11,6 +11,6 @@
  *
  * @return mixed On success either the fields table name or oid. Or, false on failure.
  */
-function pg_field_table($result, $field_number, $oid_only = 'false')
+function pg_field_table($result, $field_number, $oid_only = false)
 {
 }

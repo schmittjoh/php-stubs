@@ -41,7 +41,7 @@ class ReflectionExtension implements \Reflector
      *
      * @return string 
      */
-    public function export($name, $return = 'false')
+    public function export($name, $return = false)
     {
     }
 

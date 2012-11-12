@@ -12,6 +12,6 @@
  *
  * @return array Returns an array of message numbers or UIDs.
  */
-function imap_search($imap_stream, $criteria, $options = 0, $charset = 'NIL')
+function imap_search($imap_stream, $criteria, $options = false, $charset = 'NIL')
 {
 }

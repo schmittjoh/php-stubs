@@ -16,7 +16,7 @@ class SplFileObject extends \SplFileInfo implements \RecursiveIterator, \Travers
      * @param bool $use_include_path
      * @param resource $context
      */
-    public function __construct($filename, $open_mode = 'r', $use_include_path = 'false', $context = NULL)
+    public function __construct($filename, $open_mode = 'r', $use_include_path = false, $context = NULL)
     {
     }
 
@@ -158,7 +158,7 @@ class SplFileObject extends \SplFileInfo implements \RecursiveIterator, \Travers
      * @return int Returns 0 if the seek was successful, -1 otherwise. Note that seeking
      *             past EOF is not considered an error.
      */
-    public function fseek($offset, $whence = 0)
+    public function fseek($offset, $whence = false)
     {
     }
 

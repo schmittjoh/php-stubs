@@ -20,7 +20,7 @@ class AMQPQueue
      *
      * @return bool 
      */
-    public function ack($delivery_tag, $flags = 0)
+    public function ack($delivery_tag, $flags = false)
     {
     }
 
@@ -55,7 +55,7 @@ class AMQPQueue
      *
      * @return void
      */
-    public function consume($callback, $flags = 0)
+    public function consume($callback, $flags = false)
     {
     }
 

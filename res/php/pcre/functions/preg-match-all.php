@@ -14,6 +14,6 @@
  * @return int Returns the number of full pattern matches (which might be zero),
  *             or false if an error occurred.
  */
-function preg_match_all($pattern, $subject, &$matches = array(), $flags = 0, $offset = 0)
+function preg_match_all($pattern, $subject, &$matches = array(), $flags = false, $offset = false)
 {
 }

@@ -12,6 +12,6 @@
  *               , if given, or the
  *               natural logarithm.
  */
-function log($arg, $base = 0)
+function log($arg, $base = false)
 {
 }

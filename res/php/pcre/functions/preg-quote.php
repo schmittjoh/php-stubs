@@ -10,6 +10,6 @@
  *
  * @return string Returns the quoted string.
  */
-function preg_quote($str, $delimiter = 'null')
+function preg_quote($str, $delimiter = NULL)
 {
 }

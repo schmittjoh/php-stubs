@@ -17,6 +17,6 @@
  *                  , , and
  *                  ). If the call fails, it will return false
  */
-function fsockopen($hostname, $port = -1, &$errno = NULL, &$errstr = NULL, $timeout = 0)
+function fsockopen($hostname, $port = -1, &$errno = NULL, &$errstr = NULL, $timeout = false)
 {
 }

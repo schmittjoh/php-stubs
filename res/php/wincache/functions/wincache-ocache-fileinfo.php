@@ -9,6 +9,6 @@
  *
  * @return array Array of meta data about opcode cache
  */
-function wincache_ocache_fileinfo($summaryonly = 'false')
+function wincache_ocache_fileinfo($summaryonly = false)
 {
 }

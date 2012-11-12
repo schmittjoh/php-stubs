@@ -10,6 +10,6 @@
  *
  * @return bool 
  */
-function com_load_typelib($typelib_name, $case_insensitive = 'true')
+function com_load_typelib($typelib_name, $case_insensitive = true)
 {
 }

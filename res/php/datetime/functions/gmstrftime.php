@@ -14,6 +14,6 @@
  *                other language dependent strings respect the current locale set
  *                with .
  */
-function gmstrftime($format, $timestamp = 0)
+function gmstrftime($format, $timestamp = false)
 {
 }

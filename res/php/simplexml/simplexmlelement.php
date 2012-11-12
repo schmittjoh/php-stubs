@@ -68,7 +68,7 @@ class SimpleXMLElement implements \Traversable
      * @return SimpleXMLElement Returns a ``SimpleXMLElement`` object that can be
      *                          iterated over to loop through the attributes on the tag.
      */
-    public function attributes($ns = 'null', $is_prefix = 'false')
+    public function attributes($ns = NULL, $is_prefix = false)
     {
     }
 
@@ -81,7 +81,7 @@ class SimpleXMLElement implements \Traversable
      * @return SimpleXMLElement Returns a ``SimpleXMLElement`` element, whether the node
      *                          has children or not.
      */
-    public function children($ns = NULL, $is_prefix = 'false')
+    public function children($ns = NULL, $is_prefix = false)
     {
     }
 
@@ -104,7 +104,7 @@ class SimpleXMLElement implements \Traversable
      * @return array The  method returns an ``array``
      *               of namespace names with their associated URIs.
      */
-    public function getDocNamespaces($recursive = 'false')
+    public function getDocNamespaces($recursive = false)
     {
     }
 
@@ -128,7 +128,7 @@ class SimpleXMLElement implements \Traversable
      * @return array The  method returns an ``array`` of
      *               namespace names with their associated URIs.
      */
-    public function getNamespaces($recursive = 'false')
+    public function getNamespaces($recursive = false)
     {
     }
 

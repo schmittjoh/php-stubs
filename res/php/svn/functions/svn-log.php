@@ -14,6 +14,6 @@
  * @return array On success, this function returns an array file listing in the format
  *               of:
  */
-function svn_log($repos_url, $start_revision = NULL, $end_revision = NULL, $limit = 0, $flags = 0)
+function svn_log($repos_url, $start_revision = NULL, $end_revision = NULL, $limit = false, $flags = false)
 {
 }

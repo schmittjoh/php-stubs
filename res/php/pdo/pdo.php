@@ -243,7 +243,7 @@ class PDO
      *                string representing the row ID of the last row that was inserted into
      *                the database.
      */
-    public function lastInsertId($name = 'null')
+    public function lastInsertId($name = NULL)
     {
     }
 
@@ -295,7 +295,7 @@ class PDO
      *                      returns false or emits
      *                      ``PDOException`` (depending on ).
      */
-    public function prepare($statement, $driver_options = 'array()')
+    public function prepare($statement, $driver_options = array())
     {
     }
 
@@ -335,7 +335,7 @@ class PDO
      *                SQL statement.  Returns false if the driver does not support quoting in
      *                this way.
      */
-    public function quote($string, $parameter_type = 0)
+    public function quote($string, $parameter_type = false)
     {
     }
 

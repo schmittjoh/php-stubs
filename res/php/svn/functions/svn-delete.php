@@ -10,6 +10,6 @@
  *
  * @return bool 
  */
-function svn_delete($path, $force = 'false')
+function svn_delete($path, $force = false)
 {
 }

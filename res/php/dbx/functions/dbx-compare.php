@@ -16,6 +16,6 @@
  *             latter one, respectively, or vice versa if the
  *             is set to .
  */
-function dbx_compare($row_a, $row_b, $column_key, $flags = 0)
+function dbx_compare($row_a, $row_b, $column_key, $flags = false)
 {
 }

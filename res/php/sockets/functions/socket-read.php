@@ -16,6 +16,6 @@
  *                to get a textual representation of
  *                the error.
  */
-function socket_read($socket, $length, $type = 0)
+function socket_read($socket, $length, $type = false)
 {
 }

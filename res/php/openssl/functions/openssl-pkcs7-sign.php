@@ -15,6 +15,6 @@
  *
  * @return bool 
  */
-function openssl_pkcs7_sign($infilename, $outfilename, $signcert, $privkey, $headers, $flags = 0, $extracerts = NULL)
+function openssl_pkcs7_sign($infilename, $outfilename, $signcert, $privkey, $headers, $flags = false, $extracerts = NULL)
 {
 }

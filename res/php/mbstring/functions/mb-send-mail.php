@@ -13,6 +13,6 @@
  *
  * @return bool 
  */
-function mb_send_mail($to, $subject, $message, $additional_headers = 'null', $additional_parameter = 'null')
+function mb_send_mail($to, $subject, $message, $additional_headers = NULL, $additional_parameter = NULL)
 {
 }

@@ -9,7 +9,7 @@ class MongoCode
      * @param string $code
      * @param array $scope
      */
-    public function __construct($code, $scope = 'array()')
+    public function __construct($code, $scope = array())
     {
     }
 

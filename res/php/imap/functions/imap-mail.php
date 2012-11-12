@@ -15,6 +15,6 @@
  *
  * @return bool 
  */
-function imap_mail($to, $subject, $message, $additional_headers = 'null', $cc = 'null', $bcc = 'null', $rpath = 'null')
+function imap_mail($to, $subject, $message, $additional_headers = NULL, $cc = NULL, $bcc = NULL, $rpath = NULL)
 {
 }

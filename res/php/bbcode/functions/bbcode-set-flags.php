@@ -11,6 +11,6 @@
  *
  * @return bool 
  */
-function bbcode_set_flags($bbcode_container, $flags, $mode = 0)
+function bbcode_set_flags($bbcode_container, $flags, $mode = false)
 {
 }

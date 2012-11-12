@@ -11,6 +11,6 @@
  *
  * @return bool 
  */
-function svn_add($path, $recursive = 'true', $force = 'false')
+function svn_add($path, $recursive = true, $force = false)
 {
 }

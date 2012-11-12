@@ -10,7 +10,7 @@ class RRDCreator
      * @param string $startTime
      * @param int $step
      */
-    public function __construct($path, $startTime = NULL, $step = 0)
+    public function __construct($path, $startTime = NULL, $step = false)
     {
     }
 

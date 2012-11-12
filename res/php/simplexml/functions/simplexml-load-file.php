@@ -14,6 +14,6 @@
  * @return SimpleXMLElement Returns an ``object`` of class ``SimpleXMLElement`` with
  *                          properties containing the data held within the XML document,.
  */
-function simplexml_load_file($filename, $class_name = 'SimpleXMLElement', $options = 0, $ns = '', $is_prefix = 'false')
+function simplexml_load_file($filename, $class_name = 'SimpleXMLElement', $options = false, $ns = '', $is_prefix = false)
 {
 }

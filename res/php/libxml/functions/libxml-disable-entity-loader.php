@@ -9,6 +9,6 @@
  *
  * @return bool Returns the previous value.
  */
-function libxml_disable_entity_loader($disable = 'true')
+function libxml_disable_entity_loader($disable = true)
 {
 }

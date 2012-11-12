@@ -10,6 +10,6 @@
  *
  * @return string The original uncompressed data or false on error.
  */
-function gzuncompress($data, $length = 0)
+function gzuncompress($data, $length = false)
 {
 }

@@ -15,6 +15,6 @@
  *             There is one exception, if  is null,
  *             will be returned.
  */
-function count($var, $mode = 0)
+function count($var, $mode = false)
 {
 }

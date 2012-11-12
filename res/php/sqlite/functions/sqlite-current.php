@@ -11,7 +11,7 @@
  *
  * @return array
  */
-function sqlite_current($result, $result_type = 0, $decode_binary = 'true')
+function sqlite_current($result, $result_type = false, $decode_binary = true)
 {
 }
 
@@ -25,7 +25,7 @@ function sqlite_current($result, $result_type = 0, $decode_binary = 'true')
  *
  * @return array
  */
-function sqlite_current($result_type = 0, $decode_binary = 'true')
+function sqlite_current($result_type = false, $decode_binary = true)
 {
 }
 
@@ -39,6 +39,6 @@ function sqlite_current($result_type = 0, $decode_binary = 'true')
  *
  * @return array
  */
-function sqlite_current($result_type = 0, $decode_binary = 'true')
+function sqlite_current($result_type = false, $decode_binary = true)
 {
 }

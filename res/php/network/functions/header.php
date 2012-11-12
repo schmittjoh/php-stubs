@@ -11,6 +11,6 @@
  *
  * @return void 
  */
-function header($string, $replace = 'true', $http_response_code = NULL)
+function header($string, $replace = true, $http_response_code = NULL)
 {
 }

@@ -10,6 +10,6 @@
  *
  * @return string Returns a string on success, false otherwise.
  */
-function sha1_file($filename, $raw_output = 'false')
+function sha1_file($filename, $raw_output = false)
 {
 }

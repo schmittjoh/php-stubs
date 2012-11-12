@@ -13,6 +13,6 @@
  *                      1970 GMT), and  is the number of microseconds that
  *                      have elapsed since  expressed in seconds.
  */
-function microtime($get_as_float = 'false')
+function microtime($get_as_float = false)
 {
 }

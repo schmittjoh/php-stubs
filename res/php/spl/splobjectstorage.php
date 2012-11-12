@@ -22,7 +22,7 @@ class SplObjectStorage implements \Countable, \Iterator, \Traversable, \Serializ
      *
      * @return void 
      */
-    public function attach($object, $data = 'null')
+    public function attach($object, $data = NULL)
     {
     }
 
@@ -137,7 +137,7 @@ class SplObjectStorage implements \Countable, \Iterator, \Traversable, \Serializ
      *
      * @return void 
      */
-    public function offsetSet($object, $data = 'null')
+    public function offsetSet($object, $data = NULL)
     {
     }
 

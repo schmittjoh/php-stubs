@@ -12,6 +12,6 @@
  *
  * @return resource Returns a file pointer resource on success, or false on error.
  */
-function fopen($filename, $mode, $use_include_path = 'false', $context = NULL)
+function fopen($filename, $mode, $use_include_path = false, $context = NULL)
 {
 }

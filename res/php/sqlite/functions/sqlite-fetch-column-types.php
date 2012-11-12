@@ -11,7 +11,7 @@
  *
  * @return array
  */
-function sqlite_fetch_column_types($table_name, $dbhandle, $result_type = 0)
+function sqlite_fetch_column_types($table_name, $dbhandle, $result_type = false)
 {
 }
 
@@ -25,6 +25,6 @@ function sqlite_fetch_column_types($table_name, $dbhandle, $result_type = 0)
  *
  * @return array
  */
-function sqlite_fetch_column_types($table_name, $result_type = 0)
+function sqlite_fetch_column_types($table_name, $result_type = false)
 {
 }

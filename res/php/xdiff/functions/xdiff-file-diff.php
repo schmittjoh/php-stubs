@@ -13,6 +13,6 @@
  *
  * @return bool 
  */
-function xdiff_file_diff($old_file, $new_file, $dest, $context = 3, $minimal = 'false')
+function xdiff_file_diff($old_file, $new_file, $dest, $context = 3, $minimal = false)
 {
 }

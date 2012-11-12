@@ -50,7 +50,7 @@ class Locale
      *
      * @return bool true if $locale matches $langtag false otherwise.
      */
-    public function filterMatches($langtag, $locale, $canonicalize = 'false', $langtag, $locale, $canonicalize = 'false')
+    public function filterMatches($langtag, $locale, $canonicalize = false, $langtag, $locale, $canonicalize = false)
     {
     }
 
@@ -212,7 +212,7 @@ class Locale
      *
      * @return string The closest matching language tag or default value.
      */
-    public function lookup($langtag, $locale, $canonicalize = 'false', $default = NULL, $langtag, $locale, $canonicalize = 'false', $default = NULL)
+    public function lookup($langtag, $locale, $canonicalize = false, $default = NULL, $langtag, $locale, $canonicalize = false, $default = NULL)
     {
     }
 

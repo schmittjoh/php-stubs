@@ -10,6 +10,6 @@
  *
  * @return mixed 
  */
-function apc_compile_file($filename, $atomic = 'true')
+function apc_compile_file($filename, $atomic = true)
 {
 }

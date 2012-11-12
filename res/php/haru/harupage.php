@@ -209,7 +209,7 @@ class HaruPage
      *
      * @return bool Returns true on success.
      */
-    public function eoFillStroke($close_path = 'false')
+    public function eoFillStroke($close_path = false)
     {
     }
 
@@ -238,7 +238,7 @@ class HaruPage
      *
      * @return bool Returns true on success.
      */
-    public function fillStroke($close_path = 'false')
+    public function fillStroke($close_path = false)
     {
     }
 
@@ -542,7 +542,7 @@ class HaruPage
      *
      * @return int Returns the number of characters which can be included within the specified width.
      */
-    public function measureText($text, $width, $wordwrap = 'false')
+    public function measureText($text, $width, $wordwrap = false)
     {
     }
 
@@ -555,7 +555,7 @@ class HaruPage
      *
      * @return bool Returns true on success.
      */
-    public function moveTextPos($x, $y, $set_leading = 'false')
+    public function moveTextPos($x, $y, $set_leading = false)
     {
     }
 
@@ -909,7 +909,7 @@ class HaruPage
      *
      * @return bool Returns true on success.
      */
-    public function showTextNextLine($text, $word_space = 0, $char_space = 0)
+    public function showTextNextLine($text, $word_space = false, $char_space = false)
     {
     }
 
@@ -920,7 +920,7 @@ class HaruPage
      *
      * @return bool Returns true on success.
      */
-    public function stroke($close_path = 'false')
+    public function stroke($close_path = false)
     {
     }
 
@@ -949,7 +949,7 @@ class HaruPage
      *
      * @return bool Returns true on success.
      */
-    public function textRect($left, $top, $right, $bottom, $text, $align = 0)
+    public function textRect($left, $top, $right, $bottom, $text, $align = false)
     {
     }
 }

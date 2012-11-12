@@ -10,6 +10,6 @@
  *
  * @return array 
  */
-function openssl_x509_parse($x509cert, $shortnames = 'true')
+function openssl_x509_parse($x509cert, $shortnames = true)
 {
 }

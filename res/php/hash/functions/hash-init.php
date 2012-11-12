@@ -13,6 +13,6 @@
  *                  , ,
  *                  and .
  */
-function hash_init($algo, $options = 0, $key = 'null')
+function hash_init($algo, $options = false, $key = NULL)
 {
 }

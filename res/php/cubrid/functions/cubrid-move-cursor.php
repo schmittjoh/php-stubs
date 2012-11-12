@@ -11,6 +11,6 @@
  *
  * @return int true, when process is successful.
  */
-function cubrid_move_cursor($req_identifier, $offset, $origin = 0)
+function cubrid_move_cursor($req_identifier, $offset, $origin = false)
 {
 }

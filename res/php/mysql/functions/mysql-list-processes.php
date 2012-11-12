@@ -9,6 +9,6 @@
  *
  * @return resource A result pointer ``resource`` on success.
  */
-function mysql_list_processes($link_identifier = 'NULL')
+function mysql_list_processes($link_identifier = NULL)
 {
 }

@@ -17,7 +17,7 @@ class MongoCursor implements \Iterator
      * @param array $query
      * @param array $fields
      */
-    public function __construct($connection, $ns, $query = 'array()', $fields = 'array()')
+    public function __construct($connection, $ns, $query = array(), $fields = array())
     {
     }
 
@@ -40,7 +40,7 @@ class MongoCursor implements \Iterator
      *
      * @return MongoCursor Returns this cursor.
      */
-    public function awaitData($wait = 'true')
+    public function awaitData($wait = true)
     {
     }
 
@@ -62,7 +62,7 @@ class MongoCursor implements \Iterator
      *
      * @return int The number of documents returned by this cursor's query.
      */
-    public function count($foundOnly = 'false')
+    public function count($foundOnly = false)
     {
     }
 
@@ -163,7 +163,7 @@ class MongoCursor implements \Iterator
      *
      * @return MongoCursor Returns this cursor.
      */
-    public function immortal($liveForever = 'true')
+    public function immortal($liveForever = true)
     {
     }
 
@@ -212,7 +212,7 @@ class MongoCursor implements \Iterator
      *
      * @return MongoCursor Returns this cursor.
      */
-    public function partial($okay = 'true')
+    public function partial($okay = true)
     {
     }
 
@@ -242,7 +242,7 @@ class MongoCursor implements \Iterator
      *
      * @return MongoCursor Returns this cursor.
      */
-    public function setFlag($flag, $set = 'true')
+    public function setFlag($flag, $set = true)
     {
     }
 
@@ -276,7 +276,7 @@ class MongoCursor implements \Iterator
      *
      * @return MongoCursor Returns this cursor.
      */
-    public function slaveOkay($okay = 'true')
+    public function slaveOkay($okay = true)
     {
     }
 
@@ -307,7 +307,7 @@ class MongoCursor implements \Iterator
      *
      * @return MongoCursor Returns this cursor.
      */
-    public function tailable($tail = 'true')
+    public function tailable($tail = true)
     {
     }
 

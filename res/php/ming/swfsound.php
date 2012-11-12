@@ -9,7 +9,7 @@ class SWFSound
      * @param string $filename
      * @param int $flags
      */
-    public function __construct($filename, $flags = 0)
+    public function __construct($filename, $flags = false)
     {
     }
 }

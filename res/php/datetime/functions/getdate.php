@@ -11,6 +11,6 @@
  *               the . Elements from the returned
  *               associative array are as follows:
  */
-function getdate($timestamp = 0)
+function getdate($timestamp = false)
 {
 }

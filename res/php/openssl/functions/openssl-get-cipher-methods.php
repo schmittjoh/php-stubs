@@ -9,6 +9,6 @@
  *
  * @return array An ``array`` of available cipher methods.
  */
-function openssl_get_cipher_methods($aliases = 'false')
+function openssl_get_cipher_methods($aliases = false)
 {
 }

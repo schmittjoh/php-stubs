@@ -10,6 +10,6 @@
  *
  * @return string Returns the hostkey hash as a string.
  */
-function ssh2_fingerprint($session, $flags = 0)
+function ssh2_fingerprint($session, $flags = false)
 {
 }

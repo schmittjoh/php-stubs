@@ -11,6 +11,6 @@
  *
  * @return bool 
  */
-function stream_wrapper_register($protocol, $classname, $flags = 0)
+function stream_wrapper_register($protocol, $classname, $flags = false)
 {
 }

@@ -13,6 +13,6 @@
  *               database. The record is returned as an associated array with its keys
  *               being the field names.
  */
-function px_retrieve_record($pxdoc, $num, $mode = 0)
+function px_retrieve_record($pxdoc, $num, $mode = false)
 {
 }

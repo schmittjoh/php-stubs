@@ -11,6 +11,6 @@
  *
  * @return resource Request identifier, if process is successful;
  */
-function cubrid_prepare($conn_identifier, $prepare_stmt, $option = 0)
+function cubrid_prepare($conn_identifier, $prepare_stmt, $option = false)
 {
 }

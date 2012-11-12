@@ -13,6 +13,6 @@
  *
  * @return resource returns request resource on success or false on error.
  */
-function eio_busy($delay, $pri = 0, $callback = 'NULL', $data = 'NULL')
+function eio_busy($delay, $pri = false, $callback = NULL, $data = NULL)
 {
 }

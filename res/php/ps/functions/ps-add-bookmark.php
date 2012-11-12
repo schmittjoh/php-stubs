@@ -15,6 +15,6 @@
  *             the function succeeds. In case of an error zero will
  *             be returned.
  */
-function ps_add_bookmark($psdoc, $text, $parent = 0, $open = 0)
+function ps_add_bookmark($psdoc, $text, $parent = false, $open = false)
 {
 }

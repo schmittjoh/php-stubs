@@ -13,6 +13,6 @@
  *                unless  is set to true in which case the raw
  *                binary representation of the message digest is returned.
  */
-function hash_file($algo, $filename, $raw_output = 'false')
+function hash_file($algo, $filename, $raw_output = false)
 {
 }

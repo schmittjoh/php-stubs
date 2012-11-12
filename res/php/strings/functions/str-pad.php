@@ -12,6 +12,6 @@
  *
  * @return string Returns the padded string.
  */
-function str_pad($input, $pad_length, $pad_string = ' ', $pad_type = 0)
+function str_pad($input, $pad_length, $pad_string = ' ', $pad_type = false)
 {
 }

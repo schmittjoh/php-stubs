@@ -11,6 +11,6 @@
  *
  * @return array Returns array in form of:
  */
-function svn_commit($log, $targets, $dontrecurse = 'false')
+function svn_commit($log, $targets, $dontrecurse = false)
 {
 }

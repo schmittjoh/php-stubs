@@ -14,6 +14,6 @@
  *                other language-dependent strings respect the current locale set
  *                with .
  */
-function strftime($format, $timestamp = 0)
+function strftime($format, $timestamp = false)
 {
 }

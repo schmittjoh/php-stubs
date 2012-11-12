@@ -76,7 +76,7 @@ class Yaf_Loader
      *
      * @return Yaf_Loader 
      */
-    public function getLibraryPath($is_global = 'false')
+    public function getLibraryPath($is_global = false)
     {
     }
 
@@ -126,7 +126,7 @@ class Yaf_Loader
      *
      * @return Yaf_Loader 
      */
-    public function setLibraryPath($directory, $is_global = 'false')
+    public function setLibraryPath($directory, $is_global = false)
     {
     }
 }

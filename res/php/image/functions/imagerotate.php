@@ -12,6 +12,6 @@
  *
  * @return resource Returns an image resource for the rotated image, .
  */
-function imagerotate($image, $angle, $bgd_color, $ignore_transparent = 0)
+function imagerotate($image, $angle, $bgd_color, $ignore_transparent = false)
 {
 }

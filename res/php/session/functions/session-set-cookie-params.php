@@ -13,6 +13,6 @@
  *
  * @return void 
  */
-function session_set_cookie_params($lifetime, $path = NULL, $domain = NULL, $secure = 'false', $httponly = 'false')
+function session_set_cookie_params($lifetime, $path = NULL, $domain = NULL, $secure = false, $httponly = false)
 {
 }

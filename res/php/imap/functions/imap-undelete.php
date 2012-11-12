@@ -11,6 +11,6 @@
  *
  * @return bool 
  */
-function imap_undelete($imap_stream, $msg_number, $flags = 0)
+function imap_undelete($imap_stream, $msg_number, $flags = false)
 {
 }

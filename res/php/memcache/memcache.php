@@ -80,7 +80,7 @@ class Memcache
      *
      * @return bool 
      */
-    public function delete($key, $timeout = 0)
+    public function delete($key, $timeout = false)
     {
     }
 
@@ -235,7 +235,7 @@ class Memcache
      *
      * @return bool 
      */
-    public function setServerParams($host, $port = 11211, $timeout = NULL, $retry_interval = 0, $status = NULL, $failure_callback = NULL)
+    public function setServerParams($host, $port = 11211, $timeout = NULL, $retry_interval = false, $status = NULL, $failure_callback = NULL)
     {
     }
 }

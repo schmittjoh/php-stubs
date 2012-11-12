@@ -9,6 +9,6 @@
  *
  * @return bool 
  */
-function ibase_rollback($link_or_trans_identifier = 'null')
+function ibase_rollback($link_or_trans_identifier = NULL)
 {
 }

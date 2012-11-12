@@ -13,6 +13,6 @@
  *
  * @return object Returns the information in an object with following properties:
  */
-function imap_headerinfo($imap_stream, $msg_number, $fromlength = 0, $subjectlength = 0, $defaulthost = 'null')
+function imap_headerinfo($imap_stream, $msg_number, $fromlength = false, $subjectlength = false, $defaulthost = NULL)
 {
 }

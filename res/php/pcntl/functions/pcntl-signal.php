@@ -11,6 +11,6 @@
  *
  * @return bool 
  */
-function pcntl_signal($signo, $handler, $restart_syscalls = 'true')
+function pcntl_signal($signo, $handler, $restart_syscalls = true)
 {
 }

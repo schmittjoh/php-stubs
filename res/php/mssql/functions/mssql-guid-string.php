@@ -10,6 +10,6 @@
  *
  * @return string Returns the converted string on success.
  */
-function mssql_guid_string($binary, $short_format = 'false')
+function mssql_guid_string($binary, $short_format = false)
 {
 }

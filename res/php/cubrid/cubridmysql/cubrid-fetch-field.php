@@ -10,6 +10,6 @@
  *
  * @return object Object with certain properties of the specific column, when process is successful.
  */
-function cubrid_fetch_field($result, $field_offset = 0)
+function cubrid_fetch_field($result, $field_offset = false)
 {
 }

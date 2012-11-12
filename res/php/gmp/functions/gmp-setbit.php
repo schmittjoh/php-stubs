@@ -11,6 +11,6 @@
  *
  * @return void 
  */
-function gmp_setbit($a, $index, $set_clear = 'true')
+function gmp_setbit($a, $index, $set_clear = true)
 {
 }

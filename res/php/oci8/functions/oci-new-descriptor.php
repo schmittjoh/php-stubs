@@ -10,6 +10,6 @@
  *
  * @return OCI-Lob Returns a new LOB or FILE descriptor on success, false on error.
  */
-function oci_new_descriptor($connection, $type = 0)
+function oci_new_descriptor($connection, $type = false)
 {
 }

@@ -12,6 +12,6 @@
  *                , false is returned and an
  *                level error is emitted.
  */
-function gmdate($format, $timestamp = 0)
+function gmdate($format, $timestamp = false)
 {
 }

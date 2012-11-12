@@ -10,6 +10,6 @@
  *
  * @return resource A context identifier.
  */
-function gupnp_context_new($host_ip = NULL, $port = 0)
+function gupnp_context_new($host_ip = NULL, $port = false)
 {
 }

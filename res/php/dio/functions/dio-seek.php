@@ -11,6 +11,6 @@
  *
  * @return int 
  */
-function dio_seek($fd, $pos, $whence = 0)
+function dio_seek($fd, $pos, $whence = false)
 {
 }

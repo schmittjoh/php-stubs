@@ -12,6 +12,6 @@
  *             query does not generate an AUTO_INCREMENT value, or false if
  *             no MySQL connection was established.
  */
-function mysql_insert_id($link_identifier = 'NULL')
+function mysql_insert_id($link_identifier = NULL)
 {
 }

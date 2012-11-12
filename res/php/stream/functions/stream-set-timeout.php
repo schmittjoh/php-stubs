@@ -11,6 +11,6 @@
  *
  * @return bool 
  */
-function stream_set_timeout($stream, $seconds, $microseconds = 0)
+function stream_set_timeout($stream, $seconds, $microseconds = false)
 {
 }

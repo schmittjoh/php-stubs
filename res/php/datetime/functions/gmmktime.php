@@ -15,6 +15,6 @@
  *
  * @return int Returns a ``integer`` Unix timestamp.
  */
-function gmmktime($hour = 0, $minute = 0, $second = 0, $month = 0, $day = 0, $year = 0, $is_dst = -1)
+function gmmktime($hour = false, $minute = false, $second = false, $month = false, $day = false, $year = false, $is_dst = -1)
 {
 }

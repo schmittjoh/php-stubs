@@ -9,6 +9,6 @@
  *
  * @return bool 
  */
-function ibase_commit($link_or_trans_identifier = 'null')
+function ibase_commit($link_or_trans_identifier = NULL)
 {
 }

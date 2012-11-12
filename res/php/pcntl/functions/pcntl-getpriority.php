@@ -12,6 +12,6 @@
  *             or false on error.  A lower numerical value causes more favorable
  *             scheduling.
  */
-function pcntl_getpriority($pid = 0, $process_identifier = 0)
+function pcntl_getpriority($pid = false, $process_identifier = false)
 {
 }

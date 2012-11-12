@@ -223,7 +223,7 @@ class mysqli
      *
      * @return mysqli Returns an object which represents the connection to a MySQL Server.
      */
-    public function __construct($host = 'ini_get("mysqli.default_host")', $username = 'ini_get("mysqli.default_user")', $passwd = 'ini_get("mysqli.default_pw")', $dbname = '', $port = 0, $socket = 'ini_get("mysqli.default_socket")')
+    public function __construct($host = 'ini_get("mysqli.default_host")', $username = 'ini_get("mysqli.default_user")', $passwd = 'ini_get("mysqli.default_pw")', $dbname = '', $port = false, $socket = 'ini_get("mysqli.default_socket")')
     {
     }
 
@@ -500,7 +500,7 @@ class mysqli
      *               a ``mysqli_result`` object. For other successful queries  will
      *               return true.
      */
-    public function query($query, $resultmode = 0, $link, $query, $resultmode = 0)
+    public function query($query, $resultmode = false, $link, $query, $resultmode = false)
     {
     }
 

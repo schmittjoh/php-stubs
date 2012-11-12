@@ -148,7 +148,7 @@ class SphinxClient
      *
      * @return bool Always returns true.
      */
-    public function setArrayResult($array_result = 'false')
+    public function setArrayResult($array_result = false)
     {
     }
 
@@ -183,7 +183,7 @@ class SphinxClient
      *
      * @return bool 
      */
-    public function setFilter($attribute, $values, $exclude = 'false')
+    public function setFilter($attribute, $values, $exclude = false)
     {
     }
 
@@ -197,7 +197,7 @@ class SphinxClient
      *
      * @return bool 
      */
-    public function setFilterFloatRange($attribute, $min, $max, $exclude = 'false')
+    public function setFilterFloatRange($attribute, $min, $max, $exclude = false)
     {
     }
 
@@ -211,7 +211,7 @@ class SphinxClient
      *
      * @return bool 
      */
-    public function setFilterRange($attribute, $min, $max, $exclude = 'false')
+    public function setFilterRange($attribute, $min, $max, $exclude = false)
     {
     }
 
@@ -286,7 +286,7 @@ class SphinxClient
      *
      * @return bool 
      */
-    public function setLimits($offset, $limit, $max_matches = 0, $cutoff = 0)
+    public function setLimits($offset, $limit, $max_matches = false, $cutoff = false)
     {
     }
 
@@ -345,7 +345,7 @@ class SphinxClient
      *
      * @return bool 
      */
-    public function setRetries($count, $delay = 0)
+    public function setRetries($count, $delay = false)
     {
     }
 
@@ -404,7 +404,7 @@ class SphinxClient
      * @return int Returns number of actually updated documents (0 or more) on success, or
      *             false on failure.
      */
-    public function updateAttributes($index, $attributes, $values, $mva = 'false')
+    public function updateAttributes($index, $attributes, $values, $mva = false)
     {
     }
 }

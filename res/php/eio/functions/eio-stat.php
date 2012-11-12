@@ -14,6 +14,6 @@
  *                  false on error. On success assigns  argument of
  *                  to an array.
  */
-function eio_stat($path, $pri, $callback, $data = 'NULL')
+function eio_stat($path, $pri, $callback, $data = NULL)
 {
 }

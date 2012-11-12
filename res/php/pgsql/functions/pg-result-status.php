@@ -14,6 +14,6 @@
  *               if  is
  *               specified.  Otherwise, a ``string`` containing the PostgreSQL command tag is returned.
  */
-function pg_result_status($result, $type = 0)
+function pg_result_status($result, $type = false)
 {
 }

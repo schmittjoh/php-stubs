@@ -10,6 +10,6 @@
  * @return bool This function returns the previous value of
  *              .
  */
-function libxml_use_internal_errors($use_errors = 'false')
+function libxml_use_internal_errors($use_errors = false)
 {
 }

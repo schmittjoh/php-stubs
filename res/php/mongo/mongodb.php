@@ -68,7 +68,7 @@ class MongoDB
      *
      * @return array Returns database response.
      */
-    public function command($command, $options = 'array()')
+    public function command($command, $options = array())
     {
     }
 
@@ -82,7 +82,7 @@ class MongoDB
      *
      * @return MongoCollection Returns a collection object representing the new collection.
      */
-    public function createCollection($name, $capped = 'false', $size = 0, $max = 0)
+    public function createCollection($name, $capped = false, $size = false, $max = false)
     {
     }
 
@@ -126,7 +126,7 @@ class MongoDB
      *
      * @return array Returns the result of the evaluation.
      */
-    public function execute($code, $args = 'array()')
+    public function execute($code, $args = array())
     {
     }
 
@@ -146,7 +146,7 @@ class MongoDB
      *
      * @return array Returns the names of the all the collections in the database as an ``array``.
      */
-    public function getCollectionNames($includeSystemCollections = 'false')
+    public function getCollectionNames($includeSystemCollections = false)
     {
     }
 
@@ -220,7 +220,7 @@ class MongoDB
      *
      * @return array Returns an array of MongoCollections.
      */
-    public function listCollections($includeSystemCollections = 'false')
+    public function listCollections($includeSystemCollections = false)
     {
     }
 
@@ -241,7 +241,7 @@ class MongoDB
      *
      * @return array Returns db response.
      */
-    public function repair($preserve_cloned_files = 'false', $backup_original_files = 'false')
+    public function repair($preserve_cloned_files = false, $backup_original_files = false)
     {
     }
 
@@ -295,7 +295,7 @@ class MongoDB
      *
      * @return bool Returns the former value of slaveOkay for this instance.
      */
-    public function setSlaveOkay($ok = 'true')
+    public function setSlaveOkay($ok = true)
     {
     }
 }

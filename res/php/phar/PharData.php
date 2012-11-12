@@ -11,7 +11,7 @@ class PharData extends \Phar
      * @param string $alias
      * @param int $format
      */
-    public function __construct($fname, $flags = NULL, $alias = NULL, $format = 0)
+    public function __construct($fname, $flags = NULL, $alias = NULL, $format = false)
     {
     }
 
@@ -194,7 +194,7 @@ class PharData extends \Phar
      * @return bool returns true on success, but it is better to check for thrown exception,
      *              and assume success if none is thrown.
      */
-    public function extractTo($pathto, $files = NULL, $overwrite = 'false')
+    public function extractTo($pathto, $files = NULL, $overwrite = false)
     {
     }
 

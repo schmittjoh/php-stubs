@@ -10,6 +10,6 @@
  *
  * @return bool 
  */
-function mysql_drop_db($database_name, $link_identifier = 'NULL')
+function mysql_drop_db($database_name, $link_identifier = NULL)
 {
 }

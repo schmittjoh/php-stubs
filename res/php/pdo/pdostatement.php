@@ -36,7 +36,7 @@ class PDOStatement implements \Traversable
      *
      * @return bool 
      */
-    public function bindParam($parameter, &$variable, $data_type = 0, $length = NULL, $driver_options = NULL)
+    public function bindParam($parameter, &$variable, $data_type = false, $length = NULL, $driver_options = NULL)
     {
     }
 
@@ -51,7 +51,7 @@ class PDOStatement implements \Traversable
      *
      * @return bool 
      */
-    public function bindValue($parameter, $value, $data_type = 0)
+    public function bindValue($parameter, $value, $data_type = false)
     {
     }
 
@@ -141,7 +141,7 @@ class PDOStatement implements \Traversable
      * @return mixed The return value of this function on success depends on the fetch type. In
      *               all cases, false is returned on failure.
      */
-    public function fetch($fetch_style = NULL, $cursor_orientation = 0, $cursor_offset = 0)
+    public function fetch($fetch_style = NULL, $cursor_orientation = false, $cursor_offset = false)
     {
     }
 
@@ -159,7 +159,7 @@ class PDOStatement implements \Traversable
      *               row as either an array of column values or an object with properties
      *               corresponding to each column name.
      */
-    public function fetchAll($fetch_style = NULL, $fetch_argument = NULL, $ctor_args = 'array()')
+    public function fetchAll($fetch_style = NULL, $fetch_argument = NULL, $ctor_args = array())
     {
     }
 
@@ -173,7 +173,7 @@ class PDOStatement implements \Traversable
      * @return string returns a single column
      *                in the next row of a result set.
      */
-    public function fetchColumn($column_number = 0)
+    public function fetchColumn($column_number = false)
     {
     }
 

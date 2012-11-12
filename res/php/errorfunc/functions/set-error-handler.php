@@ -14,6 +14,6 @@
  *               was a class method, this function will return an indexed array with the class
  *               and the method name.
  */
-function set_error_handler($error_handler, $error_types = 0)
+function set_error_handler($error_handler, $error_types = false)
 {
 }

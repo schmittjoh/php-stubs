@@ -13,6 +13,6 @@
  * @return string Returns a particular section of the body of the specified messages as a
  *                text string.
  */
-function imap_fetchbody($imap_stream, $msg_number, $section, $options = 0)
+function imap_fetchbody($imap_stream, $msg_number, $section, $options = false)
 {
 }

@@ -10,6 +10,6 @@
  *
  * @return int Integer number of unix timestamp, false if some error occurs.
  */
-function rrd_first($file, $raaindex = 0)
+function rrd_first($file, $raaindex = false)
 {
 }

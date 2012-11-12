@@ -12,6 +12,6 @@
  *
  * @return string Returns the encoded string.
  */
-function htmlentities($string, $flags = 0, $encoding = '\'UTF-8\'', $double_encode = 'true')
+function htmlentities($string, $flags = false, $encoding = '\'UTF-8\'', $double_encode = true)
 {
 }

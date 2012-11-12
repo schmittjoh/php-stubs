@@ -15,6 +15,6 @@
  *
  * @return bool 
  */
-function mssql_bind($stmt, $param_name, &$var, $type, $is_output = 'false', $is_null = 'false', $maxlen = -1)
+function mssql_bind($stmt, $param_name, &$var, $type, $is_output = false, $is_null = false, $maxlen = -1)
 {
 }

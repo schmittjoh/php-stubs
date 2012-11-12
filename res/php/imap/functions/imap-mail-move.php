@@ -12,6 +12,6 @@
  *
  * @return bool 
  */
-function imap_mail_move($imap_stream, $msglist, $mailbox, $options = 0)
+function imap_mail_move($imap_stream, $msglist, $mailbox, $options = false)
 {
 }

@@ -9,6 +9,6 @@
  *
  * @return array The number of errors are returned as ``array``.
  */
-function session_pgsql_get_error($with_error_message = 'false')
+function session_pgsql_get_error($with_error_message = false)
 {
 }

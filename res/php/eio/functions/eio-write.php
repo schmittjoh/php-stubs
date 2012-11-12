@@ -15,6 +15,6 @@
  *
  * @return resource returns request resource on success or false on error.
  */
-function eio_write($fd, $str, $length = 0, $offset = 0, $pri = 0, $callback = 'NULL', $data = 'NULL')
+function eio_write($fd, $str, $length = false, $offset = false, $pri = false, $callback = NULL, $data = NULL)
 {
 }

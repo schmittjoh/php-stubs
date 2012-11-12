@@ -13,6 +13,6 @@
  *               minor version numbers and ID string; true/false values for features
  *               such as frames, JavaScript, and cookies; and so forth.
  */
-function get_browser($user_agent = NULL, $return_array = 'false')
+function get_browser($user_agent = NULL, $return_array = false)
 {
 }

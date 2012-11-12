@@ -10,6 +10,6 @@
  *
  * @return bool 
  */
-function win32_set_service_status($status, $checkpoint = 0)
+function win32_set_service_status($status, $checkpoint = false)
 {
 }

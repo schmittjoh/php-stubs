@@ -10,6 +10,6 @@
  *
  * @return resource Returns an image resource identifier on success, false on failure.
  */
-function imagegrabwindow($window_handle, $client_area = 0)
+function imagegrabwindow($window_handle, $client_area = false)
 {
 }

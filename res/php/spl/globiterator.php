@@ -9,7 +9,7 @@ class GlobIterator extends \FilesystemIterator implements \Iterator, \Traversabl
      * @param string $path
      * @param int $flags
      */
-    public function __construct($path, $flags = 0)
+    public function __construct($path, $flags = false)
     {
     }
 

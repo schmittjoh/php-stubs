@@ -12,6 +12,6 @@
  *
  * @return bool 
  */
-function mkdir($pathname, $mode = 777, $recursive = 'false', $context = NULL)
+function mkdir($pathname, $mode = 777, $recursive = false, $context = NULL)
 {
 }

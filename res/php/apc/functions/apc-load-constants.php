@@ -10,6 +10,6 @@
  *
  * @return bool 
  */
-function apc_load_constants($key, $case_sensitive = 'true')
+function apc_load_constants($key, $case_sensitive = true)
 {
 }

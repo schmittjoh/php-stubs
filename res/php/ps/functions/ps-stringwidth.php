@@ -12,6 +12,6 @@
  *
  * @return float Width of a string in points.
  */
-function ps_stringwidth($psdoc, $text, $fontid = 0, $size = 0)
+function ps_stringwidth($psdoc, $text, $fontid = false, $size = false)
 {
 }

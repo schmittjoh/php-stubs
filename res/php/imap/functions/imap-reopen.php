@@ -12,6 +12,6 @@
  *
  * @return bool Returns true if the stream is reopened, false otherwise.
  */
-function imap_reopen($imap_stream, $mailbox, $options = 0, $n_retries = 0)
+function imap_reopen($imap_stream, $mailbox, $options = false, $n_retries = false)
 {
 }

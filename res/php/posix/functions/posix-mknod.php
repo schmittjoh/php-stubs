@@ -12,6 +12,6 @@
  *
  * @return bool 
  */
-function posix_mknod($pathname, $mode, $major = 0, $minor = 0)
+function posix_mknod($pathname, $mode, $major = false, $minor = false)
 {
 }

@@ -11,6 +11,6 @@
  *
  * @return float The rounded value
  */
-function round($val, $precision = 0, $mode = 0)
+function round($val, $precision = false, $mode = false)
 {
 }

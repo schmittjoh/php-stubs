@@ -9,6 +9,6 @@
  *
  * @return array 
  */
-function get_defined_constants($categorize = 'false')
+function get_defined_constants($categorize = false)
 {
 }
