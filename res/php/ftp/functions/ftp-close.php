@@ -16,6 +16,7 @@ function ftp_close($ftp_stream)
 /**
  * Closes an FTP connection
  *
+ * @phpstub-alias-of ftp_close
  * @phpstub
  *
  * @param resource $ftp_stream

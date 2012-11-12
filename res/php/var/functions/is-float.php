@@ -17,6 +17,7 @@ function is_float($var)
 /**
  * Finds whether the type of a variable is float
  *
+ * @phpstub-alias-of is_float
  * @phpstub
  *
  * @param mixed $var
@@ -31,6 +32,7 @@ function is_double($var)
 /**
  * Finds whether the type of a variable is float
  *
+ * @phpstub-alias-of is_float
  * @phpstub
  *
  * @param mixed $var

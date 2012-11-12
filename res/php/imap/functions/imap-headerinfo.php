@@ -20,6 +20,7 @@ function imap_headerinfo($imap_stream, $msg_number, $fromlength = false, $subjec
 /**
  * Read the header of the message
  *
+ * @phpstub-alias-of imap_headerinfo
  * @phpstub
  *
  * @param resource $imap_stream

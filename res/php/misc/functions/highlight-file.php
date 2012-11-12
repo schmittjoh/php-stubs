@@ -19,6 +19,7 @@ function highlight_file($filename, $return = false)
 /**
  * Syntax highlighting of a file
  *
+ * @phpstub-alias-of highlight_file
  * @phpstub
  *
  * @param string $filename

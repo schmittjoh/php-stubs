@@ -19,6 +19,7 @@ function gzwrite($zp, $string, $length = NULL)
 /**
  * Binary-safe gz-file write
  *
+ * @phpstub-alias-of gzwrite
  * @phpstub
  *
  * @param resource $zp

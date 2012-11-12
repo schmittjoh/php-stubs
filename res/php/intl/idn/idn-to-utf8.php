@@ -19,6 +19,7 @@ function idn_to_utf8($domain, $options = false, $variant = false, &$idna_info = 
 /**
  * Convert domain name from IDNA ASCII to Unicode.
  *
+ * @phpstub-alias-of idn_to_utf8
  * @phpstub
  *
  * @param string $domain

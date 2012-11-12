@@ -17,6 +17,7 @@ function is_int($var)
 /**
  * Find whether the type of a variable is integer
  *
+ * @phpstub-alias-of is_int
  * @phpstub
  *
  * @param mixed $var
@@ -31,6 +32,7 @@ function is_long($var)
 /**
  * Find whether the type of a variable is integer
  *
+ * @phpstub-alias-of is_int
  * @phpstub
  *
  * @param mixed $var

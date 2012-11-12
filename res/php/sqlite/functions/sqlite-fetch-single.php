@@ -43,6 +43,7 @@ function sqlite_fetch_single($decode_binary = true)
 /**
  * Fetches the first column of a result set as a string
  *
+ * @phpstub-alias-of sqlite_fetch_single
  * @phpstub
  *
  * @param resource $result
@@ -57,6 +58,7 @@ function sqlite_fetch_string($result, $decode_binary = true)
 /**
  * Fetches the first column of a result set as a string
  *
+ * @phpstub-alias-of sqlite_fetch_single
  * @phpstub
  *
  * @param bool $decode_binary
@@ -70,6 +72,7 @@ function sqlite_fetch_string($decode_binary = true)
 /**
  * Fetches the first column of a result set as a string
  *
+ * @phpstub-alias-of sqlite_fetch_single
  * @phpstub
  *
  * @param bool $decode_binary

@@ -19,6 +19,7 @@ function idn_to_utf8($ascii_domain, &$errorcode = NULL)
 /**
  * Convert ASCII encoded domain name to UTF-8
  *
+ * @phpstub-alias-of idn_to_utf8
  * @phpstub
  *
  * @param string $ascii_domain

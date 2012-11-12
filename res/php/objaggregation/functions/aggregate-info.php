@@ -18,6 +18,7 @@ function aggregate_info($object)
 /**
  * Gets aggregation information for a given object
  *
+ * @phpstub-alias-of aggregate_info
  * @phpstub
  *
  * @param object $object

@@ -20,6 +20,7 @@ function current($array)
 /**
  * Return the current element in an array
  *
+ * @phpstub-alias-of current
  * @phpstub
  *
  * @param array $array

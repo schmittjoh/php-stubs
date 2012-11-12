@@ -16,6 +16,7 @@ function openssl_pkey_get_public($certificate)
 /**
  * Extract public key from certificate and prepare it for use
  *
+ * @phpstub-alias-of openssl_pkey_get_public
  * @phpstub
  *
  * @param mixed $certificate

@@ -17,6 +17,7 @@ function disk_free_space($directory)
 /**
  * Returns available space on filesystem or disk partition
  *
+ * @phpstub-alias-of disk_free_space
  * @phpstub
  *
  * @param string $directory

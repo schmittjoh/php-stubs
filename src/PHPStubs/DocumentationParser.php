@@ -120,6 +120,7 @@ class DocumentationParser
                 foreach ($aliasedNames as $name) {
                     $newFunction = clone $function;
                     $newFunction->setName($name);
+                    $newFunction->setAttribute('alias_of', $function->getName());
                     $this->functions[] = $newFunction;
                 }
             }

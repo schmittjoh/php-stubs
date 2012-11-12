@@ -17,6 +17,7 @@ function stream_set_blocking($stream, $mode)
 /**
  * Set blocking/non-blocking mode on a stream
  *
+ * @phpstub-alias-of stream_set_blocking
  * @phpstub
  *
  * @param resource $stream
@@ -31,6 +32,7 @@ function socket_set_blocking($stream, $mode)
 /**
  * Set blocking/non-blocking mode on a stream
  *
+ * @phpstub-alias-of stream_set_blocking
  * @phpstub
  *
  * @param resource $stream

@@ -35,6 +35,7 @@ function maxdb_stmt_bind_result(&$var1, &$_ = NULL)
  * Binds variables to a prepared statement for result storage
  *
  * @phpstub-variable-parameters
+ * @phpstub-alias-of maxdb_stmt_bind_result
  * @phpstub
  *
  * @param resource $stmt
@@ -51,6 +52,7 @@ function maxdb_bind_result($stmt, &$var1, &$_ = NULL)
  * Binds variables to a prepared statement for result storage
  *
  * @phpstub-variable-parameters
+ * @phpstub-alias-of maxdb_stmt_bind_result
  * @phpstub
  *
  * @param mixed $var1

@@ -30,6 +30,7 @@ function implode($pieces)
 /**
  * Join array elements with a string
  *
+ * @phpstub-alias-of implode
  * @phpstub
  *
  * @param string $glue
@@ -44,6 +45,7 @@ function join($glue, $pieces)
 /**
  * Join array elements with a string
  *
+ * @phpstub-alias-of implode
  * @phpstub
  *
  * @param array $pieces

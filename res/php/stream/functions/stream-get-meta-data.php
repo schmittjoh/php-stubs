@@ -16,6 +16,7 @@ function stream_get_meta_data($stream)
 /**
  * Retrieves header/meta data from streams/file pointers
  *
+ * @phpstub-alias-of stream_get_meta_data
  * @phpstub
  *
  * @param resource $stream

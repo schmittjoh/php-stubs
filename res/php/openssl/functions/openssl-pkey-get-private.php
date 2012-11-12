@@ -17,6 +17,7 @@ function openssl_pkey_get_private($key, $passphrase = '')
 /**
  * Get a private key
  *
+ * @phpstub-alias-of openssl_pkey_get_private
  * @phpstub
  *
  * @param mixed $key

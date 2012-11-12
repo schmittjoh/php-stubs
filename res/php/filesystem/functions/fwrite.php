@@ -18,6 +18,7 @@ function fwrite($handle, $string, $length = NULL)
 /**
  * Binary-safe file write
  *
+ * @phpstub-alias-of fwrite
  * @phpstub
  *
  * @param resource $handle

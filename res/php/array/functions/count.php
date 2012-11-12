@@ -22,6 +22,7 @@ function count($var, $mode = false)
 /**
  * Count all elements in an array, or something in an object
  *
+ * @phpstub-alias-of count
  * @phpstub
  *
  * @param mixed $var

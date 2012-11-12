@@ -27,6 +27,7 @@ function maxdb_stmt_execute()
 /**
  * Executes a prepared Query
  *
+ * @phpstub-alias-of maxdb_stmt_execute
  * @phpstub
  *
  * @param resource $stmt
@@ -40,6 +41,7 @@ function maxdb_execute($stmt)
 /**
  * Executes a prepared Query
  *
+ * @phpstub-alias-of maxdb_stmt_execute
  * @phpstub
  *
  * @return bool

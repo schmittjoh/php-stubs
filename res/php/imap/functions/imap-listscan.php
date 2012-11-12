@@ -20,6 +20,7 @@ function imap_listscan($imap_stream, $ref, $pattern, $content)
 /**
  * Returns the list of mailboxes that matches the given text
  *
+ * @phpstub-alias-of imap_listscan
  * @phpstub
  *
  * @param resource $imap_stream
@@ -37,6 +38,7 @@ function imap_scanmailbox($imap_stream, $ref, $pattern, $content)
 /**
  * Returns the list of mailboxes that matches the given text
  *
+ * @phpstub-alias-of imap_listscan
  * @phpstub
  *
  * @param resource $imap_stream

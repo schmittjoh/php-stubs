@@ -17,6 +17,7 @@ function imap_createmailbox($imap_stream, $mailbox)
 /**
  * Create a new mailbox
  *
+ * @phpstub-alias-of imap_createmailbox
  * @phpstub
  *
  * @param resource $imap_stream

@@ -18,6 +18,7 @@ function imap_renamemailbox($imap_stream, $old_mbox, $new_mbox)
 /**
  * Rename an old mailbox to new mailbox
  *
+ * @phpstub-alias-of imap_renamemailbox
  * @phpstub
  *
  * @param resource $imap_stream

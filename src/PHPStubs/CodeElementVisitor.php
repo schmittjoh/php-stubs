@@ -51,6 +51,9 @@ class CodeElementVisitor extends DefaultVisitor
         if ($method->getAttributeOrElse('variable_parameters', false)) {
             $annotations[] = '@phpstub-variable-parameters';
         }
+        if (null !== $alias = $method->getAttributeOrElse('alias_of', null)) {
+            $annotations[] = '@phpstub-alias-of '.$alias;
+        }
 
         if ($method instanceof \CG\Generator\PhpFunction) {
             $annotations[] = '@phpstub';

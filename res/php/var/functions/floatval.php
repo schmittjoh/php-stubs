@@ -17,6 +17,7 @@ function floatval($var)
 /**
  * Get float value of a variable
  *
+ * @phpstub-alias-of floatval
  * @phpstub
  *
  * @param mixed $var

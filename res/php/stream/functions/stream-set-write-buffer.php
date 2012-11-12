@@ -17,6 +17,7 @@ function stream_set_write_buffer($stream, $buffer)
 /**
  * Sets write file buffering on the given stream
  *
+ * @phpstub-alias-of stream_set_write_buffer
  * @phpstub
  *
  * @param resource $stream

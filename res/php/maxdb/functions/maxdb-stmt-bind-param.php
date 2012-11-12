@@ -66,6 +66,7 @@ function maxdb_stmt_bind_param($types, &$var)
  * Binds variables to a prepared statement as parameters
  *
  * @phpstub-variable-parameters
+ * @phpstub-alias-of maxdb_stmt_bind_param
  * @phpstub
  *
  * @param resource $stmt
@@ -83,6 +84,7 @@ function maxdb_bind_param($stmt, $types, &$var1, &$_ = NULL)
  * Binds variables to a prepared statement as parameters
  *
  * @phpstub-variable-parameters
+ * @phpstub-alias-of maxdb_stmt_bind_param
  * @phpstub
  *
  * @param string $types
@@ -98,6 +100,7 @@ function maxdb_bind_param($types, &$var1, &$_ = NULL)
 /**
  * Binds variables to a prepared statement as parameters
  *
+ * @phpstub-alias-of maxdb_stmt_bind_param
  * @phpstub
  *
  * @param resource $stmt
@@ -113,6 +116,7 @@ function maxdb_bind_param($stmt, $types, &$var)
 /**
  * Binds variables to a prepared statement as parameters
  *
+ * @phpstub-alias-of maxdb_stmt_bind_param
  * @phpstub
  *
  * @param string $types

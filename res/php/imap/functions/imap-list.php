@@ -18,6 +18,7 @@ function imap_list($imap_stream, $ref, $pattern)
 /**
  * Read the list of mailboxes
  *
+ * @phpstub-alias-of imap_list
  * @phpstub
  *
  * @param resource $imap_stream

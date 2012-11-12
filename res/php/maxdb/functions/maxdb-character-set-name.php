@@ -27,6 +27,7 @@ function maxdb_character_set_name()
 /**
  * Returns the default character set for the database connection
  *
+ * @phpstub-alias-of maxdb_character_set_name
  * @phpstub
  *
  * @param resource $link
@@ -40,6 +41,7 @@ function maxdb_client_encoding($link)
 /**
  * Returns the default character set for the database connection
  *
+ * @phpstub-alias-of maxdb_character_set_name
  * @phpstub
  *
  * @return string

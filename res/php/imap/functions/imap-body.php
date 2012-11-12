@@ -18,6 +18,7 @@ function imap_body($imap_stream, $msg_number, $options = false)
 /**
  * Read the message body
  *
+ * @phpstub-alias-of imap_body
  * @phpstub
  *
  * @param resource $imap_stream

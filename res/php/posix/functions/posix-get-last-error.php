@@ -15,6 +15,7 @@ function posix_get_last_error()
 /**
  * Retrieve the error number set by the last posix function that failed
  *
+ * @phpstub-alias-of posix_get_last_error
  * @phpstub
  *
  * @return int Returns the errno (error number) set by the last posix function that

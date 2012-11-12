@@ -17,6 +17,7 @@ function is_writable($filename)
 /**
  * Tells whether the filename is writable
  *
+ * @phpstub-alias-of is_writable
  * @phpstub
  *
  * @param string $filename

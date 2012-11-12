@@ -18,6 +18,7 @@ function imap_lsub($imap_stream, $ref, $pattern)
 /**
  * List all the subscribed mailboxes
  *
+ * @phpstub-alias-of imap_lsub
  * @phpstub
  *
  * @param resource $imap_stream

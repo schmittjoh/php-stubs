@@ -19,6 +19,7 @@ function strstr($haystack, $needle, $before_needle = false)
 /**
  * Find the first occurrence of a string
  *
+ * @phpstub-alias-of strstr
  * @phpstub
  *
  * @param string $haystack

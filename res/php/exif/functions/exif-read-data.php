@@ -22,6 +22,7 @@ function exif_read_data($filename, $sections = NULL, $arrays = false, $thumbnail
 /**
  * Reads the  headers from  or
  *
+ * @phpstub-alias-of exif_read_data
  * @phpstub
  *
  * @param string $filename

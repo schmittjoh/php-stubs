@@ -27,6 +27,7 @@ function maxdb_stmt_fetch()
 /**
  * Fetch results from a prepared statement into the bound variables
  *
+ * @phpstub-alias-of maxdb_stmt_fetch
  * @phpstub
  *
  * @param resource $stmt
@@ -40,6 +41,7 @@ function maxdb_fetch($stmt)
 /**
  * Fetch results from a prepared statement into the bound variables
  *
+ * @phpstub-alias-of maxdb_stmt_fetch
  * @phpstub
  *
  * @return bool

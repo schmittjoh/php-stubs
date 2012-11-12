@@ -18,6 +18,7 @@ function recode_string($request, $string)
 /**
  * Recode a string according to a recode request
  *
+ * @phpstub-alias-of recode_string
  * @phpstub
  *
  * @param string $request

@@ -17,6 +17,7 @@ function ini_set($varname, $newvalue)
 /**
  * Sets the value of a configuration option
  *
+ * @phpstub-alias-of ini_set
  * @phpstub
  *
  * @param string $varname

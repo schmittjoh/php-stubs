@@ -18,6 +18,7 @@ function gmp_div_q($a, $b, $round = false)
 /**
  * Divide numbers
  *
+ * @phpstub-alias-of gmp_div_q
  * @phpstub
  *
  * @param resource $a
