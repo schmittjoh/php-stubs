@@ -555,13 +555,14 @@ class Phar extends \RecursiveDirectoryIterator implements \Countable, \ArrayAcce
     }
 
     /**
-     * set the signature algorithm for a phar and apply it.  The
+     * set the signature algorithm for a phar and apply it.
      *
      * @param int $sigtype
+     * @param string $privatekey
      *
      * @return void 
      */
-    public function setSignatureAlgorithm($sigtype)
+    public function setSignatureAlgorithm($sigtype, $privatekey = NULL)
     {
     }
 

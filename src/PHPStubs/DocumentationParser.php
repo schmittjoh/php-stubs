@@ -76,8 +76,19 @@ class DocumentationParser
             throw new \InvalidArgumentException(sprintf('The directory "%s" does not exist.', $docPath));
         }
 
+        $sorter = function(\SplFileInfo $a, \SplFileInfo $b) {
+            $aIsDir = $a->isDir();
+            $bIsDir = $b->isDir();
+
+            if ($aIsDir !== $bIsDir) {
+                return $aIsDir ? -1 : 1;
+            }
+
+            return -1 * strcmp($a->getRealPath(), $b->getRealPath());
+        };
+
         $this->classes = $this->functions = $this->constants = $this->aliasedFunctions = array();
-        foreach (Finder::create()->in($docPath)->name('*.xml') as $file) {
+        foreach (Finder::create()->in($docPath)->name('*.xml')->sort($sorter) as $file) {
             assert($file instanceof \SplFileInfo);
             $this->file = $file;
 
@@ -108,15 +119,15 @@ class DocumentationParser
             $this->tryParsingClass($doc);
             $this->tryParsingConstant($doc);
         }
-        
+
         if ( ! empty($this->aliasedFunctions)) {
             foreach ($this->functions as $function) {
                 $aliasedNames = array_keys($this->aliasedFunctions, $function->getName(), true);
-                
+
                 if (empty($aliasedNames)) {
                     continue;
                 }
-                
+
                 foreach ($aliasedNames as $name) {
                     $newFunction = clone $function;
                     $newFunction->setName($name);
@@ -125,7 +136,7 @@ class DocumentationParser
                 }
             }
         }
-        
+
         foreach ($this->classes as $class) {
             $this->typeRefiner->refineClass($class);
         }
@@ -337,10 +348,10 @@ class DocumentationParser
         if (0 === strpos($purpose, 'Alias')) {
             $aliasedFunction = (string) $doc->refsect1->simpara->function;
             $this->aliasedFunctions[$function->getName()] = $aliasedFunction;
-            
+
             return;
         }
-        
+
         $functions = array();
         foreach ($doc->refsect1->methodsynopsis as $functionElem) {
             $cFunction = clone $function;
@@ -396,7 +407,7 @@ class DocumentationParser
 
         $param = PhpParameter::create($name);
         $param->setAttribute('type', $type = (string) $paramElem->type);
-        
+
         $role = (string) $paramElem->parameter->attributes()->role;
         if ($role === 'reference') {
             $param->setPassedByReference(true);
@@ -412,21 +423,21 @@ class DocumentationParser
             } else if ('double' === $type || 'float' === $type) {
                 $value = (double) $value;
             }
-            
+
             switch ($value) {
                 case 'false':
                     $value = false;
                     break;
-                
+
                 case 'true':
                     $value = true;
                     break;
-                
+
                 case 'NULL':
                 case 'null':
                     $value = null;
                     break;
-                
+
                 case 'array()':
                     $value = array();
                     break;

@@ -4,6 +4,24 @@
 class Stackable
 {
     /**
+     * Identification
+     *
+     * @return long A numeric value representing the identity of the creating context
+     */
+    public function getCreatorId()
+    {
+    }
+
+    /**
+     * Identification
+     *
+     * @return long A numeric value, which can be used within a Stackable to retrieve the Worker Thread executing the object.
+     */
+    public function getThreadId()
+    {
+    }
+
+    /**
      * State Detection
      *
      * @return boolean A boolean indication of state
@@ -24,7 +42,7 @@ class Stackable
     /**
      * Synchronization
      *
-     * @return boolean A boolean indication of state
+     * @return int An integral indication of success
      */
     public function notify()
     {
@@ -33,7 +51,7 @@ class Stackable
     /**
      * Execution
      *
-     * @return void The methods return value, if used, will be ignored
+     * @return mixed 
      */
     public function run()
     {
@@ -44,7 +62,7 @@ class Stackable
      *
      * @param string $timeout
      *
-     * @return boolean A boolean indication of success
+     * @return int An integral indication of success
      */
     public function wait($timeout = NULL)
     {

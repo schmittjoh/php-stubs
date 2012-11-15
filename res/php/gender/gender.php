@@ -89,12 +89,11 @@ class Gender
     }
 
     /**
-     * Get textual country representation
+     * Get textual country representation.
      *
      * @param integer $country
      *
-     * @return array Returns an array with the short and full names of the country on success
-     *               .
+     * @return string Returns country name as string or false on failure.
      */
     public function country($country)
     {

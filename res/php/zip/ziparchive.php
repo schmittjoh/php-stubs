@@ -1,7 +1,7 @@
 <?php
 
 /** @phpstub */
-class ZIPARCHIVE
+class ZipArchive
 {
     const CHECKCONS = NULL;
     const CM_BZIP2 = NULL;

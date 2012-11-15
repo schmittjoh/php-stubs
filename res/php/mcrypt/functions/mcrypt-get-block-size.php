@@ -19,10 +19,10 @@ function mcrypt_get_block_size($cipher)
  * @phpstub
  *
  * @param string $cipher
- * @param string $mode
+ * @param string $module
  *
  * @return int
  */
-function mcrypt_get_block_size($cipher, $mode)
+function mcrypt_get_block_size($cipher, $module)
 {
 }

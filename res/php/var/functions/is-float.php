@@ -25,7 +25,7 @@ function is_float($var)
  * @return bool Returns true if  is a ``float``,
  *              false otherwise.
  */
-function is_double($var)
+function is_real($var)
 {
 }
 
@@ -40,6 +40,6 @@ function is_double($var)
  * @return bool Returns true if  is a ``float``,
  *              false otherwise.
  */
-function is_real($var)
+function is_double($var)
 {
 }

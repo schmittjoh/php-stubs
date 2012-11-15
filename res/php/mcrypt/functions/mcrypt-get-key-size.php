@@ -19,10 +19,10 @@ function mcrypt_get_key_size($cipher)
  * @phpstub
  *
  * @param string $cipher
- * @param string $mode
+ * @param string $module
  *
  * @return int
  */
-function mcrypt_get_key_size($cipher, $mode)
+function mcrypt_get_key_size($cipher, $module)
 {
 }

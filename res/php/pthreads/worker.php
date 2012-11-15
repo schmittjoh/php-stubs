@@ -6,7 +6,7 @@ class Worker
     /**
      * Identification
      *
-     * @return long A numeric identity
+     * @return long A numeric value representing the identity of the creating context
      */
     public function getCreatorId()
     {
@@ -24,7 +24,7 @@ class Worker
     /**
      * Identification
      *
-     * @return long A numeric identity
+     * @return long A numeric value representing the identity of the referenced Worker
      */
     public function getThreadId()
     {
@@ -35,7 +35,7 @@ class Worker
      *
      * @return boolean A boolean indication of state
      */
-    public function isShutdown()
+    public function isJoined()
     {
     }
 
@@ -44,25 +44,25 @@ class Worker
      *
      * @return boolean A boolean indication of state
      */
-    public function isWorking()
-    {
-    }
-
-    /**
-     * Execution
-     *
-     * @return void The methods return value, if used, will be ignored
-     */
-    public function run()
+    public function isWaiting()
     {
     }
 
     /**
      * Synchronization
      *
-     * @return boolean 
+     * @return mixed 
      */
-    public function shutdown()
+    public function join()
+    {
+    }
+
+    /**
+     * Execution
+     *
+     * @return mixed 
+     */
+    public function run()
     {
     }
 
@@ -80,9 +80,11 @@ class Worker
     /**
      * Execution
      *
+     * @param boolean $synchronized
+     *
      * @return boolean A boolean indication of success
      */
-    public function start()
+    public function start($synchronized = NULL)
     {
     }
 

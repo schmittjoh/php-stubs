@@ -25,7 +25,7 @@ function stream_set_blocking($stream, $mode)
  *
  * @return bool 
  */
-function socket_set_blocking($stream, $mode)
+function set_socket_blocking($stream, $mode)
 {
 }
 
@@ -40,6 +40,6 @@ function socket_set_blocking($stream, $mode)
  *
  * @return bool 
  */
-function set_socket_blocking($stream, $mode)
+function socket_set_blocking($stream, $mode)
 {
 }

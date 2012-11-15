@@ -86,7 +86,7 @@ class CachingIterator extends \IteratorIterator implements \OuterIterator, \Trav
     /**
      * Return the key for the current element
      *
-     * @return scalar
+     * @return void
      */
     public function key()
     {

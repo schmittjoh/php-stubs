@@ -4,18 +4,56 @@
 class Thread
 {
     /**
-     * Identification
+     * Statistics
      *
-     * @return long A numeric identity
+     * @return int An integral number
      */
-    public function getCreatorId()
+    public function getCount()
+    {
+    }
+
+    /**
+     * Statistics
+     *
+     * @return long An integral number
+     */
+    public function getMax()
+    {
+    }
+
+    /**
+     * Statistics
+     *
+     * @return long An integral number
+     */
+    public function getPeak()
+    {
+    }
+
+    /**
+     * Return the number of items on the referenced Threads stack.
+     *
+     * @return int An integral number representing the number of items left on the stack.
+     */
+    public function getStacked()
+    {
+    }
+
+    /**
+     * Synchronization
+     *
+     * @param string $tid
+     *
+     * @return mixed An object of the same type as the requested Thread or Worker
+     */
+    public function getThread($tid)
     {
     }
 
     /**
      * Identification
      *
-     * @return long A numeric identity
+     * @return long A numeric value representing the identity of the referenced Thread
      */
     public function getThreadId()
     {
@@ -60,7 +98,7 @@ class Thread
     /**
      * Synchronization
      *
-     * @return boolean 
+     * @return mixed 
      */
     public function join()
     {
@@ -69,7 +107,7 @@ class Thread
     /**
      * Synchronization
      *
-     * @return boolean A boolean indication of success
+     * @return int An integral indication of success
      */
     public function notify()
     {
@@ -78,7 +116,7 @@ class Thread
     /**
      * Execution
      *
-     * @return void The methods return value, if used, will be ignored
+     * @return mixed 
      */
     public function run()
     {
@@ -87,9 +125,11 @@ class Thread
     /**
      * Execution
      *
+     * @param boolean $synchronized
+     *
      * @return boolean A boolean indication of success
      */
-    public function start()
+    public function start($synchronized = NULL)
     {
     }
 
@@ -98,7 +138,7 @@ class Thread
      *
      * @param long $timeout
      *
-     * @return boolean A boolean indication of success
+     * @return int An integral indication of success
      */
     public function wait($timeout = NULL)
     {
