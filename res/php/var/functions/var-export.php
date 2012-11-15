@@ -8,9 +8,9 @@
  * @param mixed $expression
  * @param bool $return
  *
- * @return mixed Returns the variable representation when the
- *               parameter is used and evaluates to true. Otherwise, this function will
- *               return null.
+ * @return string|null Returns the variable representation when the
+ *                     parameter is used and evaluates to true. Otherwise, this function will
+ *                     return null.
  */
 function var_export($expression, $return = false)
 {

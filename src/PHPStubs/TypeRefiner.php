@@ -160,6 +160,7 @@ class TypeRefiner
         // only references. It also does not modify the passed argument.
         'current' => array('param' => array(array('passed_by_ref' => false))),
         'microtime' => array('return' => 'string|float'),
+        'var_export' => array('return' => 'string|null'),
 
         // The first argument to is_callable can be of any type, not only a callable.
         'is_callable' => array('param' => array(array('type' => 'mixed'))),
