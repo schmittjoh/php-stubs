@@ -121,7 +121,7 @@ class Stomp
      *
      * @param string $class_name
      *
-     * @return array
+     * @return StompFrame
      */
     public function readFrame($class_name = 'stompFrame')
     {
