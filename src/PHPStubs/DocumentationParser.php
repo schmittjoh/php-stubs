@@ -318,6 +318,10 @@ class DocumentationParser
         foreach ($doc->refsect1 as $refsect) {
             if (isset($refsect->methodsynopsis)) {
                 foreach ($doc->refsect1->methodsynopsis as $methodElem) {
+                    if ((string) $doc->refnamediv->refname != (string) $methodElem->methodname) {
+                        continue;
+                    }
+
                     $method->setAttribute('return_type', (string) $methodElem->type);
 
                     foreach ($methodElem->methodparam as $paramElem) {
